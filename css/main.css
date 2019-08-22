@@ -28,4 +28,20 @@ ul.posts li { list-style: none; }
 .work address, .cv p { font-size: 1.2em; }
 .work .download { float: right; font-size: .8em; text-transform: uppercase; }
 
-
+/* Home doesnt work */  
+/*.home home-title {
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #B576D2;
+}*/
+<style>
+	.home-title {
+		font-size: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		color: #B576D2;
+	}
+</style>
