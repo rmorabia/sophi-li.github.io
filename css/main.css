@@ -44,6 +44,11 @@ ul.posts li { list-style: none; }
 		text-align: center;
 		color: #B576D2;
 	}
+	.home-img {
+		text-align: center;
+	}
+
+
 	.home-bio {
 		font-size: 12px;
 		margin-left: auto;
