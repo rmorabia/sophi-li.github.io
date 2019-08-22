@@ -38,14 +38,14 @@ ul.posts li { list-style: none; }
 }*/
 <style>
 	.home-title {
-		font-size: 50px;
+		font-size: 3em;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: center;
 		color: #B576D2;
 	}
 </style>
-
+/*
 <style>
 	.home-img {
 		text-align: center;
