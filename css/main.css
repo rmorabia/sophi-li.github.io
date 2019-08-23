@@ -27,9 +27,6 @@ ul.posts li { list-style: none; }
 .work h1 { font-size: 2em; }
 .work h2 { font-size: 1.5em; color: #696969 }
 .work h3 { font-size: 1.2em; line-height: 1em; color: #333; line-height: 1; }
-.work address, .cv .download { font-family: 'Arial', 'Sans-Serif'; }
-.work address, .cv p { font-size: 1.2em; }
-.work .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Home */  
 .home .home-title { 
