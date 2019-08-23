@@ -30,7 +30,7 @@ ul.posts li { list-style: none; }
 .work .download { float: right; font-size: .8em; text-transform: uppercase; }
 
 /* Home */  
-.home home-title { 
+.home .home-title { 
 	font-size: 3em;
 	margin-left: auto;
 	margin-right: auto;
