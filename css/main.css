@@ -1,7 +1,9 @@
 body { margin: 60px auto; width: 70%; }
 
-a { text-decoration: none; color: #999; }
-a:hover { text-decoration: underline; color: #B576D2;}
+a { text-decoration: none; color: #999; 	margin-left: auto;
+	margin-right: auto;
+	text-align: center; }
+a:hover { text-decoration: underline; color: #9932CC;}
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
@@ -35,7 +37,7 @@ ul.posts li { list-style: none; }
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	color: #B576D2;
+	color: #9932CC;
  }
 .home .home-img {
 		display: block;
