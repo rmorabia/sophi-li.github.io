@@ -5,13 +5,13 @@ a:hover { text-decoration: underline; color: #B576D2;}
 
 p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
 
-h1, h2, h3, h4 { font-family: 'Roboto', 'Sans-Serif'; }
+h1, h2, h3, h4 { font-family: 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
 h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 1em; font-family: 'Roboto', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+nav ul, footer ul { font-size: 1em; font-family: 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
@@ -24,8 +24,8 @@ ul.posts li { list-style: none; }
 .work { margin: 0px 0px 60px; }
 .work h1 { font-size: 2em; }
 .work h2 { font-size: 1.3em; color: #696969 }
-.work h3 { font-size: 1em; }
-.work address, .cv .download { font-family: 'Roboto', 'Sans-Serif'; }
+.work h3 { font-size: 1em; line-height: 1em; color: #333}
+.work address, .cv .download { font-family: 'Arial', 'Sans-Serif'; }
 .work address, .cv p { font-size: 1.2em; }
 .work .download { float: right; font-size: .8em; text-transform: uppercase; }
 
