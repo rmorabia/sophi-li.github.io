@@ -26,7 +26,7 @@ ul.posts li { list-style: none; }
 .work { margin: 0px 0px 60px; }
 .work h1 { font-size: 2em; }
 .work h2 { font-size: 1.5em; color: #696969 }
-.work h3 { font-size: 1.2em; line-height: 1em; color: #333; font-stretch: 1.2; }
+.work h3 { font-size: 1.2em; line-height: 1em; color: #333; font-stretch: 1.5; }
 .work address, .cv .download { font-family: 'Arial', 'Sans-Serif'; }
 .work address, .cv p { font-size: 1.2em; }
 .work .download { float: right; font-size: .8em; text-transform: uppercase; }
