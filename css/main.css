@@ -24,7 +24,7 @@ ul.posts li { list-style: none; }
 
 /* Work */
 .work { margin: 0px 0px 60px;  font-family: 'Arial'; }
-.work h1-work { font-size: 1.8em; display: block; padding-bottom: 0.7em; padding-top: 1em; }
+.work h1-work { font-size: 1.8em; display: block; padding-bottom: 0.5em; padding-top: 1em; }
 .work h2-work { font-size: 1.7em; color: #696969; display: block; padding-bottom: 0.5em; padding-top: 0.5em;}
 .work h3-work { font-size: 1em; line-height: 1em; color: #333; display: block; padding-bottom: 0.5em; }
 
