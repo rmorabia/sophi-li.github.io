@@ -24,9 +24,9 @@ ul.posts li { list-style: none; }
 
 /* Work */
 .work { margin: 0px 0px 60px;  font-family: 'Arial'; }
-.work h1-work { font-size: 1.7em; }
-.work h2-work { font-size: 1.5em; color: #696969 }
-.work h3-work { font-size: 1.2em; line-height: 1.2em; color: #333; }
+.work h1-work { font-size: 1.7em; display: inline; }
+.work h2-work { font-size: 1.5em; color: #696969; display: inline; }
+.work h3-work { font-size: 1.2em; line-height: 1.2em; color: #333; display: inline; }
 
 /* Home */  
 .home .home-title { 
