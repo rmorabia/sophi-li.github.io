@@ -39,9 +39,10 @@ ul.posts li { list-style: none; }
  }
 .home .home-img {
 		display: block;
+		position: relative;
 		margin-left: auto;
 		margin-right: auto;
-		width: 50%;
+		max-width: 50%;
 	}
 .home .home-bio {
 		font-size: 1.2em;
