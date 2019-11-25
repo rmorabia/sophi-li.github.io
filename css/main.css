@@ -53,11 +53,6 @@ ul.posts li { list-style: none; }
 	}
 
 /* Portfolio */
-
-.portfolio h1-portfolio {font-family: 'Arial'}
-.portfolio h1-portfolio { font-size: 1.7em; display: block; padding-bottom: 1.5em; }
-
-
 .portfolio .container {
     display: flex;
     align-items: center;
