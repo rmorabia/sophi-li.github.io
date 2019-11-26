@@ -35,16 +35,6 @@ nav ul li, footer ul li {
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
-/* Blog */
-/* ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; } */
-
-/* Work */
-/* .work { margin: 0px 0px 60px;  font-family: 'Arial'; }
-.work h1-work { font-size: 1.8em; display: block; padding-bottom: 0.2em; padding-top: 1em; }
-.work h2-work { font-size: 1.5em; color: #696969; display: block; padding-bottom: 0.4em; padding-top: 0.5em;}
-.work h3-work { font-size: 1em; line-height: 1.2em; color: #333; display: block; padding-bottom: 0.5em; } */
-
 /* Home */  
 .home .home-title { 
 	font-size: 3em;
@@ -69,3 +59,12 @@ ul.posts li { list-style: none; } */
 		font-family: 'Arial';
 	}
 
+/* Blog */
+/* ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts li { list-style: none; } */
+
+/* Work */
+/* .work { margin: 0px 0px 60px;  font-family: 'Arial'; }
+.work h1-work { font-size: 1.8em; display: block; padding-bottom: 0.2em; padding-top: 1em; }
+.work h2-work { font-size: 1.5em; color: #696969; display: block; padding-bottom: 0.4em; padding-top: 0.5em;}
+.work h3-work { font-size: 1em; line-height: 1.2em; color: #333; display: block; padding-bottom: 0.5em; } */

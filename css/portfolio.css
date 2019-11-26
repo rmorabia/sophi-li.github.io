@@ -2,7 +2,7 @@
 .portfolio .container {
     display: flex;
     align-items: center;
-    padding: 100px;
+    /* padding: 100px; */
     text-align: center;
     align-content: space-between;
     flex-wrap: wrap;
