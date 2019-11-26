@@ -6,10 +6,12 @@
     text-align: center;
     align-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolio .container > div {
   margin: 30px;
+  
 }
 
 
