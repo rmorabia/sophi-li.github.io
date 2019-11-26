@@ -1,3 +1,6 @@
+@import "portfolio.css";
+
+
 body { margin: 60px auto; width: 70%; }
 
 a { text-decoration: none; color: #999; 	margin-left: auto;
@@ -52,7 +55,7 @@ ul.posts li { list-style: none; }
 		font-family: 'Arial';
 	}
 
-/* Portfolio */
+/* Portfolio
 .portfolio .container {
     display: flex;
     align-items: center;
@@ -104,4 +107,4 @@ ul.posts li { list-style: none; }
     background-color #2980b9: 
     color: white;
     transform: rotateY(180deg);
-}
+} */
