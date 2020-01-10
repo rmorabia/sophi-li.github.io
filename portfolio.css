@@ -1,0 +1,29 @@
+.portfolio-container {
+    width: 70%;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .portfolio-container, .project-description, #footer-hr  {
+        width: 100%;
+    }
+}
+.portfolio-img {
+    width: 80%;
+    /* margin: auto; */
+}
+
+.project-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.project-description {
+    padding-top: 0.5rem;
+    width: 80%;
+    margin: auto;
+}
+
+.footer-hr {
+    width: 50%;
+}

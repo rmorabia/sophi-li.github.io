@@ -1,0 +1,21 @@
+@import "portfolio.css";
+
+
+
+
+.nav-bar {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.about-container {
+    width: 75%;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        width: 95%;
+    }
+}
