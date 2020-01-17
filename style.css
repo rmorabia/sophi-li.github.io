@@ -1,7 +1,10 @@
 @import "portfolio.css";
 
 
-
+.title {
+    margin-top: 3rem;
+    text-align: center;
+}
 
 .nav-bar {
     padding-bottom: 1rem;
@@ -9,10 +12,14 @@
 }
 
 .about-container {
-    width: 75%;
+    width: 60%;
     margin: auto;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.section-title {
+    margin-top: 3rem;
 }
 
 @media (max-width: 768px) {
