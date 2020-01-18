@@ -76,7 +76,7 @@ button:hover {
 }
 
 
-.projects h3 {
+.projects h3 a {
     text-decoration: underline;
     color: blueviolet;
 }
