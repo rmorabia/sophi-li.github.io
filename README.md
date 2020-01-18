@@ -3,7 +3,7 @@ This is Sophia's [personal website](https://sophiali.dev/).
 
 Website here: https://sophiali.dev/
 
-My next iteration will include a blog section. It will include [my blogs from Dev.to](https://dev.to/sophia_wyl), and maybe even some longer blogs focused more on story telling. Stay tuned!
+My next iteration will include my [my blogs](https://dev.to/sophia_wyl), and maybe even some longer blogs focused more on story telling. Stay tuned!
 
 ## Features
 - A short about me
