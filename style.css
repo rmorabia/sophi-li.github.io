@@ -1,34 +1,90 @@
-@import "portfolio.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    color: #222;
+    font-family: Roboto, sans-serif;
+}
+
+section {
+    margin: 1.5rem;
+}
+
+hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 20%;
+}
 
 
-.title {
-    margin-top: 3rem;
+header {
     text-align: center;
 }
 
-.nav-bar {
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+header h1 {
+    color: blueviolet;
 }
 
-.about-container {
-    width: 60%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+p {
+    line-height: 1.5;
 }
 
-.section-title {
-    margin-top: 3rem;
+a {
+    text-decoration: none;
 }
 
-@media (max-width: 768px) {
-    .about-container {
-        width: 95%;
-    }
+.container {
+    max-width: 800px;
+    margin: 60px auto;
 }
 
-.footer-icon {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+.projects h2, .about h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
+
+.about a {
+    color: blueviolet;
+}
+
+button {
+    border-color: blueviolet;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(138,43,226, 0.8);
+    border-color: rgb(138,43,226, 0.8);
+    cursor: pointer;
+    color: white;
+}
+
+.resume-button {
+    border-radius: 5px;
+    padding: 0.8rem 1.3rem 0.8rem 1.3rem;
+    font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+    color: blueviolet;
+}
+
+.projects button {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-right: 0.3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+
+.projects h3 {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+
+.social-footer {
+    text-align: center;
+}
+
+
+
