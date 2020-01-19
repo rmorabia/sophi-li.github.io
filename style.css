@@ -39,7 +39,8 @@ a {
 
 .projects h2, .about h2 {
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    margin-top: 2rem;
 }
 
 .about a {
@@ -91,5 +92,8 @@ button:hover {
     text-align: center;
 }
 
+.social-links a i {
+    margin: 0rem 0.5rem 0 0.5rem;
+}
 
 
