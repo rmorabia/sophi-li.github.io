@@ -20,5 +20,5 @@ Feedback on my website is very welcome! [Send me a tweet](https://twitter.com/so
 
 
 ## Previous Iterations
-[Version 1]() - Inspired by Hank.
-[Version 2]() - Simple site made with Bootstrap. Version 3 made for the purpose of not using Bootstrap.
+[Version 1](https://github.com/sophi-li/website-v01) 
+[Version 2](https://github.com/sophi-li/website-v02) - Simple site made with Bootstrap. Version 3 made for the purpose of not using Bootstrap.
