@@ -82,7 +82,7 @@ button:hover {
 }
 
 
-.projects h3 a {
+.projects h3 a, .projects p a  {
     /* text-decoration: underline; */
     color: blueviolet;
 }
