@@ -17,3 +17,8 @@ HTML, CSS, Bootstrap
 Sophia
 
 Feedback on my website is very welcome! [Send me a tweet](https://twitter.com/sophia_wyl) or make a pull request.
+
+
+## Previous Iterations
+[Version 1]() - Inspired by Hank.
+[Version 2]() - Simple site made with Bootstrap. Version 3 made for the purpose of not using Bootstrap.

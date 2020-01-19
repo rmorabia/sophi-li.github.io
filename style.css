@@ -58,12 +58,17 @@ button:hover {
     color: white;
 }
 
+.resume-button-div {
+    /* display: flex; */
+    border: black 2px solid;
+    margin: 40%;
+    /* width: 50%;  */
+}
+
 .resume-button {
     border-radius: 5px;
     padding: 0.8rem 1.3rem 0.8rem 1.3rem;
     font-size: 1rem;
-    margin: 0 auto;
-    display: block;
     color: blueviolet;
 }
 
