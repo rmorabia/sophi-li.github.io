@@ -1,0 +1,30 @@
+.ListLink {
+  margin-right: 1rem;
+}
+
+.Link {
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  background-color: whitesmoke;
+  border-radius: 6px;
+  color: blueviolet;
+}
+
+.Header {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid darkgray;
+}
+
+.title {
+  display: inline-block;
+  color: blueviolet;
+}
+
+.linkList {
+  list-style: none;
+  float: right;
+}

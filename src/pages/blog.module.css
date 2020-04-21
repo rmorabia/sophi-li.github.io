@@ -1,0 +1,24 @@
+.linkContainer {
+  text-decoration: none;
+  padding-bottom: 0.2rem;
+}
+
+.blogContainer {
+  border-bottom: 1px solid blueviolet;
+  padding: 1rem;
+}
+
+.blogContainer:hover {
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.blogTitle {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.blogDate {
+  color: #333;
+  font-size: 0.9rem;
+}

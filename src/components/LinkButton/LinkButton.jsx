@@ -1,0 +1,36 @@
+import React from 'react'
+
+import styles from './LinkButton.module.css'
+
+const Link = ({ size, href, target, className, children }) => (
+  <a
+    href={href}
+    target={target}
+    rel={target === '_blank' && 'noopener noreferrer'}
+    className={`${
+      size === 'large' ? styles.LinkButtonLarge : styles.LinkButton
+    } ${className ? className : ''}`.trim()}
+  >
+    {children}
+  </a>
+)
+
+const LinkButton = ({ size, center, href, target, className, children }) => {
+  if (center) {
+    return (
+      <div className={styles.LinkButtonContainer}>
+        <Link size={size} href={href} target={target} className={className}>
+          {children}
+        </Link>
+      </div>
+    )
+  }
+
+  return (
+    <Link size={size} href={href} target={target} className={className}>
+      {children}
+    </Link>
+  )
+}
+
+export default LinkButton
