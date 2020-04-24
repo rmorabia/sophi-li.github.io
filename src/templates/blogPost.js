@@ -9,7 +9,7 @@ const BlogTemplate = ({ data, pageContext }) => {
   const title = markdownRemark.frontmatter.title
   const date = markdownRemark.frontmatter.date
   const html = markdownRemark.html
-  console.log(markdownRemark.frontmatter)
+  // console.log(markdownRemark.frontmatter)
   return (
     <Layout>
       <h1>{title}</h1>
@@ -18,13 +18,14 @@ const BlogTemplate = ({ data, pageContext }) => {
         className={blogPostStyle.blogpost}
         dangerouslySetInnerHTML={{ __html: html }}
       ></div>
-      {/* <p>
+      <p>
         {prev && (
           <Link to={prev.frontmatter.path}>
             <span role="img" aria-label="left arrow">
               ⬅️{' '}
             </span>
             {prev.frontmatter.title}
+            {/* Previous */}
           </Link>
         )}
       </p>
@@ -32,13 +33,14 @@ const BlogTemplate = ({ data, pageContext }) => {
         {next && (
           <Link to={next.frontmatter.path}>
             {next.frontmatter.title}
+            {/* Next */}
             <span role="img" aria-label="right arrow">
               {' '}
               ➡️
             </span>
           </Link>
         )}
-      </p> */}
+      </p>
     </Layout>
   )
 }
