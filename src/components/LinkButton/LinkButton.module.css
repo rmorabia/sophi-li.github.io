@@ -1,6 +1,6 @@
 .LinkButton,
 .LinkButtonLarge {
-  background-color: buttonface;
+  /* background-color: buttonface; */
   border: 1px solid blueviolet;
   color: black;
   transition: 0.4s;
