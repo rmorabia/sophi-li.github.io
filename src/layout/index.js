@@ -24,7 +24,7 @@ const RootLayout = ({ children }) => (
       <>
         <Helmet>
           <title>{data.site.siteMetadata.title}</title>
-          <link rel="icon" type="image/png" href="/favicon.JPG" />
+          <link rel="icon" type="image/jpg" href="/favicon.JPG" />
         </Helmet>
         <Header title={data.site.siteMetadata.title} />
         <Container>
