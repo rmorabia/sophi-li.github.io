@@ -29,6 +29,7 @@ const Resume = () => (
         <i>Executive Assistant and Culture Associate</i> at Philanthropy
         University
       </h3>
+      <p>August 2018 - August 2019</p>
       <ul>
         <li>
           Designed and implemented a scalable and team driven onboarding process
@@ -52,9 +53,25 @@ const Resume = () => (
       </ul>
 
       <h3>
+        <i>Intern</i> at Philanthropy University
+      </h3>
+      <p>January 2018 - July 2018</p>
+      <ul>
+        <li>
+          Developed a customized Salesforce instance for Partnership’s team to
+          track fundraising pipeline
+        </li>
+        <li>
+          Initiated and implemented knowledge management system across entire
+          organization through a feedback driven process
+        </li>
+      </ul>
+
+      <h3>
         <i>Program Coordinator</i> at Center for Social Sector Leadership, Haas
         School of Business
       </h3>
+      <p>May 2016 - May 2018</p>
       <ul>
         <li>
           Built and maintained a database of over 5,000+ partners and clients in
