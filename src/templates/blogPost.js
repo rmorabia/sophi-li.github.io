@@ -13,7 +13,9 @@ const BlogTemplate = ({ data, pageContext }) => {
   return (
     <Layout>
       <h1>{title}</h1>
-      <p>{date}</p>
+      <p>
+        <i>{date}</i>
+      </p>
       <div
         className={blogPostStyle.blogpost}
         dangerouslySetInnerHTML={{ __html: html }}

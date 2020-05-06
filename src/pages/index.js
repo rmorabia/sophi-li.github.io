@@ -111,16 +111,6 @@ export default () => (
         Python, Microsoft Azure. I'm excited to learn any new tool or technology
         to solve the right problems.
       </p>
-      <div className={indexStyles.resumeButton}>
-        <LinkButton
-          href="/Sophia Li Resume.pdf"
-          target="_blank"
-          center={true}
-          size="large"
-        >
-          Download Resume
-        </LinkButton>
-      </div>
     </section>
 
     <section>

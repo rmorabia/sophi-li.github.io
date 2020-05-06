@@ -22,10 +22,10 @@
 .title {
   display: inline-block;
   color: blueviolet;
-  /* max-width: 9000px; */
 }
 
 .linkList {
   list-style: none;
   float: right;
+  display: flex;
 }
