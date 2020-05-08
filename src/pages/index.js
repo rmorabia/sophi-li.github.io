@@ -1,19 +1,16 @@
 import React from 'react'
-import 'typeface-roboto'
 
-import indexStyles from './index.module.css'
+import styles from './index.module.css'
 
 import Layout from '../layout'
-import LinkButton from '../components/LinkButton/LinkButton'
-import SEO from '../components/SEO/SEO'
+import LinkButton from '../components/LinkButton'
 
-export default () => (
+const Home = () => (
   <Layout>
-    <SEO />
     <section>
-      <h2 className={indexStyles.titleheader}>About me</h2>
+      <h2 className={styles.titleheader}>About me</h2>
       <p>
-        I’m Sophia, a front-end software engineer, technical writer, and former
+        I'm Sophia, a front-end software engineer, technical writer, and former
         baker.
       </p>
       <p>
@@ -114,7 +111,7 @@ export default () => (
     </section>
 
     <section>
-      <h2 className={indexStyles.titleheadermargin}>Projects</h2>
+      <h2 className={styles.titleheadermargin}>Projects</h2>
       <p>
         <strong>MoTo</strong> - Chrome Extension for productivity with pomodoro
         and task trackers
@@ -122,7 +119,7 @@ export default () => (
       <em>
         <p className="project-description">HTML, CSS, Javascript</p>
       </em>
-      <div className={indexStyles.projectLinksDiv}>
+      <div className={styles.projectLinksDiv}>
         <LinkButton
           href="https://github.com/chingu-voyages/v13-toucans-team-03"
           target="_blank"
@@ -156,7 +153,7 @@ export default () => (
           Node.js, Microsoft Azure Functions, Twilio
         </p>
       </em>
-      <div className={indexStyles.projectLinksDiv}>
+      <div className={styles.projectLinksDiv}>
         <LinkButton
           href="https://github.com/sophi-li/sourdough-timer"
           target="_blank"
@@ -173,3 +170,5 @@ export default () => (
     </section>
   </Layout>
 )
+
+export default Home
