@@ -10,7 +10,7 @@ const Resume = () => (
     <section>
       <p>
         <strong>
-          <a href="/Sophia Li Resume.pdf" target="_blank">
+          <a href="/Sophia Li Resume.pdf" target="_blank" rel="noopener">
             View or download resume PDF here.
           </a>
         </strong>
