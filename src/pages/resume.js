@@ -6,7 +6,8 @@ import Layout from '../layout'
 const Resume = () => (
   <Layout>
     <h1>Resume</h1>
-    <div>
+
+    <section>
       <p>
         <strong>
           <a href="/Sophia Li Resume.pdf" target="_blank">
@@ -17,6 +18,8 @@ const Resume = () => (
       <p>
         <strong>Coding from:</strong> San Francisco 🌁
       </p>
+    </section>
+    <section>
       <h2>Experience</h2>
       <h3>
         <i>Baker</i> at Neighbor Bakehouse
@@ -90,7 +93,19 @@ const Resume = () => (
           500+ MBA students and community partners
         </li>
       </ul>
-    </div>
+    </section>
+    <section>
+      <h2>Volunteer</h2>
+      <h3>
+        <i>Co-organizer</i> for Write/Speak/Code San Francisco Chapter
+      </h3>
+      <p>September 2019 - present</p>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <h3>University of California, Berkeley</h3>
+      <p>BA, Cognitive Science 2018</p>
+    </section>
   </Layout>
 )
 
