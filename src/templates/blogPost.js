@@ -1,7 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import PropTypes from 'prop-types'
+
+import styles from './blogPost.module.css'
+
 import Layout from '../layout'
-import blogPostStyle from './blogPost.module.css'
 
 const BlogTemplate = ({ data, pageContext }) => {
   const { next, prev } = pageContext
@@ -9,7 +12,7 @@ const BlogTemplate = ({ data, pageContext }) => {
   const title = markdownRemark.frontmatter.title
   const date = markdownRemark.frontmatter.date
   const html = markdownRemark.html
-  // console.log(markdownRemark.frontmatter)
+
   return (
     <Layout>
       <h1>{title}</h1>
@@ -17,7 +20,7 @@ const BlogTemplate = ({ data, pageContext }) => {
         <i>{date}</i>
       </p>
       <div
-        className={blogPostStyle.blogpost}
+        className={styles.blogpost}
         dangerouslySetInnerHTML={{ __html: html }}
       ></div>
       <p>
@@ -27,7 +30,6 @@ const BlogTemplate = ({ data, pageContext }) => {
               ⬅️{' '}
             </span>
             {prev.frontmatter.title}
-            {/* Previous */}
           </Link>
         )}
       </p>
@@ -35,7 +37,6 @@ const BlogTemplate = ({ data, pageContext }) => {
         {next && (
           <Link to={next.frontmatter.path}>
             {next.frontmatter.title}
-            {/* Next */}
             <span role="img" aria-label="right arrow">
               {' '}
               ➡️
@@ -46,6 +47,29 @@ const BlogTemplate = ({ data, pageContext }) => {
     </Layout>
   )
 }
+
+const pageContextProps = PropTypes.shape({
+  path: PropTypes.string,
+  title: PropTypes.string,
+})
+
+BlogTemplate.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.shape({
+      html: PropTypes.string,
+      frontmatter: PropTypes.shape({
+        title: PropTypes.string,
+        date: PropTypes.string,
+      }),
+    }),
+  }),
+  pageContext: PropTypes.shape({
+    next: pageContextProps,
+    prev: pageContextProps,
+  }),
+}
+
+export default BlogTemplate
 
 export const query = graphql`
   query($pathSlug: String!) {
@@ -58,4 +82,3 @@ export const query = graphql`
     }
   }
 `
-export default BlogTemplate

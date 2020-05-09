@@ -17,28 +17,21 @@ const SEO = ({ title, description, article }) => {
   }
 
   return (
-    <Helmet title={seo.title}>
+    <Helmet>
+      <title>{seo.title}</title>
+      <link rel="icon" type="image/jpg" href="/favicon.jpg" />
       <meta name="description" content={seo.description} />
-      {seo.url && <meta property="og:url" content={seo.url} />}
 
-      {(article ? true : null) && <meta property="og:type" content="article" />}
+      <meta property="og:url" content={seo.url} />
+      {article && <meta property="og:type" content="article" />}
+      <meta property="og:title" content={seo.title} />
+      <meta property="og:description" content={seo.description} />
 
-      {seo.title && <meta property="og:title" content={seo.title} />}
-
-      {seo.description && (
-        <meta property="og:description" content={seo.description} />
-      )}
-
-      {seo.title && <meta name="twitter:title" content={seo.title} />}
-
-      {seo.description && (
-        <meta name="twitter:description" content={seo.description} />
-      )}
+      <meta name="twitter:title" content={seo.title} />
+      <meta name="twitter:description" content={seo.description} />
     </Helmet>
   )
 }
-
-export default SEO
 
 SEO.propTypes = {
   title: PropTypes.string,
@@ -51,6 +44,8 @@ SEO.defaultProps = {
   description: null,
   article: false,
 }
+
+export default SEO
 
 const query = graphql`
   query SEO {

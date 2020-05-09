@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import styles from './LinkButton.module.css'
 
@@ -14,6 +15,14 @@ const Link = ({ size, href, target, className, children }) => (
     {children}
   </a>
 )
+
+Link.propTypes = {
+  size: PropTypes.oneOf(['small', 'large']),
+  href: PropTypes.string,
+  target: PropTypes.string,
+  className: PropTypes.string,
+  children: PropTypes.node,
+}
 
 const LinkButton = ({ size, center, href, target, className, children }) => {
   if (center) {
@@ -31,6 +40,15 @@ const LinkButton = ({ size, center, href, target, className, children }) => {
       {children}
     </Link>
   )
+}
+
+LinkButton.propTypes = {
+  size: PropTypes.oneOf(['small', 'large']),
+  center: PropTypes.bool,
+  href: PropTypes.string,
+  target: PropTypes.string,
+  className: PropTypes.string,
+  children: PropTypes.node,
 }
 
 export default LinkButton

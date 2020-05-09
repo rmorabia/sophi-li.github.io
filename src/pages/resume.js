@@ -1,5 +1,4 @@
 import React from 'react'
-import 'typeface-roboto'
 
 import Layout from '../layout'
 

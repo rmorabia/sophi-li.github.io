@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
+import PropTypes from 'prop-types'
 
 import styles from './blog.module.css'
 
@@ -25,6 +26,26 @@ const Blog = ({
   </Layout>
 )
 
+Blog.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            frontmatter: PropTypes.shape({
+              title: PropTypes.string,
+              path: PropTypes.string,
+              date: PropTypes.string,
+            }),
+          }),
+        })
+      ),
+    }),
+  }),
+}
+
+export default Blog
+
 export const query = graphql`
   query HomepageQuery {
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
@@ -40,5 +61,3 @@ export const query = graphql`
     }
   }
 `
-
-export default Blog

@@ -1,15 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
-import 'modern-normalize'
 
+import 'modern-normalize'
+import 'typeface-roboto'
 import './index.css'
 
+import SEO from '../components/SEO'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Container from '../components/Container'
 
-const RootLayout = ({ children }) => (
+const IndexLayout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query RootLayoutQuery {
@@ -22,10 +24,7 @@ const RootLayout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Helmet>
-          <title>{data.site.siteMetadata.title}</title>
-          <link rel="icon" type="image/jpg" href="/favicon.JPG" />
-        </Helmet>
+        <SEO />
         <Header title={data.site.siteMetadata.title} />
         <Container>
           {children}
@@ -36,4 +35,8 @@ const RootLayout = ({ children }) => (
   />
 )
 
-export default RootLayout
+IndexLayout.propTypes = {
+  children: PropTypes.node,
+}
+
+export default IndexLayout

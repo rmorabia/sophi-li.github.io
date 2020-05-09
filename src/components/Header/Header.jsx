@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
 import styles from './Header.module.css'
@@ -19,6 +20,11 @@ const LinkListItem = ({ to, children }) => (
   </li>
 )
 
+LinkListItem.propTypes = {
+  to: PropTypes.string,
+  children: PropTypes.node,
+}
+
 const Header = ({ title }) => (
   <header className={styles.Header}>
     <Container>
@@ -37,5 +43,9 @@ const Header = ({ title }) => (
     </Container>
   </header>
 )
+
+Header.propTypes = {
+  title: PropTypes.string,
+}
 
 export default Header
