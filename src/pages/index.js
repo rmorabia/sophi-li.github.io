@@ -3,7 +3,6 @@ import React from 'react'
 import styles from './index.module.css'
 
 import Layout from '../layout'
-import LinkButton from '../components/LinkButton'
 
 const Home = () => (
   <Layout>
@@ -108,65 +107,6 @@ const Home = () => (
         Python, Microsoft Azure. I'm excited to learn any new tool or technology
         to solve the right problems.
       </p>
-    </section>
-
-    <section>
-      <h2 className={styles.titleheadermargin}>Projects</h2>
-      <p>
-        <strong>MoTo</strong> - Chrome Extension for productivity with pomodoro
-        and task trackers
-      </p>
-      <em>
-        <p className="project-description">HTML, CSS, Javascript</p>
-      </em>
-      <div className={styles.projectLinksDiv}>
-        <LinkButton
-          href="https://github.com/chingu-voyages/v13-toucans-team-03"
-          target="_blank"
-        >
-          Source Code
-        </LinkButton>
-        <LinkButton href="https://moto-toucans03.netlify.com/" target="_blank">
-          Live Site
-        </LinkButton>
-        <LinkButton
-          href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
-          target="_blank"
-        >
-          Chrome Extension
-        </LinkButton>
-        <LinkButton
-          href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
-          target="_blank"
-        >
-          Blog
-        </LinkButton>
-      </div>
-
-      <p>
-        <strong>Sourdough Starter Reminder</strong> - Automatic text message
-        reminder with custom message and timing
-      </p>
-
-      <em>
-        <p className="project-description">
-          Node.js, Microsoft Azure Functions, Twilio
-        </p>
-      </em>
-      <div className={styles.projectLinksDiv}>
-        <LinkButton
-          href="https://github.com/sophi-li/sourdough-timer"
-          target="_blank"
-        >
-          Source Code
-        </LinkButton>
-        <LinkButton
-          href="https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c"
-          target="_blank"
-        >
-          Blog
-        </LinkButton>
-      </div>
     </section>
   </Layout>
 )

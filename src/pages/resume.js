@@ -20,9 +20,11 @@ const Resume = () => (
     </section>
     <section>
       <h2>Experience</h2>
+
       <h3>
         <i>Baker</i> at Neighbor Bakehouse
       </h3>
+      <p>August 2019 - December 2019</p>
       <ul>
         <li>Mixed, shaped, and baked over 5k artisan sourdough loaves</li>
       </ul>
