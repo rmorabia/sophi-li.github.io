@@ -1,6 +1,6 @@
 ---
 path: '/My-First-Hacktoberfest-and-Pull-Request'
-date: '2019-01-07'
+date: '2019-09-07'
 title: 'My First Hacktoberfest and Pull Request'
 tags: ['personal']
 excerpt: 'A preview of my second post'
