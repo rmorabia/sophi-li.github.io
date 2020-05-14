@@ -33,3 +33,5 @@ Building a product landing page is almost always on [project idea lists](https:/
 I applied these best practices to a [15Five](https://www.15five.com/) product landing page that I recreated. View my [recreated 15Five product landing page here](https://sophi-li.github.io/15five-clone-ish/). Any feedback is welcome!
 
 What are your best practices or thoughts on building product landing pages as a developer?
+
+[Originally posted on dev.to.](https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i)

@@ -28,3 +28,5 @@ This was also my first pull request, so it was my first time ever getting involv
 ## What’s Next
 
 I’m excited to get involved contributing code to open source projects with beginner friendly issues.
+
+[Originally posted on dev.to.](https://dev.to/sophia_wyl/my-first-hacktoberfest-and-pull-request-fo3)

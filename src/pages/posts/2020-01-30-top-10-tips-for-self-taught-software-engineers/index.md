@@ -52,3 +52,5 @@ Mental health is important. Schedule time each week to do _at least_ one activit
 Huge thanks to all the folks who have shared their learnings and advice with me. I hope these tips help you on your programming journey. Remember to find your North Star, keep building, and keep on going!
 
 What's your tip to aspiring software engineers?
+
+[Originally posted on dev.to.](https://dev.to/sophia_wyl/top-10-tips-for-self-taught-software-engineers-from-20-coffee-chats-23o1)

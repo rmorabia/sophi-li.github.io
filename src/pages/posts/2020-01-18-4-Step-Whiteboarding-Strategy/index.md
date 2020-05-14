@@ -51,3 +51,5 @@ Whiteboard code interviewing is a skill that is and can be learned. Keep up the 
 Huge thanks to [Virta Health](https://www.virtahealth.com/) for hosting this coding interview workshop and sharing this framework!
 
 What’s your whiteboard coding interview strategy? What are your tips?
+
+[Originally posted on dev.to.](https://dev.to/sophia_wyl/4-step-strategy-to-frame-your-thought-process-in-a-whiteboard-coding-interview-74l)

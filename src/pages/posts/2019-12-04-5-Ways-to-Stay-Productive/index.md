@@ -33,3 +33,5 @@ I tweet about projects and small learning goals to keep myself accountable. It�
 Even for solo projects, I enjoy using Trello to keep myself organized. See an [example here](https://trello.com/b/SzRG41aF/agile-sprint-board-recipe). Writing out MVP and bonus user stories at the beginning of the project has allowed me to better scope out and estimate the time needed to complete a project. The satisfaction of moving a card from the “backlog” to “in progress” to “completed” also keeps me motivated. Most importantly, defining MVP user stories has helped me see the endpoint of the project, which has resulted in less unfinished projects.
 
 If you’d like to share any tips on how you stay productive, I’d love to hear them in the comments!
+
+[Originally posted on dev.to.](https://dev.to/sophia_wyl/5-ways-to-stay-productive-as-a-self-taught-developer-efc)
