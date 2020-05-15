@@ -1,6 +1,6 @@
 import React from 'react'
 import 'typeface-roboto'
-import ProjectContainer from '../components/ProjectContainer/'
+// import ProjectContainer from '../components/ProjectContainer/'
 
 import styles from './index.module.css'
 import LinkButton from '../components/LinkButton'
@@ -11,36 +11,6 @@ const Projects = () => (
   <Layout>
     <section>
       <h2 className={styles.titleheadermargin}>Projects</h2>
-      <p>
-        <strong>MoTo</strong> - A Chrome Extension for productivity with
-        pomodoro and task trackers.
-      </p>
-      <em>
-        <p className="project-description">HTML, CSS, JavaScript</p>
-      </em>
-      <div className={styles.projectLinksDiv}>
-        <LinkButton
-          href="https://github.com/chingu-voyages/v13-toucans-team-03"
-          target="_blank"
-        >
-          Source Code
-        </LinkButton>
-        <LinkButton href="https://moto-toucans03.netlify.com/" target="_blank">
-          Live Site
-        </LinkButton>
-        <LinkButton
-          href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
-          target="_blank"
-        >
-          Chrome Extension
-        </LinkButton>
-        <LinkButton
-          href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
-          target="_blank"
-        >
-          Blog
-        </LinkButton>
-      </div>
 
       <p>
         <strong>Breadpun API</strong> - A wholewheat API for all your bread bun
@@ -157,6 +127,37 @@ const Projects = () => (
         </LinkButton>
         <LinkButton
           href="https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i"
+          target="_blank"
+        >
+          Blog
+        </LinkButton>
+      </div>
+
+      <p>
+        <strong>MoTo</strong> - A Chrome Extension for productivity with
+        pomodoro and task trackers.
+      </p>
+      <em>
+        <p className="project-description">HTML, CSS, JavaScript</p>
+      </em>
+      <div className={styles.projectLinksDiv}>
+        <LinkButton
+          href="https://github.com/chingu-voyages/v13-toucans-team-03"
+          target="_blank"
+        >
+          Source Code
+        </LinkButton>
+        <LinkButton href="https://moto-toucans03.netlify.com/" target="_blank">
+          Live Site
+        </LinkButton>
+        <LinkButton
+          href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
+          target="_blank"
+        >
+          Chrome Extension
+        </LinkButton>
+        <LinkButton
+          href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
           target="_blank"
         >
           Blog
