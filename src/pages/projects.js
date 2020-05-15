@@ -27,8 +27,6 @@ const Projects = () => (
         >
           Source Code
         </LinkButton>
-      </div>
-      <div className={styles.projectLinksDiv}>
         <LinkButton
           href="https://my-bao-client3.herokuapp.com/"
           target="_blank"
