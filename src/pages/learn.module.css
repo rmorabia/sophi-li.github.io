@@ -1,0 +1,8 @@
+.ulContainers {
+  list-style-type: none;
+  /* margin-right: 1rem; */
+}
+
+.taskListItem {
+  margin-right: 0.7rem;
+}
