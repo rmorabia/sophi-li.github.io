@@ -239,7 +239,7 @@ const Projects = () => (
         </a>
         <a
           className={styles.projectLink}
-          href="https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i"
+          href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
           target="_blank"
           rel="noopener noreferrer"
         >
