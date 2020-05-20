@@ -35,7 +35,7 @@
   display: flex;
 }
 
-@media only screen and (min-width: 520px) {
+@media only screen and (min-width: 500px) {
   /* Desktop display */
   .Header {
     margin-bottom: 2rem;
