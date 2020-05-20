@@ -3,7 +3,7 @@ import 'typeface-roboto'
 // import ProjectContainer from '../components/ProjectContainer/'
 
 import styles from './projects.module.css'
-import LinkButton from '../components/LinkButton'
+// import LinkButton from '../components/LinkButton'
 
 import Layout from '../layout'
 
@@ -11,159 +11,235 @@ const Projects = () => (
   <Layout>
     <h1 className={styles.titleheadermargin}>Projects</h1>
 
-    <p>
-      <strong>Breadpun API</strong> - A wholewheat API for all your bread bun
-      kneads.
-    </p>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Breadpun API</p>
+        <p className={styles.projectTech}>Express</p>
+        <p className={styles.projectTech}>Node.js</p>
+      </div>
+      <div>A wholewheat API for all your bread bun kneads.</div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/breadpun-api"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://my-bao-client3.herokuapp.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
+        </a>
+      </div>
+    </section>
 
-    <em>
-      <p className="project-description">Node.js, Express</p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/sophi-li/breadpun-api"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton href="https://my-bao-client3.herokuapp.com/" target="_blank">
-        Live Site
-      </LinkButton>
-    </div>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Sophia's Recipes</p>
+        <p className={styles.projectTech}>Gatsby</p>
+        <p className={styles.projectTech}>React</p>
+      </div>
+      <div>Minimalistic recipe website of Sophia's tried and true recipes.</div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/recipes"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="http://sophiasrecipes.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
+        </a>
+      </div>
+    </section>
 
-    <p>
-      <strong>Sourdough Starter Reminder</strong> - An app that sends automatic
-      text message reminders with custom messages and cadence.
-    </p>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Sourdough Starter Reminder</p>
+        <p className={styles.projectTech}>Node.js</p>
+        <p className={styles.projectTech}> Azure </p>
+        <p className={styles.projectTech}>Twilio</p>
+      </div>
+      <div>
+        An app that sends automatic text message reminders with custom messages
+        and cadence.
+      </div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/sourdough-timer"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a>
+      </div>
+    </section>
 
-    <em>
-      <p className="project-description">
-        Node.js, Microsoft Azure Functions, Twilio
-      </p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/sophi-li/sourdough-timer"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton
-        href="https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c"
-        target="_blank"
-      >
-        Blog
-      </LinkButton>
-    </div>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Chat With Earth</p>
+        <p className={styles.projectTech}>Node.js</p>
+        <p className={styles.projectTech}>Azure</p>
+        <p className={styles.projectTech}>Twilio</p>
+        <p className={styles.projectTech}>NASA API</p>
+      </div>
+      <div>An app that let's you "chat" with Earth through text messages.</div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/earth-is-melting"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://dev.to/sophia_wyl/how-on-earth-do-you-use-nasa-apis-with-azure-functions-hmf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a>
+      </div>
+    </section>
 
-    <p>
-      <strong>Chat With Earth</strong> - An app that let's you "chat" with Earth
-      through text messages.
-    </p>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Eat Play Drink</p>
+        <p className={styles.projectTech}>HTML</p>
+        <p className={styles.projectTech}>CSS</p>
+        <p className={styles.projectTech}>JavaScript</p>
+        <p className={styles.projectTech}>Google Maps API</p>
+      </div>
+      <div>
+        An interactive map of the best places to eat, play, and drink in San
+        Francisco.
+      </div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/eat-play-drink"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://sophi-li.github.io/eat-play-drink/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
+        </a>
+      </div>
+    </section>
 
-    <em>
-      <p className="project-description">
-        Node.js, Microsoft Azure Functions, Twilio, NASA API
-      </p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/sophi-li/earth-is-melting"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton
-        href="https://dev.to/sophia_wyl/how-on-earth-do-you-use-nasa-apis-with-azure-functions-hmf"
-        target="_blank"
-      >
-        Blog
-      </LinkButton>
-    </div>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>15Five Product Landing Page</p>
+        <p className={styles.projectTech}>HTML</p>
+        <p className={styles.projectTech}>CSS</p>
+      </div>
+      <div>
+        My re-creation of 15Five's product landing page, a continuous
+        performance management suite.
+      </div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/15five-clone-ish"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://sophi-li.github.io/15five-clone-ish/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a>
+      </div>
+    </section>
 
-    <p>
-      <strong>Eat Play Drink</strong> - An interactive map of my curated list of
-      the best places to eat, play, and drink in San Francisco.
-    </p>
-
-    <em>
-      <p className="project-description">
-        JavaScript, HTML, CSS, Google Maps API
-      </p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/sophi-li/eat-play-drink"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton
-        href="https://sophi-li.github.io/eat-play-drink/"
-        target="_blank"
-      >
-        Live Site
-      </LinkButton>
-    </div>
-
-    <p>
-      <strong>15Five Product Landing Page</strong> - My re-creation of 15Five's
-      product landing page, a continuous performance management suite.
-    </p>
-    <em>
-      <p className="project-description">HTML, CSS, JavaScript</p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/sophi-li/15five-clone-ish"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton
-        href="https://sophi-li.github.io/15five-clone-ish/"
-        target="_blank"
-      >
-        Live Site
-      </LinkButton>
-      <LinkButton
-        href="https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i"
-        target="_blank"
-      >
-        Blog
-      </LinkButton>
-    </div>
-
-    <p>
-      <strong>MoTo</strong> - A Chrome Extension for productivity with pomodoro
-      and task trackers.
-    </p>
-    <em>
-      <p className="project-description">HTML, CSS, JavaScript</p>
-    </em>
-    <div className={styles.projectLinksDiv}>
-      <LinkButton
-        href="https://github.com/chingu-voyages/v13-toucans-team-03"
-        target="_blank"
-      >
-        Source Code
-      </LinkButton>
-      <LinkButton href="https://moto-toucans03.netlify.com/" target="_blank">
-        Live Site
-      </LinkButton>
-      <LinkButton
-        href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
-        target="_blank"
-      >
-        Chrome Extension
-      </LinkButton>
-      <LinkButton
-        href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
-        target="_blank"
-      >
-        Blog
-      </LinkButton>
-    </div>
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>MoTo</p>
+        <p className={styles.projectTech}>HTML</p>
+        <p className={styles.projectTech}>CSS</p>
+        <p className={styles.projectTech}>JavaScript</p>
+      </div>
+      <div>
+        A Chrome Extension for productivity with pomodoro and task trackers.
+      </div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/chingu-voyages/v13-toucans-team-03"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://moto-toucans03.netlify.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://dev.to/sophia_wyl/best-practices-for-building-a-product-landing-page-491i"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Chrome Extension
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Blog
+        </a>
+      </div>
+    </section>
   </Layout>
 )
 
