@@ -239,7 +239,8 @@ const Learn = () => (
       <h2>Testing</h2>
       <ul className={styles.ulContainers}>
         <li>
-          <input type="checkbox" disabled /> JavaScript Unit Tests
+          <input className={styles.taskListItem} type="checkbox" disabled />{' '}
+          JavaScript Unit Tests
         </li>
       </ul>
 
