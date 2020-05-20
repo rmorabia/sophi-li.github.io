@@ -11,7 +11,7 @@ I spent an entire day figuring out how to deploy my project to Heroku from a mon
 ## Prerequisites
 
 - [Heroku account](https://signup.heroku.com/)
-- Knowledge of [command line](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
+- [Command line usage](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
 - A project in a monorepo with client and backend folders
 
 ## What is Heroku?
