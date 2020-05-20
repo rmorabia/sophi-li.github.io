@@ -281,6 +281,21 @@ const Learn = () => (
           />{' '}
           Express
         </li>
+        <li>
+          <input
+            className={styles.taskListItem}
+            type="checkbox"
+            checked
+            disabled
+          />{' '}
+          <a
+            href="https://sophiali.dev/how-to-deploy-monorepo-to-heroku"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Deploying to Heroku
+          </a>
+        </li>
       </ul>
 
       <h2>Algorithms</h2>
