@@ -3,20 +3,21 @@
 }
 
 .Link {
-  padding: 0.7rem 1rem;
   text-decoration: none;
-  color: black;
+  color: #222;
 }
 
 .Link:hover {
   background-color: whitesmoke;
   border-radius: 6px;
   color: #2a5aa7;
+  text-decoration: underline;
 }
 
 .Header {
   margin-bottom: 2rem;
   border-bottom: 1px solid darkgray;
+  display: flex;
 }
 
 .title {
@@ -24,8 +25,30 @@
   color: #2a5aa7;
 }
 
+.title:hover {
+  text-decoration: underline;
+}
+
 .linkList {
   list-style: none;
   float: right;
   display: flex;
+}
+
+@media only screen and (min-width: 520px) {
+  /* Desktop display */
+  .Header {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid darkgray;
+    display: block;
+  }
+  .title {
+    display: inline-block;
+    color: #2a5aa7;
+  }
+  .Link {
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    color: #222;
+  }
 }
