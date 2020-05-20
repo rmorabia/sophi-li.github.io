@@ -14,9 +14,12 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Breadpun API</p>
-        <p className={styles.projectTech}>Express</p>
-        <p className={styles.projectTech}>Node.js</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>Express</p>
+          <p className={styles.projectTech}>Node.js</p>
+        </div>
       </div>
+
       <div>A wholewheat API for all your bread bun kneads.</div>
       <div className={styles.projectLinkContainer}>
         <a
@@ -41,8 +44,10 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Sophia's Recipes</p>
-        <p className={styles.projectTech}>Gatsby</p>
-        <p className={styles.projectTech}>React</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>Gatsby</p>
+          <p className={styles.projectTech}>React</p>
+        </div>
       </div>
       <div>Minimalistic recipe website of Sophia's tried and true recipes.</div>
       <div className={styles.projectLinkContainer}>
@@ -68,9 +73,11 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Sourdough Starter Reminder</p>
-        <p className={styles.projectTech}>Node.js</p>
-        <p className={styles.projectTech}> Azure </p>
-        <p className={styles.projectTech}>Twilio</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>Node.js</p>
+          <p className={styles.projectTech}> Azure </p>
+          <p className={styles.projectTech}>Twilio</p>
+        </div>
       </div>
       <div>
         An app that sends automatic text message reminders with custom messages
@@ -99,10 +106,12 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Chat With Earth</p>
-        <p className={styles.projectTech}>Node.js</p>
-        <p className={styles.projectTech}>Azure</p>
-        <p className={styles.projectTech}>Twilio</p>
-        <p className={styles.projectTech}>NASA API</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>Node.js</p>
+          <p className={styles.projectTech}>Azure</p>
+          <p className={styles.projectTech}>Twilio</p>
+          <p className={styles.projectTech}>NASA API</p>
+        </div>
       </div>
       <div>An app that let's you "chat" with Earth through text messages.</div>
       <div className={styles.projectLinkContainer}>
@@ -128,10 +137,12 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Eat Play Drink</p>
-        <p className={styles.projectTech}>HTML</p>
-        <p className={styles.projectTech}>CSS</p>
-        <p className={styles.projectTech}>JavaScript</p>
-        <p className={styles.projectTech}>Google Maps API</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>HTML</p>
+          <p className={styles.projectTech}>CSS</p>
+          <p className={styles.projectTech}>JavaScript</p>
+          <p className={styles.projectTech}>Google Maps API</p>
+        </div>
       </div>
       <div>
         An interactive map of the best places to eat, play, and drink in San
@@ -160,8 +171,10 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>15Five Product Landing Page</p>
-        <p className={styles.projectTech}>HTML</p>
-        <p className={styles.projectTech}>CSS</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>HTML</p>
+          <p className={styles.projectTech}>CSS</p>
+        </div>
       </div>
       <div>
         My re-creation of 15Five's product landing page, a continuous
@@ -198,9 +211,11 @@ const Projects = () => (
     <section>
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>MoTo</p>
-        <p className={styles.projectTech}>HTML</p>
-        <p className={styles.projectTech}>CSS</p>
-        <p className={styles.projectTech}>JavaScript</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>HTML</p>
+          <p className={styles.projectTech}>CSS</p>
+          <p className={styles.projectTech}>JavaScript</p>
+        </div>
       </div>
       <div>
         A Chrome Extension for productivity with pomodoro and task trackers.

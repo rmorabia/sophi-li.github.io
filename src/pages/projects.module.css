@@ -1,11 +1,7 @@
-.projectLinksDiv {
-  margin-bottom: 2rem;
-  display: flex;
-}
-
 .projectContainer {
   display: flex;
-  margin-top: 1.3rem;
+  flex-direction: column;
+  margin-top: 1.5rem;
 }
 
 .projectTitle {
@@ -14,11 +10,17 @@
   font-size: 1.1rem;
 }
 
+.projectTechContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .projectTech {
   border: 1px solid #e3ebf7;
   padding: 5px 4px 1px 4px;
   font-size: 0.9rem;
-  margin-left: 1rem;
+  margin-top: -0.7rem;
+  margin-right: 1rem;
   background-color: whitesmoke;
   color: #2a5aa7;
   border-radius: 5px;
@@ -32,4 +34,23 @@
 
 .projectLink {
   margin-right: 0.7rem;
+}
+
+@media only screen and (min-width: 520px) {
+  /* Desktop display */
+  .projectContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  .projectTech {
+    border: 1px solid #e3ebf7;
+    padding: 5px 4px 1px 4px;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    background-color: whitesmoke;
+    color: #2a5aa7;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: auto;
+  }
 }
