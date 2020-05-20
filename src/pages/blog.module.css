@@ -5,7 +5,7 @@
 
 .blogContainer {
   border-bottom: 1px solid #5c8bd6;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 
 .blogContainer:hover {
@@ -26,6 +26,6 @@
 }
 
 .blogDate {
-  color: #333;
+  color: gray;
   font-size: 0.9rem;
 }
