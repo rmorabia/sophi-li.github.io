@@ -1,18 +1,18 @@
 ---
-path: '/how-to-deploy-from-heroku'
+path: '/how-to-deploy-monorepo-to-heroku'
 date: '2020-05-19'
 title: 'How to Deploy a React App and Node.js/Express Backend API to Heroku From a Monorepo'
-tags: ['interview', 'deploy']
+tags: ['react', 'node', 'deploy']
 excerpt: 'How to deploy a monorepo Heroku'
 ---
 
-I spent an entire day figuring out how to deploy my project to Heroku from a monorepo. Deploying didn't need to take an entire day. These are the steps I took to deploy my project and wish I knew from the start.
+I spent an entire day figuring out how to deploy my project to Heroku from a monorepo. This didn't need to take an entire day. These are the steps I took to deploy my project and wish I knew from the start.
 
 ## Prerequisites
 
 - [Heroku account](https://signup.heroku.com/)
 - Knowledge of [command line](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)
-- A project in monorepo with client and backend folders
+- A project in a monorepo with client and backend folders
 
 ## What is Heroku?
 
@@ -78,7 +78,7 @@ Run the following command to create a new app for your backend:
 heroku apps:create my-bao-server
 ```
 
-The [Heroku buildpack](https://github.com/mars/create-react-app-buildpack?fbclid=IwAR3wKqnphyxs-s7pMogM4nu98694Rt-jwh1GOLxoOSyoq_2kkURIBzg2RwY) deploys a React UI as a static web site. Run the following command to create a new app for your React client:
+The [Heroku buildpack](https://github.com/mars/create-react-app-buildpack?fbclid=IwAR3wKqnphyxs-s7pMogM4nu98694Rt-jwh1GOLxoOSyoq_2kkURIBzg2RwY) deploys a React UI as a static web site. Run the following command to create a new app for your client:
 
 ```shell
 heroku apps:create my-bao-client3 --buildpack mars/create-react-app
@@ -94,7 +94,7 @@ git remote -v
 
 ### 5. Create two new remotes for your client and server
 
-The `git remote add` command takes two arguments:
+The `git remote add` adds new remotes. The command takes two arguments:
 
 1. remote name, for example, `heroku-server`
 2. remote URL, for example, `heroku-client`
@@ -114,7 +114,11 @@ git remote add heroku-client https://git.heroku.com/my-bao-client3
 
 [`git subtree`](https://www.atlassian.com/git/tutorials/git-subtree) lets you nest one repository inside another as a sub-directory.
 
+Run the following commands from your parent directory to add, commit, and push your changes:
+
 ```shell
+git add .
+git commit -m "init commit"
 git subtree push --prefix backend heroku-server master
 git subtree push --prefix client heroku-client master
 ```
@@ -127,9 +131,9 @@ Run the following command to see error messages:
 heroku logs
 ```
 
-### 8. Redeploy after any changes
+### 8. Redeploy after any updates
 
-Run the following commands to add, commit, and push your changes:
+Run the following commands from your parent directory to add, commit, and push your updates:
 
 ```shell
 git add .
