@@ -17,7 +17,7 @@
 
 .projectTech {
   border: 1px solid #e3ebf7;
-  padding: 5px 4px 1px 4px;
+  padding: 4px 4px 2px 4px;
   font-size: 0.9rem;
   margin-top: -0.7rem;
   margin-right: 1rem;
@@ -44,7 +44,7 @@
   }
   .projectTech {
     border: 1px solid #e3ebf7;
-    padding: 5px 4px 1px 4px;
+    padding: 4px 4px 2px 4px;
     font-size: 0.9rem;
     margin-left: 1rem;
     background-color: whitesmoke;
