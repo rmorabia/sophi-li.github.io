@@ -9,7 +9,7 @@ import Container from '../Container'
 const activeLinkStyle = {
   backgroundColor: 'whitesmoke',
   borderRadius: 6,
-  color: 'blueviolet',
+  color: '#2a5aa7',
 }
 
 const LinkListItem = ({ to, children }) => (

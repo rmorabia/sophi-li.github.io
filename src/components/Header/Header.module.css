@@ -11,7 +11,7 @@
 .Link:hover {
   background-color: whitesmoke;
   border-radius: 6px;
-  color: blueviolet;
+  color: #2a5aa7;
 }
 
 .Header {
@@ -21,7 +21,7 @@
 
 .title {
   display: inline-block;
-  color: blueviolet;
+  color: #2a5aa7;
 }
 
 .linkList {

@@ -10,17 +10,5 @@ li {
 }
 
 a {
-  color: blueviolet;
-}
-
-button {
-  border-color: blueviolet;
-  transition: 0.4s;
-}
-
-button:hover {
-  background-color: rgb(138, 43, 226, 0.8);
-  border-color: rgb(138, 43, 226, 0.8);
-  cursor: pointer;
-  color: white;
+  color: #2a5aa7;
 }

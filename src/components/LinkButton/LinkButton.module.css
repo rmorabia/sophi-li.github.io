@@ -1,7 +1,7 @@
 .LinkButton,
 .LinkButtonLarge {
   /* background-color: buttonface; */
-  border: 1px solid blueviolet;
+  border: 1px solid #2a5aa7;
   color: black;
   transition: 0.4s;
   text-decoration: none;
@@ -23,8 +23,8 @@
 
 .LinkButton:hover,
 .LinkButtonLarge:hover {
-  background-color: rgb(138, 43, 226, 0.8);
-  border-color: rgb(138, 43, 226, 0.8);
+  background-color: #2a5aa7;
+  border-color: #2a5aa7;
   color: white;
 }
 

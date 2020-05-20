@@ -1,0 +1,9 @@
+.titleheadermargin,
+.titleheader {
+  letter-spacing: 0.5px;
+}
+
+.projectLinksDiv {
+  margin-bottom: 2rem;
+  display: flex;
+}
