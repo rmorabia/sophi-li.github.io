@@ -49,7 +49,7 @@ const Projects = () => (
           <p className={styles.projectTech}>React</p>
         </div>
       </div>
-      <div>Minimalistic recipe website of Sophia's tried and true recipes.</div>
+      <div>Minimalistic recipe website of my tried and true recipes.</div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
