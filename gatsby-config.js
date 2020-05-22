@@ -5,48 +5,16 @@ module.exports = {
     url: 'https://sophiali.dev',
   },
   plugins: [
-    `gatsby-transformer-remark`,
-    'gatsby-plugin-react-helmet',
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Roboto Mono`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Roboto`,
-            subsets: [`latin`],
-          },
-        ],
-      },
-    },
-    // {
-    //   resolve: 'gatsby-transformer-remark',
-    //   options: {
-    //     plugins: [
-    //       {
-    //         resolve: 'gatsby-remark-images',
-    //         options: {
-    //           maxWidth: 850,
-    //         },
-    //       },
-    //       'gatsby-remark-prismjs',
-    //     ],
-    //   },
-    // },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          {
+            resolve: 'gatsby-remark-code-titles',
+            options: {
+              className: 'gatsby-remark-code-title',
+            },
+          },
           {
             resolve: `gatsby-remark-prismjs`,
             options: {
@@ -76,6 +44,29 @@ module.exports = {
               },
               escapeEntities: {},
             },
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto Mono`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Roboto`,
+            subsets: [`latin`],
           },
         ],
       },
