@@ -14,7 +14,6 @@ If you're interested in learning how to use the [Fetch API](https://developer.mo
 
 I highly recommend coding along (not copying and pasting) while going through this tutorial to drill these concepts in and build your muscle memory.
 
-- [View live page](https://sophi-li.github.io/fetch/)
 - [View source code on GitHub](https://github.com/sophi-li/fetch)
 
 ## Prerequisites
