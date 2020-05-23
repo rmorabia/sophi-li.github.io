@@ -29,7 +29,12 @@ const Learn = () => (
             checked
             disabled
           />{' '}
-          Fetch vs axios
+          <a
+            href="https://sophiali.dev/javascript-fetch-api-with-nasa-api"
+            target="_blank"
+            rel="noopener noreferrer"
+          >Fetch
+          </a>
         </li>
         <li>
           <input

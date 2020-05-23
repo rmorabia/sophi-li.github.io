@@ -31,12 +31,12 @@ In plain English, this means I can use `fetch()` to get stuff (data) from an API
 
 The `fetch()` method takes in one required argument, the path to the resource you want to fetch. It returns a [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) as a response to our request. If the response is in [JavaScript Object Notation (JSON)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON) format, we use the [`json()`](https://developer.mozilla.org/en-US/docs/Web/API/Body/json) method to parse the text and return a JavaScript object.
 
-Here's what the syntax looks like:
+Here's what the syntax can look like:
 
 ```js
 fetch(url) // replace url with your API endpoint 
-.then(response => response.json()) // use .json() to parse your text
-.then(data => console.log(data)) // do stuff with your JSON data
+.then(response => response.json()) // use .json() to parse your JSON data
+.then(data => console.log(data)) // do stuff with your parsed data
 .catch(error => console.log(error)) // handle any errors
 ```
 
