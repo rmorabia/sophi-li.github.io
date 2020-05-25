@@ -10,7 +10,7 @@ ECMAScript 2015, also known as ES6 introduced _a lot_ of new features to JavaScr
 
 ## What is ECMAScript
 
-[ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) is a [scripting language specification](https://en.wikipedia.org/wiki/Scripting_language). JavaScript, a programming language, is an implementation of ECMAScript specifications. [ECMA International](https://www.ecma-international.org/) is an association that develops the ES specifications. [TC39](https://tc39.es/), a committee within ECMA International, determines how JavaScript works and what new features it should have. In 2015, there was a huge shift because ES6 was introduced, meaning a lot of new features were released. And since then, TC39 has released new features incrementally each year. As a result, there aren't huge feature releases and huge gaps in time between releases.
+[ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) is a [scripting language specification](https://en.wikipedia.org/wiki/Scripting_language). JavaScript, a programming language, is an implementation of ECMAScript specifications. [ECMA International](https://www.ecma-international.org/) is an association that develops the ES specifications. [TC39](https://tc39.es/), a committee within ECMA International, determines how JavaScript works and what new features it should have. In 2015, there was a huge shift because ES6 was introduced, meaning a lot of new features were released. (The previous release to ES6 was in 2011, ES5.1). And since 2015, TC39 has released new features incrementally each year. As a result, there aren't huge feature releases and huge gaps in time between releases.
 
 In plain English, ES is short for ECMAScript. ES is a standard, kinda like a book of rules. Scripting languages follow ES standards. And JavaScript is a scripting language that follows those ES standards.
 
@@ -520,4 +520,4 @@ try {
 
 ## Conclusion
 
-And there we have it! You now know how to use a lot of commonly used ES6+ JavaScript features.
+And there we have it! You now know how to use a lot of commonly used ES6+ JavaScript features. Test your JavaSript knowledge with some [JavaScript questions by Lydia Hallie](https://github.com/lydiahallie/javascript-questions).
