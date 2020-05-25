@@ -33,7 +33,8 @@ const Learn = () => (
             href="https://sophiali.dev/javascript-fetch-api-with-nasa-api"
             target="_blank"
             rel="noopener noreferrer"
-          >Fetch
+          >
+            Fetch
           </a>
         </li>
         <li>
@@ -61,7 +62,13 @@ const Learn = () => (
             checked
             disabled
           />{' '}
-          ES6
+          <a
+            href="https://sophiali.dev/modern-javascript-es6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ES6+
+          </a>
         </li>
         <li>
           <input className={styles.taskListItem} type="checkbox" disabled /> MVC
