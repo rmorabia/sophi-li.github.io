@@ -53,7 +53,22 @@ const Learn = () => (
             checked
             disabled
           />{' '}
-          Scope, closures, this
+          <a
+            href="https://sophiali.dev/let-var"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Scope
+          </a>
+        </li>
+        <li>
+          <input
+            className={styles.taskListItem}
+            type="checkbox"
+            checked
+            disabled
+          />{' '}
+          closures, this
         </li>
         <li>
           <input
