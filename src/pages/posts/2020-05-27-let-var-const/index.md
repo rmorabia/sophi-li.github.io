@@ -1,5 +1,5 @@
 ---
-path: '/let-var'
+path: '/javascript-var-let-const'
 date: '2020-05-27'
 title: 'JavaScript: var, let, const'
 tags: ['javascript']
