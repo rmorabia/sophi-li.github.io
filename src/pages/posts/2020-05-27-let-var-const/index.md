@@ -52,12 +52,12 @@ const fish = 'clownfish'
 
 ## Scope
 
+Scope is where a variable can be accessed based on where the code is written.
+
 In JavaScript, there are two types of scope, global scope and local scope.
 
 - Global scope: Variables accessible anywhere
 - Local scope: Variables accessible only inside the function where the variable is declared
-
-Scope is where a variable can be accessed based on where the code is written.
 
 For nested functions, child scopes have access to parent scopes, but parent scopes do not have access to child scopes.
 
@@ -149,7 +149,7 @@ console.log(fish)
 
 ## Reassignment
 
-Variables can be reassigned. Reassigning a variable means replacing the stuff inside the variable with new stuff.
+Reassigning a variable means replacing the stuff inside the variable with new stuff. Variables can be reassigned.
 
 Variables declared with `var` **can** be reassigned. In the following example, the value `hummingbird` is replaced with `parrot`.
 
