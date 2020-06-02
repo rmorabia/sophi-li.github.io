@@ -62,12 +62,7 @@ const Learn = () => (
           </a>
         </li>
         <li>
-          <input
-            className={styles.taskListItem}
-            type="checkbox"
-            checked
-            disabled
-          />{' '}
+          <input className={styles.taskListItem} type="checkbox" checked />{' '}
           closures, this
         </li>
         <li>
@@ -130,7 +125,12 @@ const Learn = () => (
           Events
         </li>
         <li>
-          <input className={styles.taskListItem} type="checkbox" disabled />{' '}
+          <input
+            className={styles.taskListItem}
+            type="checkbox"
+            disabled
+            checked
+          />{' '}
           Local Storage
         </li>
       </ul>
@@ -266,7 +266,12 @@ const Learn = () => (
       <h2>Testing</h2>
       <ul className={styles.ulContainers}>
         <li>
-          <input className={styles.taskListItem} type="checkbox" disabled />{' '}
+          <input
+            className={styles.taskListItem}
+            type="checkbox"
+            disabled
+            checked
+          />{' '}
           JavaScript Unit Tests
         </li>
       </ul>
