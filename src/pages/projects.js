@@ -13,14 +13,14 @@ const Projects = () => (
 
     <section>
       <div className={styles.projectContainer}>
-        <p className={styles.projectTitle}>Breadpun API</p>
+        <p className={styles.projectTitle}>Bread Puns API</p>
         <div className={styles.projectTechContainer}>
           <p className={styles.projectTech}>Express</p>
           <p className={styles.projectTech}>Node.js</p>
         </div>
       </div>
 
-      <div>A wholewheat API for all your bread bun kneads.</div>
+      <div>A wholewheat API for all your bread pun kneads.</div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
@@ -37,6 +37,36 @@ const Projects = () => (
           rel="noopener noreferrer"
         >
           Live
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>Recipe Web Scraper</p>
+        <div className={styles.projectTechContainer}>
+          <p className={styles.projectTech}>JavaScript</p>
+          <p className={styles.projectTech}>Playwright</p>
+        </div>
+      </div>
+
+      <div>Node package for scraping websites with schema recipe data.</div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/scrape-recipe"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://www.npmjs.com/package/scrape-recipe"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          npm
         </a>
       </div>
     </section>
@@ -130,40 +160,6 @@ const Projects = () => (
           rel="noopener noreferrer"
         >
           Blog
-        </a>
-      </div>
-    </section>
-
-    <section>
-      <div className={styles.projectContainer}>
-        <p className={styles.projectTitle}>Eat Play Drink</p>
-        <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>HTML</p>
-          <p className={styles.projectTech}>CSS</p>
-          <p className={styles.projectTech}>JavaScript</p>
-          <p className={styles.projectTech}>Google Maps API</p>
-        </div>
-      </div>
-      <div>
-        An interactive map of the best places to eat, play, and drink in San
-        Francisco.
-      </div>
-      <div className={styles.projectLinkContainer}>
-        <a
-          className={styles.projectLink}
-          href="https://github.com/sophi-li/eat-play-drink"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code
-        </a>
-        <a
-          className={styles.projectLink}
-          href="https://sophi-li.github.io/eat-play-drink/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Live
         </a>
       </div>
     </section>

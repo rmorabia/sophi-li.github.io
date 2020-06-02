@@ -62,7 +62,12 @@ const Learn = () => (
           </a>
         </li>
         <li>
-          <input className={styles.taskListItem} type="checkbox" checked />{' '}
+          <input
+            className={styles.taskListItem}
+            type="checkbox"
+            disabled
+            checked
+          />{' '}
           closures, this
         </li>
         <li>
