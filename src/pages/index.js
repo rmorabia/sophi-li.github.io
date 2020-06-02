@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'gatsby'
 import styles from './index.module.css'
 
 import Layout from '../layout'
@@ -7,58 +7,28 @@ import Layout from '../layout'
 const Home = () => (
   <Layout>
     <h1 className={styles.titleheader}>About me</h1>
+    <p>I'm Sophia, a software engineer, technical writer, and former baker.</p>
     <p>
-      I'm Sophia, a front-end software engineer, technical writer, and former
-      baker.
-    </p>
-    <p>
-      I{' '}
-      <a
-        href="https://dev.to/sophia_wyl"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        blog{' '}
-      </a>
-      about life as a programmer and my{' '}
+      I set{' '}
       <a
         href="https://github.com/sophi-li/OKRs-self-learning"
         target="_blank"
         rel="noopener noreferrer"
       >
         {' '}
-        self-taught journey
-      </a>
-      . My blog posts have over 40k views and have been featured on DEV's top 7
-      and{' '}
-      <a
-        href="https://dev.to/azure/how-on-earth-do-i-use-the-nasa-api-1548"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Microsoft publications
+        OKRs to learn how to code
       </a>
       .
     </p>
+
     <p>
-      I also co-organize Write/Speak/Code's{' '}
-      <a
-        href="https://www.meetup.com/WriteSpeakCode-SFBay/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        San Francisco chapter
-      </a>{' '}
-      to help increase the visibility and leadership of technologists from
-      underrepresented genders through peer-led development.
+      I occasionally <Link to="/blog">blog</Link> about things I learn and{' '}
+      <Link to="/projects">projects</Link> I've built.
     </p>
+
     <p>
-      When I'm not coding, you'll find me rock climbing, playing air hockey, or
-      baking sourdough bread.
-    </p>
-    <p>
-      I’m currently seeking a full-time front-end role at an impact driven
-      organization with a strong culture of learning and mentorship.
+      I’m currently seeking a full-time software engineering role at an impact
+      driven organization with a strong culture of learning and mentorship.
     </p>
 
     <p>
@@ -100,9 +70,14 @@ const Home = () => (
     </p>
 
     <p>
-      I build software with HTML, CSS, JavaScript, React, Node, GraphQL, Python,
-      Microsoft Azure. I'm excited to learn any new tool or technology to solve
-      the right problems.
+      I build software with HTML, CSS, JavaScript, React, Node.js, GraphQL,
+      Python, Express, Microsoft Azure. I'm excited to learn any new tool or
+      technology to solve the right problems.
+    </p>
+
+    <p>
+      When I'm not coding, you'll find me rock climbing, playing air hockey, or
+      baking sourdough bread.
     </p>
   </Layout>
 )
