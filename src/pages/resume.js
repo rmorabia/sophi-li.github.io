@@ -102,6 +102,14 @@ const Resume = () => (
         <i>Co-organizer</i> for Write/Speak/Code San Francisco Chapter
       </h3>
       <p>September 2019 - present</p>
+      <ul>
+        <li>
+          {' '}
+          Organize events to help increase the visibility and leadership of
+          technologists from underrepresented genders through peer-led
+          development
+        </li>
+      </ul>
     </section>
     <section>
       <h2>Education</h2>
