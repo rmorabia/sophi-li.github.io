@@ -2,8 +2,8 @@
 path: '/how-to-deploy-monorepo-to-heroku'
 date: '2020-05-19'
 title: 'How to Deploy a React App and Node.js/Express Backend API to Heroku From a Monorepo'
-tags: ['react', 'node', 'deploy']
-excerpt: 'How to deploy a monorepo Heroku'
+tags: ['react', 'node', 'deployment']
+category: 'code'
 ---
 
 I spent an entire day figuring out how to deploy my project to Heroku from a monorepo. This didn't need to take an entire day. These are the steps I took to deploy my project and wish I knew from the start.

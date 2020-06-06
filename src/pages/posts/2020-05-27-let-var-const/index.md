@@ -3,7 +3,7 @@ path: '/javascript-var-let-const'
 date: '2020-05-27'
 title: 'JavaScript: var, let, const'
 tags: ['javascript']
-excerpt: ''
+category: 'code'
 ---
 
 There are three keywords used to declare variables in JavaScript: `var`, `let`, `const`.

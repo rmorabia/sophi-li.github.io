@@ -1,9 +1,7 @@
 import React from 'react'
 import 'typeface-roboto'
-// import ProjectContainer from '../components/ProjectContainer/'
 
 import styles from './projects.module.css'
-// import LinkButton from '../components/LinkButton'
 
 import Layout from '../layout'
 

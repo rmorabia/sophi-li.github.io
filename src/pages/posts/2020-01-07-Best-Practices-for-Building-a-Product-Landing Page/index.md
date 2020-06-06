@@ -2,8 +2,8 @@
 path: '/Best-Practices-for-Building-a-Product-Landing Page'
 date: '2020-01-07'
 title: 'Best Practices for Building a Product Landing Page'
-tags: ['beginner']
-excerpt: 'A preview of my second post'
+tags: ['landing page']
+category: 'projects'
 ---
 
 Building a product landing page is almost always on [project idea lists](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/) for beginners who are learning to code. Product landing pages are simple because they can be built with just HTML and CSS. At the same time, they are creative even if you are cloning a pre-existing page because you can still put your own spin to it.

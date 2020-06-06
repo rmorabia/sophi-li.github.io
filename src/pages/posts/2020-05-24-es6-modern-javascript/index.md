@@ -3,7 +3,7 @@ path: '/modern-javascript-es6'
 date: '2020-05-25'
 title: 'Modern JavaScript: ES6 and Beyond'
 tags: ['javascript']
-excerpt: ''
+category: 'code'
 ---
 
 ECMAScript 2015, also known as ES6 introduced _a lot_ of new features to JavaScript. Since then, new features have been released incrementally each year. Features from ES6 and beyond are commonly referred to as Modern JavaScript because of these significant changes. This blog explores a few commonly used ES6, ES7, ES8, ES9, and ES10 features.

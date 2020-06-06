@@ -2,8 +2,8 @@
 path: '/5-Things-I-Learned-From-Coding-with-Other-People'
 date: '2020-01-09'
 title: '5 Things I Learned From Coding with Other People: My First Web Development Team Project'
-tags: ['web development', 'personal']
-excerpt: 'A preview of my second post'
+tags: ['project']
+category: 'personal'
 ---
 
 Building a product landing page is almost always on [project idea lists](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/) for beginners who are learning to code. Product landing pages are simple because they can be built with just HTML and CSS. At the same time, they are creative even if you are cloning a pre-existing page because you can still put your own spin to it.

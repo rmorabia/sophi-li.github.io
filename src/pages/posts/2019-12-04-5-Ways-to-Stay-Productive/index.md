@@ -3,7 +3,7 @@ path: '/5-Ways-to-Stay-Productive'
 date: '2019-12-04'
 title: '5 Ways to Stay Productive as a Self-taught Developer'
 tags: ['productivity']
-excerpt: 'A preview of my first post'
+category: 'personal'
 ---
 
 As a self-taught developer, it can be tempting for me to watch an episode (or two) of [Bon Appétit](https://www.youtube.com/user/BonAppetitDotCom) instead of fixing that bug, starting that new project, or practicing that new skill on my evergreen list of things to learn.

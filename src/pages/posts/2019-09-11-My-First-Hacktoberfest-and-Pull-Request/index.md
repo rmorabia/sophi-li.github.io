@@ -2,8 +2,8 @@
 path: '/My-First-Hacktoberfest-and-Pull-Request'
 date: '2019-09-07'
 title: 'My First Hacktoberfest and Pull Request'
-tags: ['personal']
-excerpt: 'A preview of my second post'
+tags: ['hacktoberfest']
+category: 'personal'
 ---
 
 I completed my first Hacktoberfest challenge and got my t-shirt in the mail today!

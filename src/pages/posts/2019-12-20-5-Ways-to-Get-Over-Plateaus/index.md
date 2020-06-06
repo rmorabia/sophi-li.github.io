@@ -3,7 +3,7 @@ path: '/5-Ways-to-Get-Over-Plateaus'
 date: '2019-12-19'
 title: '5 Ways to Get Over Plateaus as a Self-taught Developer'
 tags: ['productivity']
-excerpt: 'A preview of my third post'
+category: 'personal'
 ---
 
 As a self-taught developer, I create my own [curriculum](https://github.com/sophi-li/OKRs-self-learning), meaning I also choose my own pace.

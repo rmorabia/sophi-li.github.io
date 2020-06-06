@@ -3,14 +3,14 @@ path: '/javascript-fetch-api-with-nasa-api'
 date: '2020-05-21'
 title: 'How to Use the JavaScript Fetch API to Get Data from the NASA APOD API'
 tags: ['javascript', 'api']
-excerpt: ''
+category: 'code'
 ---
 
-Working with APIs is a large part of software development. And part of that is fetching data from an API! 
+Working with APIs is a large part of software development. And part of that is fetching data from an API!
 
 This tutorial walks us through how to use the Fetch API to get data from the NASA Astronomy Picture of the Day (APOD) API and display it on our browser. To keep things simple, we're using only vanilla JavaScript.
 
-If you're interested in learning how to use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) or how to work with the [NASA APOD API](https://api.nasa.gov/), this tutorial might be what you're looking for. 
+If you're interested in learning how to use the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) or how to work with the [NASA APOD API](https://api.nasa.gov/), this tutorial might be what you're looking for.
 
 I highly recommend coding along (not copying and pasting) while going through this tutorial to drill these concepts in and build your muscle memory.
 
@@ -25,7 +25,7 @@ I highly recommend coding along (not copying and pasting) while going through th
 
 ## What is the Fetch API
 
-The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is promise based API for fetching resources through asynchronous HTTP requests in the brwoser. 
+The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is promise based API for fetching resources through asynchronous HTTP requests in the brwoser.
 
 In plain English, this means I can use `fetch()` to get stuff (data) from an API and then do stuff to the data I pulled.
 
@@ -34,10 +34,10 @@ The `fetch()` method takes in one required argument, the path to the resource yo
 Here's what the syntax can look like:
 
 ```js
-fetch(url) // replace url with your API endpoint 
-.then(response => response.json()) // use .json() to parse your JSON data
-.then(data => console.log(data)) // do stuff with your parsed data
-.catch(error => console.log(error)) // handle any errors
+fetch(url) // replace url with your API endpoint
+  .then(response => response.json()) // use .json() to parse your JSON data
+  .then(data => console.log(data)) // do stuff with your parsed data
+  .catch(error => console.log(error)) // handle any errors
 ```
 
 ## Register for a NASA API key
@@ -172,48 +172,47 @@ const config = {
 }
 ```
 
-
-
 Next, create another text file called `.gitignore` and add `config.js` to its contents. Files listed in `.gitignore` will not be tracked by Git.
 
-````js:title=.gitignore
+```js:title=.gitignore
 config.js
-````
+```
 
 ## Get Data from NASA’s APOD API
+
 Now let's fetch data from the NASA APOD API.
 
 The endpoint for the APOD API is 'https://api.nasa.gov/planetary/apod?api_key=' followed by our API key. So let's declare `url` with the endpoint and `api_key` with `config.NASA_API_KEY`. A few steps above, we previously saved our API key in the `config.js` file and this is how we access it.
 
 ```js:title=app.js
-const url = "https://api.nasa.gov/planetary/apod?api_key=";
-const api_key = config.NASA_API_KEY;
+const url = 'https://api.nasa.gov/planetary/apod?api_key='
+const api_key = config.NASA_API_KEY
 ```
 
-Next, let's write a function to fetch the data. Since the `fetch()` method is promise based, we can use [async/await](https://javascript.info/async-await) syntax. 
+Next, let's write a function to fetch the data. Since the `fetch()` method is promise based, we can use [async/await](https://javascript.info/async-await) syntax.
 
-We make a request using the `fetch()` method with `${url}${api_key}` for our path. 
+We make a request using the `fetch()` method with `${url}${api_key}` for our path.
 
-`${variable_name}` is ES6 template literal syntax which lets us concatenate `url` and `api_key`. `${url}${api_key}` is the same as using the syntax `url + api_key`. 
+`${variable_name}` is ES6 template literal syntax which lets us concatenate `url` and `api_key`. `${url}${api_key}` is the same as using the syntax `url + api_key`.
 
-The APOD API returns data in JSON format, so let's use the `.json()` method to parse the response into a JavaScript object. 
+The APOD API returns data in JSON format, so let's use the `.json()` method to parse the response into a JavaScript object.
 
-We'll save the JavaScript object in the `data` variable. 
+We'll save the JavaScript object in the `data` variable.
 
-Then let's console log `data` which returns the parsed data as a JavaScript object to make sure it's working as we expect. 
+Then let's console log `data` which returns the parsed data as a JavaScript object to make sure it's working as we expect.
 
 And lastly, let's catch and console log any errors.
 
 ```js:title=app.js
 const fetchNASAData = async () => {
   try {
-    const response = await fetch(`${url}${api_key}`);
-    const data = await response.json();
-    console.log("NASA APOD data", data);
+    const response = await fetch(`${url}${api_key}`)
+    const data = await response.json()
+    console.log('NASA APOD data', data)
   } catch (error) {
-    console.log(error);
+    console.log(error)
   }
-};
+}
 
 fetchNASAData()
 ```
@@ -222,7 +221,7 @@ fetchNASAData()
 
 Now that we've successfully fetched our data, let's display the title, date, picture, and explanation on our browser with some DOM manipulation.
 
-Let's write a function, `displayData` which updates the DOM with data from our response object. 
+Let's write a function, `displayData` which updates the DOM with data from our response object.
 
 `displayData` takes in an argument, `data`. This is where we'll pass in the response `data` variable which contains the JavaScript object.
 
@@ -231,49 +230,51 @@ Then we'll grab an element by its ID with the `getElementById()` method and upda
 For example, the following line updates the `title` element with our response object's title.
 
 ```js
-document.getElementById("title").textContent = data.title;
+document.getElementById('title').textContent = data.title
 ```
 
 Our `displayData` function updates the title, date, picture, and explanation elements with the respective values from the response object.
+
 ```js:title=app.js
-const displayData = (data) => {
-  document.getElementById("title").textContent = data.title;
-  document.getElementById("date").textContent = data.date;
-  document.getElementById("picture").src = data.hdurl;
-  document.getElementById("explanation").textContent = data.explanation;
-};
+const displayData = data => {
+  document.getElementById('title').textContent = data.title
+  document.getElementById('date').textContent = data.date
+  document.getElementById('picture').src = data.hdurl
+  document.getElementById('explanation').textContent = data.explanation
+}
 ```
 
-Now that we have our `displayData` function to update the DOM, let's make sure we call that function after we parse the JSON response. We'll pass in `data` to `displayData()`. 
+Now that we have our `displayData` function to update the DOM, let's make sure we call that function after we parse the JSON response. We'll pass in `data` to `displayData()`.
+
 ```js:title=app.js
-const url = "https://api.nasa.gov/planetary/apod?api_key=";
-const api_key = config.NASA_API_KEY;
+const url = 'https://api.nasa.gov/planetary/apod?api_key='
+const api_key = config.NASA_API_KEY
 
 const fetchNASAData = async () => {
   try {
-    const response = await fetch(`${url}${api_key}`);
-    const data = await response.json();
-    console.log("NASA APOD data", data);
-    displayData(data);
+    const response = await fetch(`${url}${api_key}`)
+    const data = await response.json()
+    console.log('NASA APOD data', data)
+    displayData(data)
   } catch (error) {
-    console.log(error);
+    console.log(error)
   }
-};
+}
 
-const displayData = (data) => {
-  document.getElementById("title").textContent = data.title;
-  document.getElementById("date").textContent = data.date;
-  document.getElementById("picture").src = data.hdurl;
-  document.getElementById("explanation").textContent = data.explanation;
-};
+const displayData = data => {
+  document.getElementById('title').textContent = data.title
+  document.getElementById('date').textContent = data.date
+  document.getElementById('picture').src = data.hdurl
+  document.getElementById('explanation').textContent = data.explanation
+}
 
-fetchNASAData();
+fetchNASAData()
 ```
 
 ## Conclusion
-And there we have it! In this tutorial, we fetched data from the NASA APOD API and updated the DOM to display our pulled data on the browser. 
 
-For more practice fetching data from an API, the [Dog API](https://thedogapi.com/) or my [Bread Puns API](https://my-bao-client3.herokuapp.com/) are two fun ones. For further practice updating the DOM, try displaying other other values from the APOD API's response data. 
+And there we have it! In this tutorial, we fetched data from the NASA APOD API and updated the DOM to display our pulled data on the browser.
+
+For more practice fetching data from an API, the [Dog API](https://thedogapi.com/) or my [Bread Puns API](https://my-bao-client3.herokuapp.com/) are two fun ones. For further practice updating the DOM, try displaying other other values from the APOD API's response data.
 
 You now know how to successfully pull data from an API using the `fetch()` method and display the response on your browser. 🚀
-
