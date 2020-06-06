@@ -6,7 +6,7 @@ tags: ['javascript']
 category: 'code'
 ---
 
-There are three keywords used to declare variables in JavaScript: `var`, `let`, `const`. i hate sophia
+There are three keywords used to declare variables in JavaScript: `var`, `let`, `const`.
 
 Before [ES6 was introduced in 2015](https://sophiali.dev/modern-javascript-es6), `var` was the only way to declare a variable. With the release of ES6, `let` and `const` were introduced to solve the issue of hoisting.
 
