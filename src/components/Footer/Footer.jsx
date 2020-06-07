@@ -8,13 +8,31 @@ const Footer = () => (
         <a href="mailto:sophiali.wy@gmail.com">Email</a>
       </li>
       <li>
-        <a href="https://github.com/sophi-li">GitHub</a>
+        <a
+          href="https://github.com/sophi-li"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
       </li>
       <li>
-        <a href="https://twitter.com/sophia_wyl">Twitter</a>
+        <a
+          href="https://twitter.com/sophia_wyl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/sophiali124/">LinkedIn</a>
+        <a
+          href="https://www.linkedin.com/in/sophiali124/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
       </li>
     </ul>
   </footer>
