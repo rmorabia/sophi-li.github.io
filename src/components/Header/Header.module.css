@@ -15,14 +15,16 @@
 }
 
 .Header {
-  margin-bottom: 2rem;
-  border-bottom: 1px solid darkgray;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+  /* border-bottom: 1px solid darkgray; */
   display: flex;
 }
 
 .title {
   display: inline-block;
   color: #2a5aa7;
+  margin-left: -2rem;
 }
 
 .title:hover {
@@ -35,14 +37,23 @@
   display: flex;
 }
 
+@media only screen and (min-width: 300px) {
+  /* Phone display */
+  .title {
+    margin-left: -1rem;
+    display: inline-block;
+    color: #2a5aa7;
+  }
+}
+
 @media only screen and (min-width: 500px) {
   /* Desktop display */
   .Header {
     margin-bottom: 2rem;
-    border-bottom: 1px solid darkgray;
     display: block;
   }
   .title {
+    margin-left: 0;
     display: inline-block;
     color: #2a5aa7;
   }
