@@ -3,7 +3,7 @@ path: '/4-Step-Whiteboarding-Strategy'
 date: '2020-01-18'
 title: '4-Step Strategy to Frame Your Thought Process in a Whiteboard Coding Interview'
 tags: ['interview']
-category: 'career'
+category: 'personal'
 ---
 
 Whiteboard coding interviews are often part of an imperfect technical interview process. A 45-minute whiteboard coding problem is not representative of real work on the job, especially due to its unrealistic time restraint. However, working through a coding problem can allow a candidate to showcase their _problem solving skills_ by communicating and walking through their _thought process_ with the interviewer.

@@ -3,7 +3,7 @@ path: '/top-10-tips-for-self-taught-software-engineers'
 date: '2020-01-30'
 title: 'Top 10 Tips for Self-taught Software Engineers from 20+ Coffee Chats'
 tags: ['interview']
-category: 'career'
+category: 'personal'
 ---
 
 I started my [self-taught software engineering journey](https://github.com/sophi-li/OKRs-self-learning) four months ago. Since then, I’ve gone on over twenty coffee chats with software engineers. I invite folks to coffee chats to learn about their journey, hear their thoughts on the industry, and to ask for advice on becoming a self-taught software engineer. These tips are tried and true. I've applied each of these tips throughout my learning journey.

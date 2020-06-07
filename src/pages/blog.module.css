@@ -30,3 +30,7 @@
   font-size: 0.9rem;
 }
 
+.categoryName {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
