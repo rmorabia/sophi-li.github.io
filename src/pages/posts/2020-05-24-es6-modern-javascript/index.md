@@ -184,7 +184,7 @@ for (let i = 0; i < array.length; i++) {
 
 ```js:title=ES6
 for (i of array) {
-  console.log(array[i]) // 'Lisa', 'Marge', 'Maggie'
+  console.log(i) // 'Lisa', 'Marge', 'Maggie'
 }
 ```
 
