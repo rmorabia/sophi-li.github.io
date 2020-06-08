@@ -6,7 +6,7 @@ tags: ['javascript']
 category: 'code'
 ---
 
-ECMAScript 2015, also known as ES6 introduced _a lot_ of new features to JavaScript. Since then, new features have been released incrementally each year. Features from ES6 and beyond are commonly referred to as Modern JavaScript because of these significant changes. This blog explores a few commonly used ES6, ES7, ES8, ES9, and ES10 features.
+ECMAScript 2015, also known as ES6, introduced _a lot_ of new features to JavaScript. Since then, new features have been released incrementally each year. Features from ES6 and beyond are commonly referred to as Modern JavaScript because of these significant changes. This blog explores a few commonly used ES6, ES7, ES8, ES9, and ES10 features.
 
 ## What is ECMAScript
 
@@ -520,4 +520,4 @@ try {
 
 ## Conclusion
 
-And there we have it! You now know how to use a lot of commonly used ES6+ JavaScript features. Test your JavaSript knowledge with some [JavaScript questions by Lydia Hallie](https://github.com/lydiahallie/javascript-questions).
+And there we have it! You now know how to use a lot of commonly used ES6+ JavaScript features. Test your JavaScript knowledge with some [JavaScript questions by Lydia Hallie](https://github.com/lydiahallie/javascript-questions).
