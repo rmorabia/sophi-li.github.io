@@ -36,12 +36,22 @@ let name = 'Maggie' // 'Maggie'
 
 ### Constant declaration
 
-The `const` keyword allows for block-scoped variables. Variables declared with `const` cannot be hoisted, redeclared, nor reassigned. But they are mutable.
+The `const` keyword allows for block-scoped variables. Variables declared with `const` cannot be hoisted, redeclared, nor reassigned.
 
 ```js:title=ES6
 const name = 'Lisa'
 name = 'Bart' // TypeError, cannot reassign constant variable
 const name = 'Maggie' // SyntaxError, cannot redeclare constant variable
+```
+
+Variables declared with `const` are mutable.
+
+````js:title=ES6
+const simpson = { name: 'Lisa' }
+simpson.name = 'Bart' // mutate name
+simpson.address = '742 Evergreen Terrace' // add address
+console.log(simpson) // { name: 'Bart', address: '742 Evergreen Terrace' }
+simpson = { name: 'Bart' } // TypeError, cannot reassign constant variable
 ```
 
 - [MDN reference: const](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
@@ -58,7 +68,7 @@ function sum(a, b) {
 const sum = function(a, b) {
   console.log(a + b)
 }
-```
+````
 
 ```js:title=ES6
 const sum = (a, b) => {
