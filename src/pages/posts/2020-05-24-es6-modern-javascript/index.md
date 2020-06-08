@@ -456,7 +456,7 @@ const lisaArray = [
   ['school', 'Springfield Elementary'],
 ]
 
-console.log(Object.fromEntries(lisa))
+console.log(Object.fromEntries(lisaArray))
 // {grade: 2, school: "Springfield Elementary"}
 
 const lisaMap = new Map([
@@ -464,7 +464,7 @@ const lisaMap = new Map([
   ['school', 'Springfield Elementary'],
 ])
 
-console.log(Object.fromEntries(lisaArray))
+console.log(Object.fromEntries(lisaMap))
 // {grade: 2, school: "Springfield Elementary"}
 ```
 
