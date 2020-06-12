@@ -201,54 +201,6 @@ const Projects = () => (
         </a>
       </div>
     </section>
-
-    <section>
-      <div className={styles.projectContainer}>
-        <p className={styles.projectTitle}>MoTo</p>
-        <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>HTML</p>
-          <p className={styles.projectTech}>CSS</p>
-          <p className={styles.projectTech}>JavaScript</p>
-        </div>
-      </div>
-      <div>
-        A Chrome Extension for productivity with pomodoro and task trackers.
-      </div>
-      <div className={styles.projectLinkContainer}>
-        <a
-          className={styles.projectLink}
-          href="https://github.com/chingu-voyages/v13-toucans-team-03"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Code
-        </a>
-        <a
-          className={styles.projectLink}
-          href="https://moto-toucans03.netlify.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Live
-        </a>
-        <a
-          className={styles.projectLink}
-          href="https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Chrome Extension
-        </a>
-        <a
-          className={styles.projectLink}
-          href="https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Blog
-        </a>
-      </div>
-    </section>
   </Layout>
 )
 
