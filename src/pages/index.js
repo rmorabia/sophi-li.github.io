@@ -77,7 +77,7 @@ const Home = () => (
 
     <p>
       When I'm not coding, you'll find me rock climbing, playing air hockey, or
-      baking sourdough bread. n I& #x27;m not coding, you& #x27;ll
+      baking sourdough bread.
     </p>
   </Layout>
 )
