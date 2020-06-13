@@ -10,7 +10,7 @@ const Resume = () => (
       <p>
         <strong>
           <a href="/Sophia Li Resume.pdf" target="_blank" rel="noopener">
-            📄 Resume PDF.
+            📄 Resume PDF
           </a>
         </strong>
       </p>
@@ -47,8 +47,7 @@ const Resume = () => (
         <li>
           Formalized and strengthened core operating values and culture by
           leading quarterly offsites, team building activities, employee
-          celebrations and recognition, team building activities, lunch and
-          learn sessions
+          celebrations and recognition, lunch and learn sessions
         </li>
         <li>
           Built and facilitated growth-focused development and performance
@@ -97,7 +96,7 @@ const Resume = () => (
       </ul>
     </section>
     <section>
-      <h2>Volunteer</h2>
+      <h2>Community</h2>
       <h3>
         <i>Co-organizer</i> for Write/Speak/Code San Francisco Chapter
       </h3>
@@ -114,7 +113,7 @@ const Resume = () => (
     <section>
       <h2>Education</h2>
       <h3>University of California, Berkeley</h3>
-      <p>BA, Cognitive Science 2018</p>
+      <p>BA, Cognitive Science 2014 - 2018</p>
     </section>
   </Layout>
 )
