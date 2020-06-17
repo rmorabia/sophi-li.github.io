@@ -30,7 +30,7 @@ Here's a table with an overview of the differences between the three ways to dec
 
 Variables are like storage containers that hold stuff inside. And these storage containers are given names.
 
-To use a variable in JavaScript, it needs to be declared. There are three ways to declare a variable in JavaScript, with the keyword `var`, `let`, or `const`.
+To use a variable in JavaScript, it needs to be declared. There are three ways to declare a variable in JavaScript, with the keywords `var`, `let`, or `const`.
 
 The following code declares the variables `bird`, `mammal`, `fish`, with the keywords `var`, `let`, `const`, respectively.
 
