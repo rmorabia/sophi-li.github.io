@@ -1,7 +1,7 @@
 ---
 path: '/javascript-slice-splice'
 date: '2020-06-18'
-title: 'JavaScript: slice vs splice'
+title: 'Remembering slice vs splice in JavaScript'
 tags: ['javascript']
 categories: 'code'
 ---
