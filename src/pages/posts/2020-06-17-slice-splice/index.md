@@ -31,7 +31,7 @@ arr.slice(start, end)
 // The returned copied array excludes the end index
 ```
 
-Here's slice in action:
+Here's `slice` in action:
 
 ```js
 const arr = ['alex', 'justin', 'max', 'harper', 'mason']
