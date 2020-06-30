@@ -95,7 +95,7 @@ console.log(arr) // arr is mutated
 // ['alex']
 ```
 
-**Ex 2**: Remove all elements starting at the 2nd index, and insert 2 elements
+**Ex 2**: Remove 2 elements starting at the 2nd index
 
 ```js
 const arr = ['alex', 'justin', 'max', 'harper', 'mason']
