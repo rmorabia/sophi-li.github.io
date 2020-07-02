@@ -1,18 +1,27 @@
-.linkList {
+.ulContainer {
   padding: 0;
+  margin-left: -1rem;
 }
 
-.linkList li {
+.footerLink {
   display: inline;
   list-style: none;
+  margin: 0 1rem 0 0;
+  padding: 1rem;
 }
 
-.linkList li:after {
-  content: ' \2022 ';
+.footerLink:hover {
+  border-radius: 6px;
+  text-decoration: underline;
+  background-color: whitesmoke;
 }
 
-.linkList li:last-child:after {
-  content: none;
+.footerLink a {
+  text-decoration: none;
+  color: #6e6e6e;
+}
+.footerLink a:hover {
+  color: #2a5aa7;
 }
 
 footer {

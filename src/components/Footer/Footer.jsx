@@ -2,12 +2,12 @@ import React from 'react'
 import styles from './Footer.module.css'
 
 const Footer = () => (
-  <footer className={styles.footer}>
-    <ul className={styles.linkList}>
-      <li>
+  <footer>
+    <ul className={styles.ulContainer}>
+      <li className={styles.footerLink}>
         <a href="mailto:sophiali.wy@gmail.com">Email</a>
       </li>
-      <li>
+      <li className={styles.footerLink}>
         <a
           href="https://github.com/sophi-li"
           target="_blank"
@@ -16,7 +16,7 @@ const Footer = () => (
           GitHub
         </a>
       </li>
-      <li>
+      <li className={styles.footerLink}>
         <a
           href="https://twitter.com/sophia_wyl"
           target="_blank"
@@ -25,7 +25,7 @@ const Footer = () => (
           Twitter
         </a>
       </li>
-      <li>
+      <li className={styles.footerLink}>
         <a
           href="https://www.linkedin.com/in/sophiali124/"
           target="_blank"
