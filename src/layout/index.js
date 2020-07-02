@@ -27,7 +27,7 @@ const IndexLayout = ({ children }) => (
         <SEO />
         <Header title={data.site.siteMetadata.title} />
         <Container>
-          {children}
+          <div className="container">{children}</div>
           <Footer />
         </Container>
       </>

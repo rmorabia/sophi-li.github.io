@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import styles from './Container.module.css'
 
 const Container = ({ children }) => (
-  <div className={styles.Container}>{children}</div>
+  <div className={styles.container}>{children}</div>
 )
 
 Container.propTypes = {

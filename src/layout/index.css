@@ -1,7 +1,20 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+.container {
+  min-height: calc(100vh - 15rem);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 5rem;
+}
+
 body {
   font-family: Roboto, sans-serif;
   color: #222;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.4px;
 }
 
 p,

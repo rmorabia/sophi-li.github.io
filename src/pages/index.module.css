@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  margin: -1.5rem auto;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2.5rem;
+  /* text-align: center; */
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  color: gray;
+}
+
+.headshot {
+  width: 20rem;
+}
+
+@media only screen and (min-width: 720px) {
+  /* Desktop display */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .aboutContainer {
+    max-width: 70%;
+    margin-right: 2rem;
+  }
+
+  .headshot {
+    width: 12rem;
+    margin-top: 6.5rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* Desktop display */
+  .headshot {
+    width: 15rem;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+}
