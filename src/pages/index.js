@@ -44,6 +44,7 @@ const Home = () => (
         <img
           src="sophia-headshot.JPG"
           className={styles.headshot}
+          alt="Photo of Sophia"
           onMouseOver={e => (e.currentTarget.src = 'sophia-painted-ladies.JPG')}
           onMouseOut={e => (e.currentTarget.src = 'sophia-headshot.JPG')}
         />

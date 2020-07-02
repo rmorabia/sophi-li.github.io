@@ -15,6 +15,7 @@
 
 .headshot {
   width: 20rem;
+  border-radius: 6px;
 }
 
 @media only screen and (min-width: 720px) {
