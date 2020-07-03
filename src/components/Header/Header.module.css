@@ -1,5 +1,5 @@
 .ListLink {
-  margin-right: 1rem;
+  padding-right: 0.5rem;
 }
 
 .Link {
@@ -18,13 +18,13 @@
   margin-top: 1rem;
   margin-bottom: 2.5rem;
   /* border-bottom: 1px solid darkgray; */
-  display: flex;
+  display: block;
 }
 
 .title {
   display: inline-block;
   color: #2a5aa7;
-  margin-left: -2rem;
+  padding-right: 0;
 }
 
 .title:hover {
@@ -40,9 +40,7 @@
 @media only screen and (min-width: 300px) {
   /* Phone display */
   .title {
-    margin-left: -1rem;
     display: inline-block;
-    color: #2a5aa7;
   }
 }
 
@@ -50,7 +48,6 @@
   /* Desktop display */
   .Header {
     margin-bottom: 2rem;
-    display: block;
   }
   .title {
     margin-left: 0;

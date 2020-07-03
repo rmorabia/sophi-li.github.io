@@ -1,12 +1,11 @@
 .ulContainer {
   padding: 0;
-  margin-left: -1rem;
 }
 
 .footerLink {
   display: inline;
   list-style: none;
-  margin: 0 1rem 0 0;
+  margin: 0;
   padding: 1rem;
 }
 
@@ -20,6 +19,7 @@
   text-decoration: none;
   color: #6e6e6e;
 }
+
 .footerLink a:hover {
   color: #2a5aa7;
 }
@@ -29,4 +29,22 @@ footer {
   bottom: 0;
   width: 100%;
   margin-bottom: 4rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+  footer {
+    text-align: left;
+  }
+  .ulContainer {
+    padding: 0;
+    margin-left: -1rem;
+  }
+
+  .footerLink {
+    display: inline;
+    list-style: none;
+    margin: 0 1rem 0 0;
+    padding: 1rem;
+  }
 }

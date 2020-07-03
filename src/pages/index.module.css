@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  margin: -1.5rem auto;
+  margin: 0 auto;
   flex-direction: column;
 }
 
@@ -13,8 +13,12 @@
   color: #6e6e6e;
 }
 
+.headshotContainer {
+  text-align: center;
+}
+
 .headshot {
-  width: 20rem;
+  width: 17rem;
   border-radius: 6px;
 }
 
@@ -41,19 +45,4 @@
   .headshot {
     width: 15rem;
   }
-}
-
-#root {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  height: 100%;
-}
-
-html,
-body {
-  height: 100%;
 }

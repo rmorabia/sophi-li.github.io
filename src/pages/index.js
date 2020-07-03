@@ -26,7 +26,7 @@ const Home = () => (
         </p>
 
         <p>
-          You can read my <Link to="/blog">blog</Link>, explore new{' '}
+          You can read my <Link to="/blog">blog</Link>, explore{' '}
           <Link to="/projects">projects</Link> I'm building, or check out how I
           set{' '}
           <a
