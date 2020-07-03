@@ -3,6 +3,7 @@
 }
 
 .Link {
+  padding-right: 0.2rem;
   text-decoration: none;
   color: #222;
 }
@@ -36,13 +37,6 @@
   display: flex;
 }
 
-@media only screen and (min-width: 300px) {
-  /* Phone display */
-  .title {
-    display: inline-block;
-  }
-}
-
 @media only screen and (min-width: 500px) {
   /* Desktop display */
   .Header {
@@ -54,6 +48,7 @@
     color: #2a5aa7;
   }
   .Link {
+    margin-right: 0;
     padding: 0.7rem 1rem;
     text-decoration: none;
     color: #222;
