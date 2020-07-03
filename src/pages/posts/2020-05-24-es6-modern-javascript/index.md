@@ -2,7 +2,7 @@
 path: '/modern-javascript-es6'
 date: '2020-05-25'
 title: 'Modern JavaScript: ES6 and Beyond'
-tags: ['javascript']
+tags: ['javascript', 'fundamentals']
 category: 'code'
 ---
 

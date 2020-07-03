@@ -15,19 +15,39 @@
 
 .blogContainer:active {
   background-color: whitesmoke;
-  border-radius: 4px;
   border-style: dashed;
   border-width: 1px;
 }
 
 .blogTitle {
-  color: black;
+  color: #222;
   font-size: 1.1rem;
+}
+
+.blogTags {
+  color: #2a5aa7;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  margin-right: 0.5rem;
+  border: 1px solid #e3ebf7;
+  padding: 4px 4px 2px 4px;
+  font-size: 0.9rem;
+  margin-top: -0.7rem;
+  margin-right: 1rem;
+  background-color: #e3ebf7;
+  color: #222;
+  border-radius: 5px;
+  text-align: center;
 }
 
 .blogDate {
   color: gray;
   font-size: 0.9rem;
+  margin-top: -0.4rem;
 }
 
 .categoryName {

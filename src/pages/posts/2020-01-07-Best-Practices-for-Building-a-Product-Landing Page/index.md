@@ -2,7 +2,7 @@
 path: '/Best-Practices-for-Building-a-Product-Landing Page'
 date: '2020-01-07'
 title: 'Best Practices for Building a Product Landing Page'
-tags: ['landing page']
+tags: ['project']
 category: 'projects'
 ---
 

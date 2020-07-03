@@ -18,6 +18,14 @@ const Blog = ({
         <Link to={frontmatter.path} className={styles.linkContainer}>
           <div className={styles.blogContainer}>
             <p className={styles.blogTitle}>{frontmatter.title}</p>{' '}
+            <div className={styles.blogTags}>
+              {frontmatter.tags.map(tag => (
+                <p className={styles.tag} key={tag}>
+                  {' '}
+                  {tag}{' '}
+                </p>
+              ))}
+            </div>
             <p className={styles.blogDate}>{frontmatter.date}</p>
           </div>
         </Link>
@@ -54,6 +62,7 @@ export const query = graphql`
           frontmatter {
             title
             path
+            tags
             date(formatString: "MMMM DD, YYYY")
           }
         }
