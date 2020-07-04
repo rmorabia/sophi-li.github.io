@@ -12,7 +12,7 @@ const Blog = ({
   },
 }) => (
   <Layout>
-    <h1>Blog</h1>
+    <h1 className="header">Blog</h1>
     {edges.map(({ node: { frontmatter } }) => (
       <div key={frontmatter.path}>
         <Link to={frontmatter.path} className="linkContainer">

@@ -1,3 +1,7 @@
+.header {
+  padding-left: 0.7rem;
+}
+
 .linkContainer {
   text-decoration: none;
 }
@@ -10,13 +14,7 @@
 
 .blogContainer:hover {
   background-color: whitesmoke;
-  border-radius: 4px;
-}
-
-.blogContainer:active {
-  background-color: whitesmoke;
-  border-style: dashed;
-  border-width: 1px;
+  border-radius: 6px;
 }
 
 .blogTitle {
@@ -43,7 +41,7 @@
   margin-right: 0.5rem;
   padding: 3px 5px 3px 5px;
   font-size: 0.9rem;
-  margin-top: -0.7rem;
+  margin-top: -0.8rem;
   margin-right: 0.6rem;
   background-color: #e3ebf7;
   color: #222;
