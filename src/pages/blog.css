@@ -3,7 +3,6 @@
 }
 
 .blogContainer {
-  border-bottom: 1px solid #5c8bd6;
   padding: 0.7rem;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,7 @@
 
 .blogTitle {
   color: #222;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .dateContainer {
@@ -52,7 +51,7 @@
   text-align: center;
 }
 
-/* MEDIA QUERIES FOR DESKTOP */
+/* DESKTOP RESPONSIVENESS */
 @media only screen and (min-width: 520px) {
   .blogContainer {
     display: flex;
@@ -60,7 +59,7 @@
   }
 
   .dateContainer {
-    margin-top: 0rem;
+    margin-top: 0.1rem;
   }
 
   .titleTagContainer {
