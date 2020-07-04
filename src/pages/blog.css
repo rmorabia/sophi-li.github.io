@@ -7,7 +7,6 @@
   padding: 0.7rem;
   display: flex;
   flex-direction: column;
-  /* background-color: lavender; */
 }
 
 .blogContainer:hover {
@@ -19,7 +18,6 @@
   background-color: whitesmoke;
   border-style: dashed;
   border-width: 1px;
-  /* column-count: 4; */
 }
 
 .blogTitle {
@@ -28,7 +26,6 @@
 }
 
 .dateContainer {
-  /* background-color: palevioletred; */
   margin-top: -1.2rem;
 }
 
@@ -68,13 +65,11 @@
 
   .titleTagContainer {
     flex: 3;
-    /* background-color: powderblue; */
     margin-right: 1rem;
   }
 }
 
 /* TAG COLORS */
-
 .tag-javascript {
   background-color: #fff6d6;
 }
@@ -108,7 +103,6 @@
 }
 
 /* CATEGORY PAGE */
-
 .categoryName {
   margin-top: 2rem;
   text-transform: capitalize;
