@@ -13,8 +13,8 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Bread Puns API</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>Express</p>
-          <p className={styles.projectTech}>Node.js</p>
+          <p className={`${styles.projectTech} ${styles.express}`}>Express</p>
+          <p className={`${styles.projectTech} ${styles.node}`}>Node.js</p>
         </div>
       </div>
 
@@ -43,8 +43,10 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Recipe Web Scraper</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>JavaScript</p>
-          <p className={styles.projectTech}>Playwright</p>
+          <p className={`${styles.projectTech} ${styles.javascript}`}>
+            JavaScript
+          </p>
+          <p className={`${styles.projectTech} ${styles.api}`}>Playwright</p>
         </div>
       </div>
 
@@ -73,8 +75,8 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Sophia's Recipes</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>Gatsby</p>
-          <p className={styles.projectTech}>React</p>
+          <p className={`${styles.projectTech} ${styles.gatsby}`}>Gatsby</p>
+          <p className={`${styles.projectTech} ${styles.react}`}>React</p>
         </div>
       </div>
       <div>Minimalistic recipe website of my tried and true recipes.</div>
@@ -102,9 +104,12 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Sourdough Starter Reminder</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>Node.js</p>
-          <p className={styles.projectTech}> Azure </p>
-          <p className={styles.projectTech}>Twilio</p>
+          <p className={`${styles.projectTech} ${styles.node}`}>Node.js</p>
+          <p className={`${styles.projectTech} ${styles.deployment}`}>
+            {' '}
+            Azure{' '}
+          </p>
+          <p className={`${styles.projectTech} ${styles.api}`}>Twilio</p>
         </div>
       </div>
       <div>
@@ -135,10 +140,10 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>Chat With Earth</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>Node.js</p>
-          <p className={styles.projectTech}>Azure</p>
-          <p className={styles.projectTech}>Twilio</p>
-          <p className={styles.projectTech}>NASA API</p>
+          <p className={`${styles.projectTech} ${styles.node}`}>Node.js</p>
+          <p className={`${styles.projectTech} ${styles.deployment}`}>Azure</p>
+          <p className={`${styles.projectTech} ${styles.api}`}>Twilio</p>
+          <p className={`${styles.projectTech} ${styles.api}`}>NASA API</p>
         </div>
       </div>
       <div>An app that let's you "chat" with Earth through text messages.</div>
@@ -166,8 +171,8 @@ const Projects = () => (
       <div className={styles.projectContainer}>
         <p className={styles.projectTitle}>15Five Product Landing Page</p>
         <div className={styles.projectTechContainer}>
-          <p className={styles.projectTech}>HTML</p>
-          <p className={styles.projectTech}>CSS</p>
+          <p className={`${styles.projectTech} ${styles.html}`}>HTML</p>
+          <p className={`${styles.projectTech} ${styles.css}`}>CSS</p>
         </div>
       </div>
       <div>

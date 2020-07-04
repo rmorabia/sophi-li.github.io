@@ -22,8 +22,8 @@
   border-radius: 6px;
 }
 
+/* DESKTOP RESPONSIVENESS */
 @media only screen and (min-width: 720px) {
-  /* Desktop display */
   .container {
     display: flex;
     flex-direction: row;
@@ -41,7 +41,6 @@
 }
 
 @media only screen and (min-width: 900px) {
-  /* Desktop display */
   .headshot {
     width: 15rem;
   }
