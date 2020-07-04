@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import styles from './blog.module.css'
+import './blog.css'
 
 import Layout from '../layout'
 
@@ -15,18 +15,21 @@ const Blog = ({
     <h1>Blog</h1>
     {edges.map(({ node: { frontmatter } }) => (
       <div key={frontmatter.path}>
-        <Link to={frontmatter.path} className={styles.linkContainer}>
-          <div className={styles.blogContainer}>
-            <p className={styles.blogTitle}>{frontmatter.title}</p>{' '}
-            <div className={styles.blogTags}>
-              {frontmatter.tags.map(tag => (
-                <p className={styles.tag} key={tag}>
-                  {' '}
-                  {tag}{' '}
-                </p>
-              ))}
+        <Link to={frontmatter.path} className="linkContainer">
+          <div className="blogContainer">
+            <div className="titleTagContainer">
+              <p className="blogTitle">{frontmatter.title}</p>{' '}
+              <div className="blogTags">
+                {frontmatter.tags.map(tag => (
+                  <p className={`tag tag-${tag}`} key={tag}>
+                    {tag}
+                  </p>
+                ))}
+              </div>
             </div>
-            <p className={styles.blogDate}>{frontmatter.date}</p>
+            <div className="dateContainer">
+              <p className="blogDate">{frontmatter.date}</p>
+            </div>
           </div>
         </Link>
       </div>

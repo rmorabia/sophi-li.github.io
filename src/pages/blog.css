@@ -1,0 +1,115 @@
+.linkContainer {
+  text-decoration: none;
+}
+
+.blogContainer {
+  border-bottom: 1px solid #5c8bd6;
+  padding: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  /* background-color: lavender; */
+}
+
+.blogContainer:hover {
+  background-color: whitesmoke;
+  border-radius: 4px;
+}
+
+.blogContainer:active {
+  background-color: whitesmoke;
+  border-style: dashed;
+  border-width: 1px;
+  /* column-count: 4; */
+}
+
+.blogTitle {
+  color: #222;
+  font-size: 1rem;
+}
+
+.dateContainer {
+  /* background-color: palevioletred; */
+  margin-top: -1.2rem;
+}
+
+.blogDate {
+  color: #6e6e6e;
+}
+
+.blogTags {
+  color: #2a5aa7;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.tag {
+  margin-right: 0.5rem;
+  padding: 3px 5px 3px 5px;
+  font-size: 0.9rem;
+  margin-top: -0.7rem;
+  margin-right: 0.6rem;
+  background-color: #e3ebf7;
+  color: #222;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* MEDIA QUERIES FOR DESKTOP */
+@media only screen and (min-width: 520px) {
+  .blogContainer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .dateContainer {
+    margin-top: 0rem;
+  }
+
+  .titleTagContainer {
+    flex: 3;
+    /* background-color: powderblue; */
+    margin-right: 1rem;
+  }
+}
+
+/* TAG COLORS */
+
+.tag-javascript {
+  background-color: #fff6d6;
+}
+
+.tag-fundamentals {
+  background-color: #e0ffe9;
+}
+
+.tag-api,
+.tag-interview,
+.tag-hacktoberfest {
+  background-color: #ffe2f7;
+  color: #c81492;
+}
+
+.tag-react,
+.tag-productivity {
+  background-color: #dce3ff;
+  color: #2543bb;
+}
+
+.tag-node {
+  background-color: #ffe7de;
+  color: #b93201;
+}
+
+.tag-deployment,
+.tag-project {
+  background-color: #eae3ff;
+  color: #4714ff;
+}
+
+/* CATEGORY PAGE */
+
+.categoryName {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}
