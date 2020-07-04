@@ -41,4 +41,4 @@ gatsby develop
 
 ## License
 
-[MIT]()
+[MIT](https://github.com/sophi-li/sophi-li.github.io/blob/master/LICENSE)
