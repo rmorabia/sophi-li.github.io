@@ -9,7 +9,7 @@ import Container from '../Container'
 const activeLinkStyle = {
   backgroundColor: 'whitesmoke',
   borderRadius: 6,
-  color: '#2a5aa7',
+  color: '#222',
   padding: '0.7rem 1rem',
 }
 

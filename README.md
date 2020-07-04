@@ -1,12 +1,8 @@
-<h1 align="center">Sophia's website</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://twitter.com/sophia_wyl">
-    <img alt="Twitter: sophia_wyl" src="https://img.shields.io/twitter/follow/sophia_wyl.svg?style=social" target="_blank" />
-  </a>
-</p>
+<h1><a href="https://sophiali.dev/">sophiali.dev</a></h1>
 
-> Built with Gatsby
+[![Netlify Status](https://api.netlify.com/api/v1/badges/541ef97f-1475-4514-a495-ae80852f1a34/deploy-status)](https://app.netlify.com/sites/condescending-euler-9ceacf/deploys) ![GitHub top language](https://img.shields.io/github/languages/top/sophi-li/sophi-li.github.io.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+> Sophia's [website](https://sophiali.dev/), built with Gatsby, React, and Node.js.
 
 ## Install
 
@@ -28,7 +24,7 @@ cd sophi-li.github.io.git
 npm install
 ```
 
-## Devlopment
+## Development
 
 Run live server using [Gatsby CLI](https://www.gatsbyjs.org/docs/gatsby-cli/):
 
@@ -42,3 +38,7 @@ gatsby develop
 
 - Twitter: [@sophia_wyl](https://twitter.com/sophia_wyl)
 - GitHub: [@sophi-li](https://github.com/sophi-li)
+
+## License
+
+[MIT]()

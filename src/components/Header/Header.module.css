@@ -5,13 +5,14 @@
 .Link {
   padding-right: 0.2rem;
   text-decoration: none;
-  color: #222;
+  /* color: #6e6e6e; */
+  color: #636363;
 }
 
 .Link:hover {
   background-color: whitesmoke;
   border-radius: 6px;
-  color: #2a5aa7;
+  color: #222;
   text-decoration: underline;
 }
 
@@ -45,12 +46,12 @@
   .title {
     margin-left: 0;
     display: inline-block;
-    color: #2a5aa7;
+    /* color: #2a5aa7; */
   }
   .Link {
     margin-right: 0;
     padding: 0.7rem 1rem;
     text-decoration: none;
-    color: #222;
+    /* color: #222; */
   }
 }
