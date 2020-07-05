@@ -18,7 +18,9 @@ const Projects = () => (
         </div>
       </div>
 
-      <div>A wholewheat API for all your bread pun kneads.</div>
+      <div className={styles.projectDescription}>
+        A wholewheat API for all your bread pun kneads.
+      </div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
@@ -50,7 +52,9 @@ const Projects = () => (
         </div>
       </div>
 
-      <div>Node package for scraping websites with schema recipe data.</div>
+      <div className={styles.projectDescription}>
+        Node package for scraping websites with schema recipe data.
+      </div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
@@ -79,7 +83,9 @@ const Projects = () => (
           <p className={`${styles.projectTech} ${styles.react}`}>React</p>
         </div>
       </div>
-      <div>Minimalistic recipe website of my tried and true recipes.</div>
+      <div className={styles.projectDescription}>
+        Minimalistic recipe website of my tried and true recipes.
+      </div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
@@ -112,7 +118,7 @@ const Projects = () => (
           <p className={`${styles.projectTech} ${styles.api}`}>Twilio</p>
         </div>
       </div>
-      <div>
+      <div className={styles.projectDescription}>
         An app that sends automatic text message reminders with custom messages
         and cadence.
       </div>
@@ -146,7 +152,9 @@ const Projects = () => (
           <p className={`${styles.projectTech} ${styles.api}`}>NASA API</p>
         </div>
       </div>
-      <div>An app that let's you "chat" with Earth through text messages.</div>
+      <div className={styles.projectDescription}>
+        An app that let's you "chat" with Earth through text messages.
+      </div>
       <div className={styles.projectLinkContainer}>
         <a
           className={styles.projectLink}
@@ -175,7 +183,7 @@ const Projects = () => (
           <p className={`${styles.projectTech} ${styles.css}`}>CSS</p>
         </div>
       </div>
-      <div>
+      <div className={styles.projectDescription}>
         My re-creation of 15Five's product landing page, a continuous
         performance management suite.
       </div>
@@ -203,6 +211,38 @@ const Projects = () => (
           rel="noopener noreferrer"
         >
           Blog
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <div className={styles.projectContainer}>
+        <p className={styles.projectTitle}>sophiali.dev</p>
+        <div className={styles.projectTechContainer}>
+          <p className={`${styles.projectTech} ${styles.gatsby}`}>Gatsby</p>
+          <p className={`${styles.projectTech} ${styles.react}`}>React</p>
+          <p className={`${styles.projectTech} ${styles.node}`}>Node.js</p>
+        </div>
+      </div>
+      <div className={styles.projectDescription}>
+        Personal Gatsby theme (the source for this website).
+      </div>
+      <div className={styles.projectLinkContainer}>
+        <a
+          className={styles.projectLink}
+          href="https://github.com/sophi-li/sophi-li.github.io"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Code
+        </a>
+        <a
+          className={styles.projectLink}
+          href="https://sophiali.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Live
         </a>
       </div>
     </section>
