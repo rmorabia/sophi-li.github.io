@@ -14,7 +14,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/bread-puns-api.png"
-          alt="screenshot of bread puns API project"
+          alt="screenshot of bread puns API project website"
         />
       </div>
       <div className={styles.projectContent}>
@@ -55,7 +55,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/recipe-scraper.png"
-          alt="screenshot of recipe scraper project"
+          alt="screenshot of recipe scraper project npm site"
         />
       </div>
       <div className={styles.projectContent}>
@@ -98,7 +98,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/sophias-recipes.png"
-          alt="screenshot of bread sophia's recipe website"
+          alt="screenshot of sophia's recipe website"
         />
       </div>
       <div className={styles.projectContent}>
@@ -227,7 +227,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/15five.png"
-          alt="scrrenshot of 15Five Product Landing Page website"
+          alt="screenshot of 15Five Product Landing Page website"
         />
       </div>
       <div className={styles.projectContent}>
@@ -276,7 +276,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/sophias-website.png"
-          alt="scrrenshot of Sophia's website"
+          alt="screenshot of Sophia's website"
         />
       </div>
       <div className={styles.projectContent}>
