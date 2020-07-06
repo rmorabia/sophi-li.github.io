@@ -13,7 +13,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/bread-puns-api.png"
+          src="bread-puns-api.png"
           alt="screenshot of bread puns API project website"
         />
       </div>
@@ -54,7 +54,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/recipe-scraper.png"
+          src="recipe-scraper.png"
           alt="screenshot of recipe scraper project npm site"
         />
       </div>
@@ -97,7 +97,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/sophias-recipes.png"
+          src="sophias-recipes.png"
           alt="screenshot of sophia's recipe website"
         />
       </div>
@@ -137,7 +137,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/sourdough-reminder.png"
+          src="sourdough-reminder.png"
           alt="screenshot of blog from dev.to for the sourdough starter reminder project"
         />
       </div>
@@ -182,7 +182,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/chat-with-earth.png"
+          src="chat-with-earth.png"
           alt='screenshot of text message between earth ("hey- u up?") and astronaut ("on moon rn- sup?")'
         />
       </div>
@@ -226,7 +226,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/15five.png"
+          src="15five.png"
           alt="screenshot of 15Five Product Landing Page website"
         />
       </div>
