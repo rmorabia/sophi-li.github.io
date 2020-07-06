@@ -14,6 +14,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/bread-puns-api.png"
+          alt="screenshot of bread puns API project"
         />
       </div>
       <div className={styles.projectContent}>
@@ -54,6 +55,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/recipe-scraper.png"
+          alt="screenshot of recipe scraper project"
         />
       </div>
       <div className={styles.projectContent}>
@@ -96,6 +98,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/sophias-recipes.png"
+          alt="screenshot of bread sophia's recipe website"
         />
       </div>
       <div className={styles.projectContent}>
@@ -135,6 +138,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/sourdough-reminder.png"
+          alt="screenshot of blog from dev.to for the sourdough starter reminder project"
         />
       </div>
       <div className={styles.projectContent}>
@@ -179,6 +183,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/chat-with-earth.png"
+          alt='screenshot of text message between earth ("hey- u up?") and astronaut ("on moon rn- sup?")'
         />
       </div>
       <div className={styles.projectContent}>
@@ -219,7 +224,11 @@ const Projects = () => (
 
     <section className={styles.container}>
       <div>
-        <img className={styles.projectImage} src="project-images/15five.png" />
+        <img
+          className={styles.projectImage}
+          src="project-images/15five.png"
+          alt="scrrenshot of 15Five Product Landing Page website"
+        />
       </div>
       <div className={styles.projectContent}>
         <div className={styles.projectContainer}>
@@ -267,6 +276,7 @@ const Projects = () => (
         <img
           className={styles.projectImage}
           src="project-images/sophias-website.png"
+          alt="scrrenshot of Sophia's website"
         />
       </div>
       <div className={styles.projectContent}>
