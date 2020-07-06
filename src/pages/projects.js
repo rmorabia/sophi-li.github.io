@@ -275,7 +275,7 @@ const Projects = () => (
       <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
-          src="project-images/sophias-website.png"
+          src="sophias-website.png"
           alt="screenshot of Sophia's website"
         />
       </div>
