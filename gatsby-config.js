@@ -56,20 +56,5 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       {
-    //         family: `Roboto Mono`,
-    //         variants: [`400`, `700`],
-    //       },
-    //       {
-    //         family: `Roboto`,
-    //         subsets: [`latin`],
-    //       },
-    //     ],
-    //   },
-    // },
   ],
 }
