@@ -4,11 +4,16 @@
   margin-bottom: 2rem;
 }
 
+.imageContainer {
+  flex: 1;
+}
+
 .projectImage {
   width: 300px;
   border-radius: 6px;
   margin-bottom: -2rem;
   border: 1px solid #e8e8e8;
+  flex: 1;
 }
 
 .projectContainer {

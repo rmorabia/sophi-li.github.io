@@ -10,7 +10,7 @@ const Projects = () => (
     <h1 className={styles.titleheadermargin}>Projects</h1>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/bread-puns-api.png"
@@ -51,7 +51,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/recipe-scraper.png"
@@ -94,7 +94,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/sophias-recipes.png"
@@ -134,7 +134,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/sourdough-reminder.png"
@@ -179,7 +179,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/chat-with-earth.png"
@@ -223,7 +223,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/15five.png"
@@ -272,7 +272,7 @@ const Projects = () => (
     </section>
 
     <section className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           className={styles.projectImage}
           src="project-images/sophias-website.png"
