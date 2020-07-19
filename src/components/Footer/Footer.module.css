@@ -6,10 +6,14 @@
   display: inline;
   list-style: none;
   margin: 0;
-  padding: 1rem;
 }
 
-.footerLink:hover {
+.aTag {
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.aTag:hover {
   border-radius: 6px;
   text-decoration: underline;
   background-color: whitesmoke;
@@ -46,6 +50,7 @@ footer {
     display: inline;
     list-style: none;
     margin: 0 1rem 0 0;
-    padding: 1rem;
+    /* background-color: darkgreen; */
+    /* padding: 1rem; */
   }
 }

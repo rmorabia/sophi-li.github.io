@@ -36,7 +36,9 @@ const Footer = () => {
           // onMouseOver={showInstruction}
           // onMouseOut={hideInstruction}
         >
-          <a href="mailto:sophiali.wy@gmail.com">Email</a>
+          <a className={styles.aTag} href="mailto:sophiali.wy@gmail.com">
+            Email
+          </a>
         </li>
 
         <li className={styles.footerLink}>
@@ -44,6 +46,7 @@ const Footer = () => {
             href="https://github.com/sophi-li"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.aTag}
           >
             GitHub
           </a>
@@ -53,6 +56,7 @@ const Footer = () => {
             href="https://twitter.com/sophia_wyl"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.aTag}
           >
             Twitter
           </a>
@@ -62,6 +66,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/sophiali124/"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.aTag}
           >
             LinkedIn
           </a>
