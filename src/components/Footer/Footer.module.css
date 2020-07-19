@@ -36,9 +36,10 @@ footer {
   footer {
     text-align: left;
   }
+
   .ulContainer {
     padding: 0;
-    margin-left: -1rem;
+    margin-left: -0.3rem;
   }
 
   .footerLink {

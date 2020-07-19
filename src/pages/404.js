@@ -1,6 +1,13 @@
 import React from 'react'
+
 import Layout from '../layout'
 
-const NotFound = () => <Layout>Oops! Page not found.</Layout>
+import styles from './404.module.css'
+
+const NotFound = () => (
+  <Layout>
+    <div className={styles.container}>Oops! Page not found.</div>
+  </Layout>
+)
 
 export default NotFound
