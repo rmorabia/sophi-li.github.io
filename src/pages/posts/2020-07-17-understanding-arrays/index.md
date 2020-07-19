@@ -403,7 +403,7 @@ for (let i of animals) {
 In this blog, we learned:
 
 - How arrays help condense and organize code.
-- How to create arrays using bracket `[]` notation.
+- How to create arrays using bracket `[]` notation (the preferred method) and array constructors.
 - How arrays are indexed starting at `0`.
 - How to access items using `[indexNumber]`.
 - How to find the length of an array using the `length` method.
