@@ -40,7 +40,7 @@
 @media only screen and (min-width: 500px) {
   .Header {
     margin-bottom: 2rem;
-    padding: 0 1.2rem;
+    padding-left: 0.9rem;
   }
   .title {
     margin-left: 0;
