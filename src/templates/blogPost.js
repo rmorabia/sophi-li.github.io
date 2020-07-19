@@ -37,10 +37,8 @@ const BlogTemplate = ({ data, pageContext }) => {
         <p className={styles.linkpTag}>
           {next && (
             <Link to={next.frontmatter.path} className={styles.link}>
-              {next.frontmatter.title}
               <span role="img" aria-label="right arrow">
-                {' '}
-                ➡️
+                {next.frontmatter.title} ➡️
               </span>
             </Link>
           )}
