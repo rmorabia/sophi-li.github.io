@@ -7,7 +7,7 @@
 }
 
 .blogContainer {
-  padding: 0 0.7rem;
+  padding: 0.1rem 0.7rem;
   display: flex;
   flex-direction: column;
 }
@@ -20,14 +20,17 @@
 .blogTitle {
   color: #222;
   font-size: 1.1rem;
+  font-weight: 440;
 }
 
 .dateContainer {
-  margin-top: -1.2rem;
+  margin-top: -1.3rem;
 }
 
 .blogDate {
   color: #636363;
+  font-size: 0.96rem;
+  /* background-color: aqua; */
 }
 
 .blogTags {
@@ -57,7 +60,7 @@
   }
 
   .dateContainer {
-    margin-top: 0.1rem;
+    margin-top: 0.2rem;
   }
 
   .titleTagContainer {
