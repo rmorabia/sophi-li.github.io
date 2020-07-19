@@ -1,42 +1,48 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from './Footer.module.css'
 
 const Footer = () => {
-  // const [copySuccess, setCopySuccess] = useState('')
-  // const [instructions, setInstructions] = useState('')
-  // const emailToCopy = 'sophiali.wy@gmail.com'
+  const [copySuccess, setCopySuccess] = useState('')
+  const [instructions, setInstructions] = useState('')
+  const emailToCopy = 'sophiali.wy@gmail.com'
 
-  // function copyEmail() {
-  //   navigator.clipboard.writeText(emailToCopy)
-  //   setCopySuccess('sophiali.wy@gmail.com copied to clipboard')
-  //   setInstructions('')
-  // }
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setCopySuccess('')
+    }, 5000)
+    return () => clearTimeout(timer)
+  }, [copySuccess])
 
-  // function showInstruction() {
-  //   if (copySuccess === 'sophiali.wy@gmail.com copied to clipboard') {
-  //     return
-  //   }
-  //   setInstructions('click to copy sophiali.wy@gmail.com')
-  // }
+  function copyEmail() {
+    navigator.clipboard.writeText(emailToCopy)
+    setCopySuccess('sophiali.wy@gmail.com copied to clipboard')
+    setInstructions('')
+  }
 
-  // function hideInstruction() {
-  //   setInstructions('')
-  // }
+  function showInstruction() {
+    if (copySuccess === 'sophiali.wy@gmail.com copied to clipboard') {
+      return
+    }
+    setInstructions('click to copy sophiali.wy@gmail.com')
+  }
+
+  function hideInstruction() {
+    setInstructions('')
+  }
 
   return (
     <footer>
-      {/* <p>
-        {' '}
-        {copySuccess} {instructions}{' '}
-      </p> */}
+      <div className={styles.instructions}>
+        {copySuccess} {instructions}
+      </div>
       <ul className={styles.ulContainer}>
-        <li
-          className={styles.footerLink}
-          // onClick={copyEmail}
-          // onMouseOver={showInstruction}
-          // onMouseOut={hideInstruction}
-        >
-          <a className={styles.aTag} href="mailto:sophiali.wy@gmail.com">
+        <li className={styles.footerLink}>
+          <a
+            className={styles.aTag}
+            onClick={copyEmail}
+            onMouseOver={showInstruction}
+            onMouseOut={hideInstruction}
+          >
             Email
           </a>
         </li>
