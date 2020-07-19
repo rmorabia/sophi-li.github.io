@@ -23,27 +23,30 @@ const BlogTemplate = ({ data, pageContext }) => {
         className={styles.blogpost}
         dangerouslySetInnerHTML={{ __html: html }}
       ></div>
-      <p>
-        {prev && (
-          <Link to={prev.frontmatter.path}>
-            <span role="img" aria-label="left arrow">
-              ⬅️{' '}
-            </span>
-            {prev.frontmatter.title}
-          </Link>
-        )}
-      </p>
-      <p>
-        {next && (
-          <Link to={next.frontmatter.path}>
-            {next.frontmatter.title}
-            <span role="img" aria-label="right arrow">
-              {' '}
-              ➡️
-            </span>
-          </Link>
-        )}
-      </p>
+      <h2>Up Next</h2>
+      <div className={styles.linkContainer}>
+        <p className={styles.linkpTag}>
+          {prev && (
+            <Link to={prev.frontmatter.path} className={styles.link}>
+              <span role="img" aria-label="left arrow">
+                ⬅️{' '}
+              </span>
+              {prev.frontmatter.title}
+            </Link>
+          )}
+        </p>
+        <p className={styles.linkpTag}>
+          {next && (
+            <Link to={next.frontmatter.path} className={styles.link}>
+              {next.frontmatter.title}
+              <span role="img" aria-label="right arrow">
+                {' '}
+                ➡️
+              </span>
+            </Link>
+          )}
+        </p>
+      </div>
     </Layout>
   )
 }
