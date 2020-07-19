@@ -17,7 +17,7 @@ const Resume = () => (
             </a>
           </strong>
         </p>
-        <p>Currently looking for a software engineering role.</p>
+        <p>Actively interviewing for software engineering roles.</p>
         <p>
           <strong>Coding from:</strong> San Francisco 🌁
         </p>
