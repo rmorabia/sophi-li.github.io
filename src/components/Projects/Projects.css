@@ -1,8 +1,4 @@
-.pageContainer {
-  padding: 0 0.7rem;
-}
-
-/* .container {
+.containerProject {
   display: flex;
   flex-direction: column;
   margin-bottom: 2rem;
@@ -70,11 +66,11 @@
   border-radius: 6px;
   color: #222;
   text-decoration: underline;
-} */
+}
 
 /* DESKTOP RESPONSIVENESS */
-/* @media only screen and (min-width: 750px) {
-  .container {
+@media only screen and (min-width: 750px) {
+  .containerProject {
     flex-direction: row;
     margin-bottom: 4rem;
   }
@@ -109,32 +105,34 @@
   .projectDescription {
     margin-top: -0.6rem;
   }
-} */
+}
 
 /* TECH TAG COLORS */
-/* .express,
-.gatsby,
-.html,
-.css {
+.Express,
+.Gatsby,
+.HTML,
+.CSS {
   background-color: #e0ffe9;
 }
 
-.node {
+.Node {
   background-color: #ffe7de;
 }
 
-.javascript {
+.JavaScript {
   background-color: #fff6d6;
 }
 
-.react {
+.React {
   background-color: #dce3ff;
 }
 
-.api {
+.Playwright,
+.Twilio,
+.NASA {
   background-color: #ffe2f7;
 }
 
-.deployment {
+.Azure {
   background-color: #eae3ff;
-} */
+}
