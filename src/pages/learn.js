@@ -6,7 +6,7 @@ import Layout from '../layout'
 
 const Learn = () => (
   <Layout>
-    <section>
+    <section className={styles.container}>
       <h1>Learning in Public</h1>
       <p>
         My current focus is on front-end development and data structures +

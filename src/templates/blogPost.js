@@ -15,34 +15,36 @@ const BlogTemplate = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <h1>{title}</h1>
-      <p>
-        <i>{date}</i>
-      </p>
-      <div
-        className={styles.blogpost}
-        dangerouslySetInnerHTML={{ __html: html }}
-      ></div>
-      <h2>Up Next</h2>
-      <div className={styles.linkContainer}>
-        <p className={styles.linkpTag}>
-          {prev && (
-            <Link to={prev.frontmatter.path} className={styles.link}>
-              <span role="img" aria-label="left arrow">
-                ⬅️ {prev.frontmatter.title}
-              </span>
-            </Link>
-          )}
+      <div className={styles.container}>
+        <h1>{title}</h1>
+        <p>
+          <i>{date}</i>
         </p>
-        <p className={styles.linkpTag}>
-          {next && (
-            <Link to={next.frontmatter.path} className={styles.link}>
-              <span role="img" aria-label="right arrow">
-                {next.frontmatter.title} ➡️
-              </span>
-            </Link>
-          )}
-        </p>
+        <div
+          className={styles.blogpost}
+          dangerouslySetInnerHTML={{ __html: html }}
+        ></div>
+        <h2>Up Next</h2>
+        <div className={styles.linkContainer}>
+          <p className={styles.linkpTag}>
+            {prev && (
+              <Link to={prev.frontmatter.path} className={styles.link}>
+                <span role="img" aria-label="left arrow">
+                  ⬅️ {prev.frontmatter.title}
+                </span>
+              </Link>
+            )}
+          </p>
+          <p className={styles.linkpTag}>
+            {next && (
+              <Link to={next.frontmatter.path} className={styles.link}>
+                <span role="img" aria-label="right arrow">
+                  {next.frontmatter.title} ➡️
+                </span>
+              </Link>
+            )}
+          </p>
+        </div>
       </div>
     </Layout>
   )
