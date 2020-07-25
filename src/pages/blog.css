@@ -106,7 +106,8 @@
 }
 
 .tag-deployment,
-.tag-project {
+.tag-project,
+.tag-snippets {
   background-color: #eae3ff;
   color: #4714ff;
 }
