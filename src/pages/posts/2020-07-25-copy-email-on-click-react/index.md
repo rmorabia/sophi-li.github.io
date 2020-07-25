@@ -1,7 +1,7 @@
 ---
 path: '/copy-email-address-on-click-react'
 date: '2020-07-25'
-title: 'How to Copy an Email Address with a Click in React'
+title: 'How to Copy an Email Address on Click in React'
 tags: ['react', 'snippets']
 categories: 'code'
 ---
