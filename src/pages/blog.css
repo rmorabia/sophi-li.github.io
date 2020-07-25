@@ -16,8 +16,8 @@
 }
 
 .blogContainer {
-  padding: 0.1rem 0.4rem;
-  margin-left: -0.3rem;
+  padding: 0.1rem 0.7rem;
+  margin-left: -0.7rem;
   display: flex;
   flex-direction: column;
 }
