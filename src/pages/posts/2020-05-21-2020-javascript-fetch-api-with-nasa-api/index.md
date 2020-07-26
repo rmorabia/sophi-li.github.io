@@ -25,7 +25,7 @@ I highly recommend coding along (not copying and pasting) while going through th
 
 ## What is the Fetch API
 
-The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is promise based API for fetching resources through asynchronous HTTP requests in the brwoser.
+The [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) is promise based API for fetching resources through asynchronous HTTP requests in the browser.
 
 In plain English, this means I can use `fetch()` to get stuff (data) from an API and then do stuff to the data I pulled.
 
