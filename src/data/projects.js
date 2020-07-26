@@ -79,6 +79,15 @@ export default [
       'screenshot of text message between earth ("hey- u up?") and astronaut ("on moon rn- sup?")',
   },
   {
+    title: 'Lattice Product Landing Page',
+    description: `A re-creation of Lattice's product landing page, a continuous performance management software.`,
+    tags: [{ className: 'React', language: 'React' }],
+    code: 'https://github.com/sophi-li/lattice',
+    live: 'https://lattice-clone.netlify.app/',
+    image: 'lattice.png',
+    alt: 'screenshot of Lattice Product Landing Page website',
+  },
+  {
     title: 'sophiali.dev',
     description: `Personal Gatsby theme (the source for this website).`,
     tags: [
@@ -90,26 +99,5 @@ export default [
     live: 'https://sophiali.dev',
     image: 'sophias-website.png',
     alt: "screenshot of sophia's website",
-  },
-  {
-    title: 'Lattice Product Landing Page',
-    description: `A re-creation of Lattice's product landing page, a continuous performance management software.`,
-    tags: [{ className: 'React', language: 'React' }],
-    code: 'https://github.com/sophi-li/lattice',
-    live: 'https://lattice-clone.netlify.app/',
-    image: 'lattice.png',
-    alt: 'screenshot of Lattice Product Landing Page website',
-  },
-  {
-    title: '15Five Product Landing Page',
-    description: `A re-creation of 15Five's product landing page, a continuous performance management suite.`,
-    tags: [
-      { className: 'HTML', language: 'HTML' },
-      { className: 'CSS', language: 'CSS' },
-    ],
-    code: 'https://github.com/sophi-li/15five-clone-ish',
-    live: 'https://sophi-li.github.io/15five-clone-ish/',
-    image: '15five.png',
-    alt: 'screenshot of 15Five Product Landing Page website',
   },
 ]
