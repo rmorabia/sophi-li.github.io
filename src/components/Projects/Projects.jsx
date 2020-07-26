@@ -27,7 +27,10 @@ const Projects = ({ project }) => {
             <p className="projectTitle">{title}</p>
             <div className="projectTechContainer">
               {tags.map(elem => (
-                <p className={`projectTech ${elem.className}`} key={elem.id}>
+                <p
+                  className={`projectTech ${elem.className}`}
+                  key={elem.className}
+                >
                   {elem.language}
                 </p>
               ))}
