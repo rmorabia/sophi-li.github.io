@@ -50,7 +50,9 @@ Let's set up our HTML file, `index.html`.
 
 This is what my boilerplate HTML looks like.
 
-```html:title=index.html
+<!-- ```html:title=index.html -->
+
+```nothing:title=index.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -67,7 +69,7 @@ Inside the `body` tag, we'll use the `container`, `title`, `date`, `picture`, an
 
 The `container` and `picture-explanation-container` class attributes are used for styling.
 
-```html:title=index.html
+```nothing:title=index.html
 <body>
   <main class="container">
     <h1>NASA's Astronomy Picture of the Day</h1>
@@ -86,7 +88,7 @@ The `container` and `picture-explanation-container` class attributes are used fo
 
 Next, let's link our `style.css`, `app.js`, and `config.js` files. We'll get to what the `config.js` is used for in a bit.
 
-```html:title=index.html
+```nothing:title=index.html
 <html lang="en">
   <head>
     ...
@@ -103,7 +105,7 @@ Next, let's link our `style.css`, `app.js`, and `config.js` files. We'll get to 
 
 Here's the full code for our `index.html` file.
 
-```html:title=index.html
+```nothing:title=index.html
 <!DOCTYPE html>
 <html lang="en">
   <head>
