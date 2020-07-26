@@ -2,28 +2,28 @@ import React, { useState, useEffect } from 'react'
 import styles from './Footer.module.css'
 
 const Footer = () => {
-  const [copySuccess, setCopySuccess] = useState('')
+  const [copySuccessMessage, setCopySuccessMessage] = useState('')
   const [instructions, setInstructions] = useState('')
-  const emailToCopy = 'sophiali.wy@gmail.com'
+  const email = 'sophiali.wy@gmail.com'
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setCopySuccess('')
+      setCopySuccessMessage('')
     }, 5000)
     return () => clearTimeout(timer)
-  }, [copySuccess])
+  }, [copySuccessMessage])
 
   function copyEmail() {
-    navigator.clipboard.writeText(emailToCopy)
-    setCopySuccess('sophiali.wy@gmail.com copied to clipboard')
+    navigator.clipboard.writeText(email)
+    setCopySuccessMessage(`${email} copied to clipboard`)
     setInstructions('')
   }
 
   function showInstruction() {
-    if (copySuccess === 'sophiali.wy@gmail.com copied to clipboard') {
+    if (copySuccessMessage) {
       return
     }
-    setInstructions('click to copy sophiali.wy@gmail.com')
+    setInstructions(`click to copy ${email}`)
   }
 
   function hideInstruction() {
@@ -33,7 +33,7 @@ const Footer = () => {
   return (
     <footer>
       <div className={styles.instructions}>
-        {copySuccess} {instructions}
+        {copySuccessMessage} {instructions}
       </div>
       <ul className={styles.ulContainer}>
         <li className={styles.footerLink}>
