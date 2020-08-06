@@ -89,7 +89,8 @@
 
 .tag-api,
 .tag-interview,
-.tag-hacktoberfest {
+.tag-hacktoberfest,
+.tag-open-source {
   background-color: #ffe2f7;
   color: #c81492;
 }
