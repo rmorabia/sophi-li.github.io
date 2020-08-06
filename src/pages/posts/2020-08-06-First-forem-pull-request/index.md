@@ -1,7 +1,7 @@
 ---
 path: '/first-forem-open-source-pull-request'
 date: '2020-08-06'
-title: 'Learnings from 1st Live Pairing Session & 1st Pull Request to Forem'
+title: 'Learnings from my 1st Live Pairing Session & 1st Pull Request to Forem'
 tags: ['open-source']
 categories: 'code'
 ---
