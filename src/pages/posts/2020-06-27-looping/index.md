@@ -18,7 +18,7 @@ In this blog, we'll go over the following ways to loop in JavaScript:
 
 ## `for` loop
 
-The `for` loop is takes in three optional expressions, the **initialization**, **condition**, and **final expression**.
+The `for` loop takes in three optional expressions, the **initialization**, **condition**, and **final expression**.
 
 The **initialization** is an expression or variable declaration, typically used to to initialize a counter variable before the loop begins. It often looks like a variation of this: `let i = 0`.
 
