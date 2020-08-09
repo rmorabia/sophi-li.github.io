@@ -47,7 +47,7 @@ const Projects = ({ project }) => {
             >
               Code
             </a>
-            {live ? (
+            {live && (
               <a
                 className="projectLink"
                 href={live}
@@ -56,8 +56,8 @@ const Projects = ({ project }) => {
               >
                 Live
               </a>
-            ) : null}
-            {npm ? (
+            )}
+            {npm && (
               <a
                 className="projectLink"
                 href={npm}
@@ -66,8 +66,8 @@ const Projects = ({ project }) => {
               >
                 npm
               </a>
-            ) : null}
-            {blog ? (
+            )}
+            {blog && (
               <a
                 className="projectLink"
                 href={blog}
@@ -76,7 +76,7 @@ const Projects = ({ project }) => {
               >
                 Blog
               </a>
-            ) : null}
+            )}
           </div>
         </div>
       </section>

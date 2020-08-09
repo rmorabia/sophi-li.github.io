@@ -44,17 +44,20 @@ const Blog = ({
   return (
     <Layout>
       <div className="blogPageContainer">
-        <h1 className="header">Blog</h1>
-        <p>
-          Mostly JavaScript, insights from coding projects, and other thoughts.
-        </p>
-        <form>
-          <input
-            className="input"
-            onChange={handleInputChange}
-            placeholder="Type here to search the blog..."
-          />
-        </form>
+        <header className="header">
+          <h1>Blog</h1>
+          <p className="pageDescription">
+            Mostly JavaScript, insights from coding projects, and other
+            thoughts.
+          </p>
+          <form>
+            <input
+              className="input"
+              onChange={handleInputChange}
+              placeholder="Type here to search the blog..."
+            />
+          </form>
+        </header>
 
         {posts.map(({ node: { frontmatter } }) => (
           <div key={frontmatter.path}>

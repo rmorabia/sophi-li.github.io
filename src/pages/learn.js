@@ -7,7 +7,9 @@ import Layout from '../layout'
 const Learn = () => (
   <Layout>
     <section className={styles.container}>
-      <h1>Learning in Public</h1>
+      <header className="header">
+        <h1>Learning in Public</h1>
+      </header>
       <p>
         My current focus is on front-end development and data structures +
         algorithms for interviewing. Learning in public inspired by{' '}

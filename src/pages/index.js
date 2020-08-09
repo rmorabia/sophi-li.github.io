@@ -8,14 +8,16 @@ const Home = () => (
   <Layout>
     <div className={styles.container}>
       <div className={styles.aboutContainer}>
-        <h1 className={styles.title}>Hi, I'm Sophia</h1>
-        <p className={styles.subtitle}>
-          I'm a software engineer building things on the web with HTML, CSS,
-          JavaScript, React, and Node.js.
+        <h1 className={styles.title}>
+          Hi, I'm Sophia. I'm a software engineer.
+        </h1>
+        <p>
+          I build things on the web with HTML, CSS, JavaScript, React, and
+          Node.js. I enjoy creating intuitive, accessible, and performant sites
+          and apps.
         </p>
 
         <p>
-          I enjoy creating intuitive, accessible, and performant sites and apps.
           I value having a growth mindset, being feedback oriented, and leading
           with empathy.
         </p>

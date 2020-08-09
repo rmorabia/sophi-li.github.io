@@ -10,10 +10,14 @@ const Projects = () => {
   return (
     <Layout>
       <div className={styles.pageContainer}>
-        <h1>Projects</h1>
-        {projects.map(element => (
-          <Project key={element.title} project={element} />
-        ))}
+        <header className="header">
+          <h1>Projects</h1>
+        </header>
+        <div className={styles.projectsContainer}>
+          {projects.map(element => (
+            <Project key={element.title} project={element} />
+          ))}
+        </div>
       </div>
     </Layout>
   )
