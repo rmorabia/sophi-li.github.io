@@ -31,7 +31,7 @@ const Footer = () => {
   }
 
   return (
-    <footer>
+    <footer className={styles.footer}>
       <div className={styles.instructions}>
         {copySuccessMessage} {instructions}
       </div>

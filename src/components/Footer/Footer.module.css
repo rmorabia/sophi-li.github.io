@@ -1,7 +1,16 @@
+.footer {
+  justify-content: center;
+  /* align-items: center; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
+}
+
 .ulContainer {
   padding: 0;
   display: flex;
   flex-direction: row;
+  margin-left: -0.3rem;
 }
 
 .footerLink {
@@ -31,7 +40,7 @@
   cursor: pointer;
 }
 
-footer {
+.footer {
   position: relative;
   width: 100%;
   margin-bottom: 4rem;
@@ -41,22 +50,23 @@ footer {
 .instructions {
   position: absolute;
   font-size: 0.9rem;
-  margin-top: -2.5rem;
+  margin-top: -1.1rem;
+  margin-left: -3rem;
+  justify-content: left;
+}
+
+@media screen and (min-width: 500px) {
+  .instructions {
+    margin-left: -12rem;
+  }
 }
 
 @media screen and (min-width: 720px) {
-  footer {
-    text-align: left;
-  }
-
-  .ulContainer {
-    padding: 0;
-    margin-left: -0.3rem;
-  }
-
   .footerLink {
-    display: inline;
-    list-style: none;
     margin: 0 1rem 0 0;
+  }
+
+  .instructions {
+    margin-left: -17rem;
   }
 }
