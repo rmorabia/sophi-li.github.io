@@ -10,7 +10,7 @@ const activeLinkStyle = {
   backgroundColor: 'whitesmoke',
   borderRadius: 6,
   color: '#222',
-  padding: '0.7rem 1rem',
+  padding: '0.7rem 0.9rem',
 }
 
 const LinkListItem = ({ to, children }) => (
