@@ -14,66 +14,8 @@ It's called syntactic sugar because the cleaner syntax makes code more _sweet_ a
 
 In this blog, we'll go over a few of examples of syntactic sugar in JavaScript:
 
-- Ternary operator
 - `for...of` loop
 - Destructuring
-
-## Ternary operator
-
-The ternary operator is syntactic sugar for the `if...else` statement.
-
-In an `if...else` statement, if the condition evaluates to `true`, the statement following `if` will run. Otherwise, if the condition evaluates to `false`, then the statement following the `if` condition will be skipped and the `else` statement will run.
-
-In this example, `i` has a value of `2`. `i` is greater than 1. This means the condition evaluates to `true`, and `'I am true'` is printed.
-
-```js
-// Set i to 2
-let i = 2
-
-// Check condition i > 1
-if (i > 1) {
-  // Execute if i > 1 is true
-  console.log('I am true')
-} else {
-  // Execute if i > 1 is false
-  console.log('I am false')
-}
-
-// Output:
-// 'I am true'
-```
-
-We can achieve this same functionality with the ternary operator.
-
-The ternary operator takes in three operands:
-
-- A condition, which is followed by a question mark, `?`
-- An expression to execute if the condition evaluates to `true`, which is followed by a colon, `:`
-- An expression to execute if the condition evaluates to `false`
-
-Here's what the syntax looks like put together:
-
-```js
-condition ? expressionIfTrue : expressionIfFalse
-```
-
-Let's rewrite the same code from our example above, but using the ternary operator.
-
-Here, we are checking for the same condition, if `i` is greater than 1. Again, the condition evaluates to `true`, so `'I am true'` is printed.
-
-```js
-// Set i to 2
-let i = 2
-
-i > 1 ? console.log('I am true') : console.log('I am false')
-
-// Output:
-// 'I am true'
-```
-
-- [MDN reference: if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
-
-- [MDN reference: ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 ## For...of
 
@@ -227,6 +169,63 @@ console.log(fitz) // 'fitz'
 
 - [MDN reference: destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
+## Sweet, but not syntactic sugar: Ternary operator
+
+The ternary operator may seem like syntactic sugar for the `if...else` statement. But, it's not. `if...else` is a statement so it doesn't return anything, but the ternary statement is an expression, so does return something.
+
+In an `if...else` statement, if the condition evaluates to `true`, the statement following `if` will run. Otherwise, if the condition evaluates to `false`, then the statement following the `if` condition will be skipped and the `else` statement will run.
+
+In this example, `i` has a value of `2`. `i` is greater than 1. This means the condition evaluates to `true`, and `'I am true'` is printed.
+
+```js
+// Set i to 2
+let i = 2
+
+// Check condition i > 1
+if (i > 1) {
+  // Execute if i > 1 is true
+  console.log('I am true')
+} else {
+  // Execute if i > 1 is false
+  console.log('I am false')
+}
+
+// Output:
+// 'I am true'
+```
+
+We can achieve this same functionality with the ternary operator.
+
+The ternary operator takes in three operands:
+
+- A condition, which is followed by a question mark, `?`
+- An expression to execute if the condition evaluates to `true`, which is followed by a colon, `:`
+- An expression to execute if the condition evaluates to `false`
+
+Here's what the syntax looks like put together:
+
+```js
+condition ? expressionIfTrue : expressionIfFalse
+```
+
+Let's rewrite the same code from our example above, but using the ternary operator.
+
+Here, we are checking for the same condition, if `i` is greater than 1. Again, the condition evaluates to `true`, so `'I am true'` is printed.
+
+```js
+// Set i to 2
+let i = 2
+
+i > 1 ? console.log('I am true') : console.log('I am false')
+
+// Output:
+// 'I am true'
+```
+
+- [MDN reference: if...else](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+
+- [MDN reference: ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
 ## Conclusion
 
-In this blog we learned that syntactic sugar is a term for shorter syntax that achieves functionality that already exists. This means syntactic sugar does not provide any new functionality, but it does make code a little sweeter and easier to work with. Ternary operators, the `for...of` loop, and destructuring are examples of syntactic sugar in JavaScript that help us write concise code.
+In this blog we learned that syntactic sugar is a term for shorter syntax that achieves functionality that already exists. This means syntactic sugar does not provide any new functionality, but it does make code a little sweeter and easier to work with. The `for...of` loop and destructuring are examples of syntactic sugar in JavaScript that help us write concise code.
