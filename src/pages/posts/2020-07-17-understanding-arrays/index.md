@@ -3,7 +3,7 @@ path: '/javascript-arrays'
 date: '2020-07-17'
 title: 'Understanding Arrays in JavaScript'
 tags: ['javascript', 'fundamentals']
-categories: 'code'
+category: 'code'
 ---
 
 An array in JavaScript is an ordered collection of data.

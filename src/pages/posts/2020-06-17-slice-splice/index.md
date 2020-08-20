@@ -3,7 +3,7 @@ path: '/javascript-slice-splice'
 date: '2020-06-18'
 title: 'Remembering slice vs splice in JavaScript'
 tags: ['javascript']
-categories: 'code'
+category: 'code'
 ---
 
 `slice` and `splice` are two handy JavaScript methods for working with arrays.

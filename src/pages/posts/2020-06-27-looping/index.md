@@ -3,7 +3,7 @@ path: '/javascript-looping'
 date: '2020-06-27'
 title: 'Looping in JavaScript'
 tags: ['javascript', 'fundamentals']
-categories: 'code'
+category: 'code'
 ---
 
 In programming, loops are used to automate repetitive tasks.

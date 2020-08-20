@@ -3,7 +3,7 @@ path: '/javascript-array-methods'
 date: '2020-07-24'
 title: 'How to Use JavaScript Array Methods'
 tags: ['javascript', 'fundamentals']
-categories: 'code'
+category: 'code'
 ---
 
 An array in JavaScript is an ordered collection of data. Arrays are indexed starting at `0`, are mutable, can contain multiple values, can hold multiple data types, and can be iterated upon.

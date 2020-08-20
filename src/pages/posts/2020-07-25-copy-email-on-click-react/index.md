@@ -3,7 +3,7 @@ path: '/copy-email-address-on-click-react'
 date: '2020-07-25'
 title: 'How to Copy an Email Address on Click in React'
 tags: ['react', 'snippets']
-categories: 'code'
+category: 'code'
 ---
 
 I added a feature to my website that allows visitors to copy my email address with a click. I prefer the user experience of this feature over using `mailto:`, which opens up the visitor's default email app.

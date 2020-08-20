@@ -3,7 +3,7 @@ path: '/syntactic-sugar-examples-javascript'
 date: '2020-08-08'
 title: 'Examples of Syntactic Sugar in JavaScript'
 tags: ['javascript']
-categories: 'code'
+category: 'code'
 ---
 
 When I learned how to code, I often heard and read in tutorials, "this is just syntactic sugar", followed by no further explanation. This left me confused and wondering, what is syntactic sugar and what does it do?

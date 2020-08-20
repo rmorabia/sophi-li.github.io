@@ -3,7 +3,7 @@ path: '/first-forem-open-source-pull-request'
 date: '2020-08-06'
 title: 'Learnings from my 1st Live Pairing Session & 1st Pull Request to Forem'
 tags: ['open-source']
-categories: 'code'
+category: 'projects'
 ---
 
 A few weeks ago, [Nick](https://twitter.com/nickytonline), Senior Software Developer at [DEV](http://dev.to/), tweeted about live pairing on a Forem/DEV issue. I reached out to Nick because I thought it’d be a great opportunity to learn and also make my first contribution to an open source platform I really enjoy using. Together, we live paired on Twitch and worked on refactoring the code for [Forem](https://github.com/forem/forem)'s image upload feature.

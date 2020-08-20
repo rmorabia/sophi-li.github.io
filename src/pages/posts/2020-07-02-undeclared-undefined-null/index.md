@@ -3,7 +3,7 @@ path: '/javascript-undeclared-undefined-null'
 date: '2020-07-02'
 title: 'Understanding undeclared, undefined, and null in JavaScript'
 tags: ['javascript', 'fundamentals']
-categories: 'code'
+category: 'code'
 ---
 
 When I learned JavaScript, I often got undeclared, `undefined`, and `null` mixed up. At some point, I thought they meant the same thing. Surprise, they don't actually mean the same thing!
