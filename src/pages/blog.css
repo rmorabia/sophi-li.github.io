@@ -22,6 +22,7 @@
 
 .linkContainer {
   text-decoration: none;
+  font-weight: 400;
 }
 
 .blogContainer {
@@ -39,7 +40,7 @@
 .blogTitle {
   color: #222;
   font-size: 1.1rem;
-  font-weight: 440;
+  font-weight: 500;
 }
 
 .dateContainer {
@@ -56,6 +57,7 @@
   font-size: 0.9rem;
   display: flex;
   flex-direction: row;
+  font-weight: 400;
 }
 
 .tag {

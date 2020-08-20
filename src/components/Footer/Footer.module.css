@@ -21,22 +21,17 @@
 .aTag {
   padding: 1rem;
   border-radius: 6px;
+  text-decoration: none;
+  color: #6e6e6e;
+  background: transparent;
+  font-weight: 400;
 }
 
 .aTag:hover {
   border-radius: 6px;
-  text-decoration: underline;
-  background-color: whitesmoke;
-}
-
-.aTag {
-  text-decoration: none;
-  color: #6e6e6e;
-}
-
-.aTag:hover {
   color: #222;
   cursor: pointer;
+  background: whitesmoke;
 }
 
 .footer {

@@ -7,13 +7,15 @@
   color: #636363;
   margin-right: 0;
   padding: 0.7rem 0.9rem;
+  background: transparent;
+  font-weight: 400;
 }
 
 .Link:hover {
   background-color: whitesmoke;
   border-radius: 6px;
   color: #222;
-  text-decoration: underline;
+  background: whitesmoke;
 }
 
 .Header {
@@ -23,13 +25,13 @@
   /* display: block; */
 }
 
+.titleLink {
+  background: transparent;
+}
+
 .title {
   display: inline-block;
   color: #2a5aa7;
-}
-
-.title:hover {
-  text-decoration: underline;
 }
 
 .linkList {

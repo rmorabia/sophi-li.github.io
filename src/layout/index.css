@@ -32,6 +32,14 @@ li {
 
 a {
   color: #2a5aa7;
+  background: linear-gradient(transparent 70%, #dbe4ff 0);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #222;
+  background: linear-gradient(transparent 70%, #bac8ff 0);
 }
 
 .gatsby-remark-code-title {

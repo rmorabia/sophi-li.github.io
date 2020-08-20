@@ -12,6 +12,7 @@ const Projects = () => {
       <div className={styles.pageContainer}>
         <header className="header">
           <h1>Projects</h1>
+          <p className="pageDescription">A few of my favorite projects.</p>
         </header>
         <div className={styles.projectsContainer}>
           {projects.map(element => (

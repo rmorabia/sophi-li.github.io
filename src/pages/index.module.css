@@ -1,4 +1,4 @@
-.container {
+.bioContainer {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
@@ -21,7 +21,7 @@
 
 /* DESKTOP RESPONSIVENESS */
 @media only screen and (min-width: 770px) {
-  .container {
+  .bioContainer {
     display: flex;
     flex-direction: row;
   }

@@ -29,7 +29,7 @@ LinkListItem.propTypes = {
 const Header = ({ title }) => (
   <header className={styles.Header}>
     <Container>
-      <Link to="/">
+      <Link to="/" className={styles.titleLink}>
         <h3 className={styles.title}>{title}</h3>
       </Link>
 
