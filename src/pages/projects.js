@@ -10,9 +10,11 @@ const Projects = () => {
   return (
     <Layout>
       <div className={styles.pageContainer}>
-        <header className="header">
+        <header className={styles.header}>
           <h1>Projects</h1>
-          <p className="pageDescription">A few of my favorite projects.</p>
+          <p className={styles.pageDescription}>
+            A few of my favorite projects.
+          </p>
         </header>
         <div className={styles.projectsContainer}>
           {projects.map(element => (

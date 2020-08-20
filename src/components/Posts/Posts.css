@@ -1,25 +1,3 @@
-.blogPageContainer {
-  padding: 0 0.7rem;
-}
-
-.header {
-  text-align: center;
-}
-
-.pageDescription {
-  font-size: 1.3rem;
-  color: #60656c;
-}
-
-.input {
-  width: 70%;
-  margin: 1rem 0rem 2rem 0rem;
-  padding: 6px;
-  border-color: #cccccc;
-  border-style: solid;
-  border-radius: 6px;
-}
-
 .linkContainer {
   text-decoration: none;
   font-weight: 400;
@@ -78,7 +56,6 @@
     display: flex;
     flex-direction: row;
   }
-
   .dateContainer {
     margin-top: 0.3rem;
   }
@@ -122,10 +99,4 @@
 .tag-snippets {
   background-color: #eae3ff;
   color: #4714ff;
-}
-
-/* CATEGORY PAGE */
-.categoryName {
-  margin-top: 2rem;
-  text-transform: capitalize;
 }

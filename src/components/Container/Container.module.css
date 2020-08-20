@@ -5,24 +5,24 @@
 
 @media screen and (min-width: 600px) {
   .container {
-    max-width: 80%;
+    max-width: 85%;
   }
 }
 
 @media screen and (min-width: 800px) {
   .container {
-    max-width: 75%;
+    max-width: 80%;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .container {
-    max-width: 70%;
+    max-width: 75%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 65%;
+    max-width: 70%;
   }
 }

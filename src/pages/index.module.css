@@ -1,9 +1,13 @@
+.container {
+  margin: 0 auto;
+  padding: 0 0.7rem;
+}
+
 .bioContainer {
   display: flex;
-  margin: 0 auto;
   flex-direction: column;
   flex-direction: column-reverse;
-  padding: 0 0.7rem;
+  margin-bottom: 3rem;
 }
 
 .title {
@@ -17,6 +21,11 @@
 .headshot {
   width: 10rem;
   border-radius: 6px;
+}
+
+.sectionTitle {
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #d6d9de;
 }
 
 /* DESKTOP RESPONSIVENESS */

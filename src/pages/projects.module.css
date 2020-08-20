@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+.pageDescription {
+  font-size: 1.3rem;
+  color: #60656c;
+}
+
 .projectsContainer {
   margin-top: 3rem;
 }

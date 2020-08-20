@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import './blog.css'
+import styles from './blog.module.css'
 
 import Layout from '../layout'
+import Posts from '../components/Posts'
 
 const Blog = ({
   data: {
@@ -43,16 +44,16 @@ const Blog = ({
 
   return (
     <Layout>
-      <div className="blogPageContainer">
-        <header className="header">
+      <div className={styles.blogPageContainer}>
+        <header className={styles.header}>
           <h1>Blog</h1>
-          <p className="pageDescription">
+          <p className={styles.pageDescription}>
             Mostly JavaScript, insights from coding projects, and other
             thoughts.
           </p>
           <form>
             <input
-              className="input"
+              className={styles.input}
               onChange={handleInputChange}
               placeholder="Type here to search the blog..."
             />
@@ -60,25 +61,7 @@ const Blog = ({
         </header>
 
         {posts.map(({ node: { frontmatter } }) => (
-          <div key={frontmatter.path}>
-            <Link to={frontmatter.path} className="linkContainer">
-              <div className="blogContainer">
-                <div className="titleTagContainer">
-                  <p className="blogTitle">{frontmatter.title}</p>{' '}
-                  <div className="blogTags">
-                    {frontmatter.tags.map(tag => (
-                      <p className={`tag tag-${tag}`} key={tag}>
-                        {tag}
-                      </p>
-                    ))}
-                  </div>
-                </div>
-                <div className="dateContainer">
-                  <p className="blogDate">{frontmatter.date}</p>
-                </div>
-              </div>
-            </Link>
-          </div>
+          <Posts frontmatter={frontmatter} key={frontmatter.path} />
         ))}
       </div>
     </Layout>

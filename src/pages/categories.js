@@ -1,45 +1,30 @@
 import React from 'react'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import PropTypes from 'prop-types'
 
-import './blog.css'
+import styles from './categories.module.css'
 
 import Layout from '../layout'
+import Posts from '../components/Posts'
 
 const Categories = ({ data }) => {
   const { allMarkdownRemark } = data
   const { group } = allMarkdownRemark
   return (
     <Layout>
-      <h1>Blogs by Category</h1>
-      {group.map(cat => (
-        <div key={cat.fieldValue}>
-          <span>
-            <h2 className="categoryName">{cat.fieldValue}</h2>
-            {cat.edges.map(({ node: { frontmatter } }) => (
-              <div key={frontmatter.path}>
-                <Link to={frontmatter.path} className="linkContainer">
-                  <div className="blogContainer">
-                    <div className="titleTagContainer">
-                      <p className="blogTitle">{frontmatter.title}</p>
-                      <div className="blogTags">
-                        {frontmatter.tags.map(tag => (
-                          <p className={`tag tag-${tag}`} key={tag}>
-                            {tag}{' '}
-                          </p>
-                        ))}
-                      </div>
-                    </div>
-                    <div className="dateContainer">
-                      <p className="blogDate">{frontmatter.date}</p>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            ))}
-          </span>
-        </div>
-      ))}
+      <div className={styles.container}>
+        <h1>Blogs by Category</h1>
+        {group.map(cat => (
+          <div key={cat.fieldValue}>
+            <span>
+              <h2 className={styles.categoryName}>{cat.fieldValue}</h2>
+              {cat.edges.map(({ node: { frontmatter } }) => (
+                <Posts frontmatter={frontmatter} key={frontmatter.path} />
+              ))}
+            </span>
+          </div>
+        ))}
+      </div>
     </Layout>
   )
 }
