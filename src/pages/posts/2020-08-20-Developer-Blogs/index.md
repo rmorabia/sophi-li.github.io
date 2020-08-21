@@ -1,7 +1,7 @@
 ---
 path: '/developer-blogs'
 date: '2020-08-20'
-title: 'Developers Blogs I Follow'
+title: 'Developer Blogs I Follow'
 tags: ['notes', 'evergreen']
 category: 'personal'
 ---
