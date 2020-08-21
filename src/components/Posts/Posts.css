@@ -71,7 +71,8 @@
   background-color: #fff6d6;
 }
 
-.tag-fundamentals {
+.tag-fundamentals,
+.tag-evergreen {
   background-color: #e0ffe9;
 }
 
@@ -84,7 +85,8 @@
 }
 
 .tag-react,
-.tag-productivity {
+.tag-productivity,
+.tag-notes {
   background-color: #dce3ff;
   color: #2543bb;
 }
