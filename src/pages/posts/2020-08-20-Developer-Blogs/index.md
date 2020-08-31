@@ -23,6 +23,12 @@ He is also the author of [Pure React](https://daveceddia.com/pure-react/), a beg
 
 - [daveceddia.com](https://daveceddia.com/)
 
+## Robin Wierch
+
+Robin creates educational content around React, JavaScript, and web development. My favorites are his React tutorials.
+
+- [robinwieruch.de](https://www.robinwieruch.de/)
+
 ## Robert Heaten
 
 Robert's blog is on programming for advanced beginners. His [Programming for Advanced Beginner series](https://robertheaton.com/2018/12/08/programming-projects-for-advanced-beginners/) is one of my favorites. He even reviewed one of my projects as [part of the series](https://robertheaton.com/2020/03/07/pfab11-separating-logic-and-data/).
