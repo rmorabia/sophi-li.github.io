@@ -30,7 +30,7 @@ const BlogTemplate = ({ data, pageContext }) => {
             {prev && (
               <Link to={prev.frontmatter.path} className={styles.link}>
                 <span role="img" aria-label="left arrow">
-                  ⬅️ {prev.frontmatter.title}
+                  {prev.frontmatter.title}
                 </span>
               </Link>
             )}
@@ -39,7 +39,7 @@ const BlogTemplate = ({ data, pageContext }) => {
             {next && (
               <Link to={next.frontmatter.path} className={styles.link}>
                 <span role="img" aria-label="right arrow">
-                  {next.frontmatter.title} ➡️
+                  {next.frontmatter.title}
                 </span>
               </Link>
             )}

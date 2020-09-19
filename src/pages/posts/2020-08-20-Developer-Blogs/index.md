@@ -18,8 +18,7 @@ Tania has the best JavaScript tutorials. I always find myself referring to her a
 
 ## Dave Ceddia
 
-Dave writes about all things React in a way that's easy for me to understand.
-He is also the author of [Pure React](https://daveceddia.com/pure-react/), a beginner friendly introduction to React. Going through Pure React helped me truly understand React after a few failed attempts.
+Dave writes about all things React in a way that's easy for me to understand. He is also the author of [Pure React](https://daveceddia.com/pure-react/), a beginner friendly introduction to React. Going through Pure React helped me truly understand React after a few failed attempts.
 
 - [daveceddia.com](https://daveceddia.com/)
 
