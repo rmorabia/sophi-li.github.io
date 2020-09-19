@@ -6,32 +6,36 @@ tags: ['project']
 category: 'personal'
 ---
 
-Building a product landing page is almost always on [project idea lists](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/) for beginners who are learning to code. Product landing pages are simple because they can be built with just HTML and CSS. At the same time, they are creative even if you are cloning a pre-existing page because you can still put your own spin to it.
+When I started my [self-taught programming journey](https://github.com/sophi-li/OKRs-self-learning), I followed tutorials, read countless blogs, and built projects on my own for two months. Though I built a solid programming foundation, I was lacking crucial competencies of being a great software developer: collaborating, communicating, and building with a team. I closed this gap by joining [Chingu](https://chingu.io/), a remote program that matches you with other developers to collaborate and launch real projects.
 
-### What is a product landing page?
+I met every Monday morning with a team of three web developers for weekly standup calls. Together, we brainstormed, overcame obstacles, laughed, and learned. In six weeks, we deployed [MoTo](https://github.com/chingu-voyages/v13-toucans-team-03). [Momentum](http://momentumdash.com/) is a popular productivity Google Chrome Extension; MoTo is a clone of Momentum with additional features, a pomodoro tracker and Most Important Tasks (MIT) feature. We even launched our product in the [Chrome Extension Store](https://chrome.google.com/webstore/detail/moto/dphhdfamcpkbdkmjighbmocgpfpmnkbh?hl=en&gl=US)!
 
-- Typically the page that people land on after they click an ad from a marketing campaign.
-- Tightly focused, very specific, and have one single purpose.
-- _Objective_: Capture user’s undivided attention to guide the user to complete the call to action (CTA).
+## These are 5 things I learned from working with my first web development team:
 
-### 7 best practices for building a product landing page:
+## 1. Scope out a realistic Minimum Viable Project (MVP)
 
-1. Use a short headline to grab your user's attention and give insight into what the page is about.
+During our product ideation phase, we brain dumped all our feature ideas on a shared Google Doc. We then prioritized our features based off of our six-week time restraint, our current programming knowledge, and predicted value brought to the user. After some discussion, we trimmed down our list to a set of ten MVP and two bonus features. Scoping out a realistic MVP allowed us to account for unpredictable issues, debugging, and deployment. Ultimately, not only did we complete our MVP by the project deadline, we also launched it in the Chrome Store, which was a bonus feature.
 
-2. Display only one topic per page to keep users focused. They can either complete the offer or go back to the home page.
+## 2. Ask questions, ask for help, and ask for clarification
 
-3. Ask for only one action-oriented, clear, and specific CTA. For example, users enter their email to start a free trial.
+It's ok to ask questions if you don't understand something! My teammate, Rafael, once patiently walked me through a Git issue I had in thirty minutes. This is something that I probably would've kept Googling for at least an hour if I hadn't asked for help. Additionally, some concepts are more easily conveyed through visuals instead of words, especially design. When we needed clarification about a design idea during meetings, we often followed up with a quick sketch to effectively share our idea.
 
-4. Remove all other navigation and links to prevent users from leaving the page.
+## 3. Practice good knowledge and project management strategies
 
-5. Use only text, image, and a form to keep it simple and avoid distractions.
+_Knowledge management_ is the creation, sharing, and organization of information. We used Google Docs as our central hub for organizing and collaborating on non-code related documents. We shared one Google folder which contained essential documents such as our brainstorms, meeting notes, and blog posts. _Project management_ is the initiation, planning, execution, monitoring, and closing of a project. We used Zenhub, which was an effective tool because it integrates directly with Github and allowed us to easily update and track our issues. Lastly, we also followed _agile methodology_, which allowed us to work leanly and iterate quickly on our designs and feature development. Establishing these processes and structures upfront during our first week allowed us to work effectively and efficiently.
 
-6. Implement responsive design for both mobile, tablet, and desktop screens to seamlessly guide users to complete the CTA.
+## 4. Communicate actively
 
-7. Use keywords in the metadata to improve search engine optimization (SEO).
+Our main communication methods were our weekly standup calls and Discord team channel. Our weekly calls were the perfect opportunity to discuss roadblocks, clarify questions, and determine next steps. We used Discord for all of our asynchronous communication. Updates, questions, successes, and challenges were always actively being discussed in our group chat. Clear and active communication allows for common understanding and a clear path forward.
 
-I applied these best practices to a [15Five](https://www.15five.com/) product landing page that I recreated. View my [recreated 15Five product landing page here](https://sophi-li.github.io/15five-clone-ish/). Any feedback is welcome!
+## 5. Surround yourself with motivated and supportive people
 
-What are your best practices or thoughts on building product landing pages as a developer?
+I was incredibly lucky to have worked with three extremely smart and supportive individuals. We leaned on each others strengths, solved problems together, and ultimately launched a product together. Many thanks to my wonderful team, [Ola](https://medium.com/@zaynaibg), [Ming](https://medium.com/@mingyong), and [Rafael](https://medium.com/@rafaelDavisH) for making our first team web development project a smashing success!
 
-[Originally posted on dev.to.](https://dev.to/sophia_wyl/5-things-i-learned-from-coding-with-other-people-my-first-web-development-team-project-48fk)
+This was my first time collaborating with other programmers to build a real project, and I was nervous to start! Despite the nerves, I’m so glad I joined the team. We finished our project with flying colors, and through it, I’ve gained invaluable technical communication and collaboration skills that I wouldn’t have been able to achieve on my own. I now also have made incredible friends I continue to learn with!
+
+I would _highly_ recommend programming with others as a beginner programmer because it is an excellent way to apply your newfound coding skills, improve your technical communication skills, and see a project through from start to end. If you’re looking for people to collaborate with, [Chingu](https://chingu.io/) is a great place to start.
+
+Huge thanks to [Chance](https://medium.com/@tropicalchancer) and [Jim](https://twitter.com/jd_medlock) for building and running Chingu.
+
+<figcaption>Photo by Undraw.co</figcaption>
