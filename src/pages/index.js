@@ -1,8 +1,10 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import styles from './index.module.css'
+import projects from '../data/projects'
 import PropTypes from 'prop-types'
 
+import Project from '../components/Projects'
 import Layout from '../layout'
 import Posts from '../components/Posts'
 
@@ -67,6 +69,14 @@ const Home = ({
           {edges.map(({ node: { frontmatter } }) => (
             <Posts frontmatter={frontmatter} key={frontmatter.path} />
           ))}
+        </section>
+        <section>
+          <h1 className={styles.sectionTitle}>Projects</h1>
+          <div className={styles.projectsContainer}>
+            {projects.map(element => (
+              <Project key={element.title} project={element} />
+            ))}
+          </div>
         </section>
       </div>
     </Layout>
