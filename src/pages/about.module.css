@@ -39,10 +39,6 @@
   padding-top: 0.3rem;
 }
 
-.emailCopyBtnContainer {
-  padding-right: 0.2rem;
-}
-
 .emailText {
   display: flex;
   justify-content: center;
@@ -50,6 +46,7 @@
 }
 
 .emailCopyBtnContainer {
+  padding-right: 0.3rem;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -109,7 +106,7 @@
   }
 
   .emailText {
-    padding-left: 1.5rem;
+    padding-left: 2.7rem;
     padding-right: 2rem;
     padding-top: 0.3rem;
   }
