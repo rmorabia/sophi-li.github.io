@@ -46,7 +46,7 @@ const Blog = ({
     <Layout>
       <div className={styles.blogPageContainer}>
         <header className={styles.header}>
-          <h1>Blog</h1>
+          <h1 className={styles.title}>Blog</h1>
           <p className={styles.pageDescription}>
             Mostly JavaScript, insights from coding projects, and other
             thoughts.

@@ -10,7 +10,13 @@
 }
 
 .title {
-  font-size: 2.2rem;
+  font-size: 2.3rem;
+  color: #343a40;
+}
+
+.bioDescription {
+  font-size: 1.2rem;
+  color: #60656c;
 }
 
 .headshotContainer {
@@ -26,6 +32,7 @@
   padding-top: 2.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #d6d9de;
+  color: #343a40;
 }
 
 .projectsContainer {
