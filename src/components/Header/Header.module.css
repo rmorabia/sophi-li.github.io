@@ -19,9 +19,9 @@
 }
 
 .Header {
-  margin-top: 1rem;
   margin-bottom: 2.5rem;
   padding-left: 0.9rem;
+  background-color: #fafafa;
   /* display: block; */
 }
 
