@@ -59,7 +59,6 @@ const Blog = ({
             />
           </form>
         </header>
-
         {posts.map(({ node: { frontmatter } }) => (
           <Posts frontmatter={frontmatter} key={frontmatter.path} />
         ))}
@@ -77,7 +76,7 @@ Blog.propTypes = {
             frontmatter: PropTypes.shape({
               title: PropTypes.string,
               path: PropTypes.string,
-              tag: PropTypes.string,
+              tags: PropTypes.array,
               date: PropTypes.string,
             }),
           }),

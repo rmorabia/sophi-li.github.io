@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 
 import './Posts.css'
 
-const Posts = ({ frontmatter, key }) => {
+const Posts = ({ frontmatter }) => {
   return (
-    <div key={key}>
+    <div>
       <Link to={frontmatter.path} className="linkContainer">
         <div className="blogContainer">
           <div className="titleTagContainer">
@@ -29,20 +29,12 @@ const Posts = ({ frontmatter, key }) => {
 }
 
 Posts.propTypes = {
-  frontmatter: PropTypes.arrayOf(
-    PropTypes.shape({
-      map: PropTypes.string,
-      node: PropTypes.shape({
-        frontmatter: PropTypes.shape({
-          title: PropTypes.string,
-          path: PropTypes.string,
-          tag: PropTypes.string,
-          date: PropTypes.string,
-        }),
-      }),
-    })
-  ),
-  key: PropTypes.string,
+  frontmatter: PropTypes.shape({
+    title: PropTypes.string,
+    path: PropTypes.string,
+    tags: PropTypes.array,
+    date: PropTypes.string,
+  }),
 }
 
 export default Posts
