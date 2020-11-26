@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react'
-// import projects from '../data/projects'
-
 import styles from './about.module.css'
-
-// import Project from '../components/Projects'
 import Layout from '../layout'
 
 const About = () => {
