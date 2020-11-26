@@ -25,7 +25,6 @@ Posts.propTypes = {
   frontmatter: PropTypes.shape({
     title: PropTypes.string,
     path: PropTypes.string,
-    tags: PropTypes.array,
     date: PropTypes.string,
   }),
 }
