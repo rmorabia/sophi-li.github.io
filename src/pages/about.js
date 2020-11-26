@@ -6,7 +6,7 @@ import styles from './about.module.css'
 // import Project from '../components/Projects'
 import Layout from '../layout'
 
-const Projects = () => {
+const About = () => {
   const [copyStatus, setCopyStatus] = useState('Copy')
   const email = 'sophiali.wy@gmail.com'
 
@@ -73,4 +73,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default About
