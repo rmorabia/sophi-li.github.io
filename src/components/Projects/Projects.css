@@ -1,136 +1,44 @@
 .containerProject {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 3rem;
+  flex-direction: row;
+  margin: 1rem 0 1rem 0;
 }
 
-.projectImage {
-  width: 300px;
-  border-radius: 6px;
-  margin-bottom: -2rem;
-  border: 1px solid #e8e8e8;
-  flex: 1;
-}
-
-.projectContainer {
-  display: flex;
+.titleDescriptionContainer {
+  margin-bottom: 1rem;
   flex-direction: column;
-  margin-top: 1.5rem;
+  flex: 2;
 }
 
 .projectTitle {
-  flex: 2 0 0;
   font-weight: bold;
-  font-size: 1.1rem;
-}
-
-.projectTechContainer {
-  display: flex;
-  flex-direction: row;
-  margin-top: -0.5rem;
-  /* text-align: center; */
-  justify-content: center;
-}
-
-.projectTech {
-  padding: 3px 5px 3px 5px;
-  font-size: 0.9rem;
-  margin-top: -0.4rem;
-  margin-right: 0.6rem;
-  background-color: whitesmoke;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.projectDescription {
-  margin-top: -0.5rem;
-}
-
-.projectLinkContainer {
-  display: flex;
-  margin-top: 0.1rem;
-  justify-content: center;
-}
-
-.projectLink {
-  margin: 0.5rem 0.7rem 0.5rem 0rem;
-  color: #2a5aa7;
+  font-size: 1.2rem;
+  margin-top: 2rem;
   text-decoration: none;
 }
 
-/* DESKTOP RESPONSIVENESS */
-@media only screen and (min-width: 720px) {
-  .containerProject {
-    flex-direction: row;
-    margin-bottom: 4rem;
-    text-align: left;
-    width: 100%;
-  }
-
-  .projectImage {
-    width: 250px;
-    margin-right: 1rem;
-  }
-
-  .projectContent {
-    flex: 2;
-  }
-
-  .projectContainer {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .projectTitle {
-    margin-top: -1.5rem;
-  }
-
-  .projectTechContainer {
-    margin-top: -2.5rem;
-  }
-
-  .projectTech {
-    margin: auto;
-    margin-right: 0.6rem;
-  }
-
-  .projectDescription {
-    margin-top: -0.6rem;
-  }
-  .projectLinkContainer {
-    justify-content: left;
-  }
+.projectDescription {
+  margin-top: 0.5rem;
+  color: #60656c;
 }
 
-/* TECH TAG COLORS */
-.Express,
-.Gatsby,
-.HTML,
-.CSS {
-  background-color: #e0ffe9;
+.codeLinkContainer {
+  margin: 1rem 0 0 0.5rem;
+  flex-direction: column;
 }
 
-.Node {
-  background-color: #ffe7de;
+.codeLink {
+  border-radius: 6px;
+  text-decoration: none;
+  color: #ffffff;
+  background: #5183f5;
+  font-weight: 400;
+  padding: 0.5rem 1rem;
 }
 
-.JavaScript {
-  background-color: #fff6d6;
-}
-
-.React {
-  background-color: #dce3ff;
-}
-
-.Playwright,
-.Twilio,
-.NASA {
-  background-color: #ffe2f7;
-}
-
-.Azure {
-  background-color: #eae3ff;
+.codeLink:hover {
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  background: #3b6cdf;
 }

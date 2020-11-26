@@ -4,80 +4,31 @@ import PropTypes from 'prop-types'
 import './Projects.css'
 
 const Projects = ({ project }) => {
-  const {
-    title,
-    description,
-    image,
-    alt,
-    tags,
-    code,
-    live,
-    npm,
-    blog,
-  } = project
+  const { title, description, code, live } = project
 
   return (
     <div key={title}>
       <section className="containerProject">
-        <div className="imageContainer">
-          <img className="projectImage" src={image} alt={alt} />
-        </div>
-        <div className="projectContent">
-          <div className="projectContainer">
-            <p className="projectTitle">{title}</p>
-            <div className="projectTechContainer">
-              {tags.map(elem => (
-                <p
-                  className={`projectTech ${elem.className}`}
-                  key={elem.className}
-                >
-                  {elem.language}
-                </p>
-              ))}
-            </div>
-          </div>
-
+        <div className="titleDescriptionContainer">
+          <a
+            className="projectTitle"
+            href={live}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {title}
+          </a>
           <div className="projectDescription">{description}</div>
-          <div className="projectLinkContainer">
-            <a
-              className="projectLink"
-              href={code}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
-            {live && (
-              <a
-                className="projectLink"
-                href={live}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Live
-              </a>
-            )}
-            {npm && (
-              <a
-                className="projectLink"
-                href={npm}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                npm
-              </a>
-            )}
-            {blog && (
-              <a
-                className="projectLink"
-                href={blog}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Blog
-              </a>
-            )}
-          </div>
+        </div>
+        <div className="codeLinkContainer">
+          <a
+            className="codeLink"
+            href={code}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code
+          </a>
         </div>
       </section>
     </div>
@@ -88,13 +39,8 @@ Projects.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string,
     description: PropTypes.string,
-    image: PropTypes.string,
-    alt: PropTypes.string,
-    tags: PropTypes.array,
     code: PropTypes.string,
     live: PropTypes.string,
-    npm: PropTypes.string,
-    blog: PropTypes.string,
   }),
 }
 
