@@ -10,14 +10,7 @@ const Posts = ({ frontmatter }) => {
       <Link to={frontmatter.path} className="linkContainer">
         <div className="blogContainer">
           <div className="titleTagContainer">
-            <p className="blogTitle">{frontmatter.title}</p>{' '}
-            <div className="blogTags">
-              {frontmatter.tags.map(tag => (
-                <p className={`tag tag-${tag}`} key={tag}>
-                  {tag}
-                </p>
-              ))}
-            </div>
+            <p className="blogTitle">{frontmatter.title}</p>
           </div>
           <div className="dateContainer">
             <p className="blogDate">{frontmatter.date}</p>
