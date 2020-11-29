@@ -17,7 +17,7 @@ const BlogTemplate = ({ data, pageContext }) => {
   return (
     <Layout>
       <div className={styles.container}>
-        <SEO title={title} />
+        <SEO title={title} article={true} />
         <h1>{title}</h1>
         <p>
           <i>{date}</i>
