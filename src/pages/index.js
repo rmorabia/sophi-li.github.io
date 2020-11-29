@@ -23,8 +23,10 @@ const Home = ({
             </h1>
             <p className={styles.bioDescription}>
               Welcome to my corner of the web where I share things I learn. You
-              can read my <Link to="/blog">blog</Link>, learn more{' '}
-              <Link to="/about">about</Link> me, or check out how I set{' '}
+              can read my <Link to="/blog">blog</Link>{' '}
+              {/* ,  learn more{' '}
+              <Link to="/about">about</Link> me,   */}
+              or check out how I set{' '}
               <a
                 href="https://github.com/sophi-li/OKRs-self-learning"
                 target="_blank"
