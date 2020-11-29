@@ -26,9 +26,11 @@ const SEO = ({ title, description, article }) => {
       {article && <meta property="og:type" content="article" />}
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
+      <meta property="og:image" content="/favicon.JPG" />
 
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:description" content={seo.description} />
+      <meta name="twitter:card" content="summary" />
     </Helmet>
   )
 }
