@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import styles from './blogPost.module.css'
 
 import Layout from '../layout'
+import SEO from '../components/SEO'
 
 const BlogTemplate = ({ data, pageContext }) => {
   const { next, prev } = pageContext
@@ -16,6 +17,7 @@ const BlogTemplate = ({ data, pageContext }) => {
   return (
     <Layout>
       <div className={styles.container}>
+        <SEO title={title} />
         <h1>{title}</h1>
         <p>
           <i>{date}</i>

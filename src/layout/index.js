@@ -24,7 +24,7 @@ const IndexLayout = ({ children }) => (
     `}
     render={data => (
       <>
-        <SEO />
+        <SEO title={data.site.siteMetadata.title} />
         <Header title={data.site.siteMetadata.title} />
         <Container>
           <div className="container">{children}</div>
