@@ -10,6 +10,16 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-images',
+            options: {
+                maxWidth: 800,
+                linkImagesToOriginal: false,
+                showCaptions: false,
+                wrapperStyle: 'margin: 16px 0;',
+                quality: 70,
+            },
+        },
+          {
             resolve: 'gatsby-remark-code-titles',
             options: {
               className: 'gatsby-remark-code-title',
@@ -49,6 +59,9 @@ module.exports = {
       },
     },
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
