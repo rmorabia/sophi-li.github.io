@@ -1,6 +1,6 @@
 ---
 path: '/sourdough-baby'
-date: '2020-01-30'
+date: '2020-04-02'
 title: 'So You Forgot to Feed Your Sourdough Starter Baby?'
 tags: ['javascript']
 category: 'project'
