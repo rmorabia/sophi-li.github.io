@@ -57,7 +57,7 @@ Let's add another array, `cheesePuns`. This time, we call `sampleSize` twice, on
 Imagine if `NUM_SUGGESTED_PUNS` is used more than twice in our code. We'll still only need to update it once if we decide to change the value. Easy brie-zy.
 
 ```js
-// Declare and initiate breadPuns, an array of strings
+// Declare and initiate cheesePuns, an array of strings
 const cheesePuns = [
   "This may sound cheesy, I think you're grate.",
   'Oh no! I cut myself, it was sharp cheddar.',
