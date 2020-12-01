@@ -1,5 +1,5 @@
 ---
-path: '/magic-numebrs'
+path: '/magic-number-programming'
 date: '2020-11-30'
 title: 'What is a Magic Number in Programming?'
 tags: ['code']
