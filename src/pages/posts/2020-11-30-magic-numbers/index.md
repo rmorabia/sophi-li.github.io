@@ -6,7 +6,7 @@ tags: ['code']
 category: 'code'
 ---
 
-While onboarding and learning a new codebase, I recently was introduced to the concept of a magic number.
+While onboarding and learning a new codebase, I was recently introduced to the concept of a magic number.
 
 In programming, a magic number is a direct usage of a number in code with no explanation of what the number means. You should avoid using magic numbers in your code because the number by itself does not provide any meaning to what it is being used for. The solution to the ambiguity of magic numbers is to make them named constants.
 
@@ -18,7 +18,7 @@ These are the benefits of declaring magic numbers as named constants:
 
 [ESLint](https://eslint.org/) has [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers) built in to help catch magic numbers.
 
-Let's take a look at a magic number in action. In this example, we have `breadPuns`, an array of strings. We call [Lodash's](https://lodash.com/) [`samplesize`](https://lodash.com/docs/4.17.15#sampleSize) and pass in `breadPuns` and `4`. Looking at this code, it's not obvious that the number `4` is the number of `breadPuns` we want to return.
+Let's take a look at a magic number in action. In this example, we have `breadPuns`, an array of strings. We call Lodash's [`samplesize`](https://lodash.com/docs/4.17.15#sampleSize) and pass in `breadPuns` and `4`. Looking at this code, it's not obvious that the number `4` is the number of `breadPuns` we want to return.
 
 ```js
 // import Lodash
