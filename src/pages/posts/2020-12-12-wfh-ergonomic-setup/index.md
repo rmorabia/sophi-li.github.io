@@ -23,9 +23,9 @@ Here’s my attempt at an ergonomic home office setup:
 - [Yoga blocks](https://www.manduka.com/products/cork-yoga-block?variant=23736399527994) - I use yoga blocks as footrests so my feet can reach the “ground”.
 - [MacBook](https://www.apple.com/macbook-pro/) with a [laptop stand](https://www.amazon.com/Nulaxy-Ergonomic-Convertor-Adjustable-Compatible/dp/B07YTHMM3B) - I always place my laptop on a laptop stand to be at eye level with my screen. Using a laptop stand has made a noticeable difference in reducing how often I sit like a shrimp.
 - [Dell UltraSharp 27 USB-C Hub Monitor](https://www.dell.com/en-us/work/shop/dell-ultrasharp-27-usb-c-hub-monitor-u2721de/apd/210-awkh/monitors-monitor-accessories) -  This monitor gives me more real estate and allows me to be at eye level with my screen.
-- [Magic Trackpad 2](https://www.apple.com/shop/product/MRMF2/magic-trackpad-2-space-gray) - Since my laptop is on a laptop stand, the separate trackpad helps keep my arms parallel to the ground and wrists straight. I also like the feel and functionality of the track pad over a mouse.
+- [Magic Trackpad 2](https://www.apple.com/shop/product/MRMF2/magic-trackpad-2-space-gray) - Since my laptop is on a laptop stand, the separate trackpad helps keep my arms parallel to the ground and wrists straight. I also like the feel and functionality of the trackpad over a mouse.
 - [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)  - Since my laptop is on a laptop stand, the separate keyboard to helps keep my arms parallel to the ground and wrists straight.
-- [Jarvis Bamboo Standing Desk](https://www.fully.com/jarvis-adjustable-height-desk-bamboo.html) - A standing desk lets me occasionally stand while I work. I got the memory controls which saves me 
+- [Jarvis Bamboo Standing Desk](https://www.fully.com/jarvis-adjustable-height-desk-bamboo.html) - A standing desk lets me occasionally stand while I work. I got the memory controls so I don't have to press the buttons forever to get the right height.
 - Lastly, even with an ergonomic setup, I make sure to take frequent stretch breaks!
 
 ## Conclusion
