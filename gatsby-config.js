@@ -19,6 +19,12 @@ module.exports = {
                 quality: 70,
             },
         },
+        {
+        resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId: process.env.GA_TRACKING_ID || "none",
+              },
+        },
           {
             resolve: 'gatsby-remark-code-titles',
             options: {
