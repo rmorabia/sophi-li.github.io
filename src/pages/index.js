@@ -13,6 +13,8 @@ const Home = ({
     allMarkdownRemark: { edges },
   },
 }) => {
+
+  console.log("process.env.GA_TRACKING_ID", process.env.GA_TRACKING_ID)
   return (
     <Layout>
       <div className={styles.container}>
