@@ -18,13 +18,13 @@ module.exports = {
                 wrapperStyle: 'margin: 16px 0;',
                 quality: 70,
             },
-        },
-        {
-        resolve: `gatsby-plugin-google-analytics`,
-        options: {
-          trackingId: process.env.GA_TRACKING_ID || "none",
-              },
-        },
+          },
+          {
+          resolve: `gatsby-plugin-google-analytics`,
+          options: {
+            trackingId: process.env.GA_TRACKING_ID,
+                },
+          },
           {
             resolve: 'gatsby-remark-code-titles',
             options: {
