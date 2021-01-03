@@ -98,6 +98,14 @@ Camille writes about management and career growth. She is also the author of [Th
 
 - [elidedbranches.com](https://www.elidedbranches.com/)
 
+## Mark Erikson
+
+Mark writes about React and Redux. My favorite is his series on [How Web Apps Work](https://blog.isquaredsoftware.com/series/how-web-apps-work/).
+
+- [blog.isquaredsoftware.com/](https://blog.isquaredsoftware.com/)
+
+
+
 ## Conclusion
 
 I hope you may have found a few new blogs that interest you! Send me an email if you have any blog recommendations. I'm always on the look out for quality blogs.

@@ -79,7 +79,7 @@ _.sampleSize(cheesePuns, NUM_SUGGESTED_PUNS)
 
 ## Conclusion
 
-You now know that you should use a named constant when you have numbers without meaning floating around in your codebase. It'll help with readability and maintainability!
+A magic number is a number in code with no clear meaning to the reader. Magic numbers should be avoided and instead be replaced with named constants. It'll help with readability and maintainability!
 
 Resources:
 

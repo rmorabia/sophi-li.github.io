@@ -38,9 +38,11 @@ Here I am now, with quite a few blogs under my belt this year:
 - [My Ergonomic Work From Home Office Setup](https://sophiali.dev/home-office-ergonomic-setup) 
 
 ## I created and completed an open source software engineering learning guide
-My primary goal in 2020 was to learn how to code and land my first software engineering role. To do this, I set Objectives and Key Results (OKRs) as a systematic and metric driven way to create an iterative learning plan for myself. 
+My primary goal in 2020 was to learn how to code and land my first software engineering role. To accomplish this, I set Objectives and Key Results (OKRs). I used my OKRs as a systematic and metric driven way to create an iterative learning plan for myself. 
 
-Because of the positive feedback I got from a lot of friends and mentors, I decided to make [my OKRs public](https://docs.google.com/spreadsheets/d/1HAFmN-UvrFHBYnMRrjpgCKGGjZT1sZnnWI5YfOrw0uo/edit#gid=0) and shared my [learning resources in a GitHub repo](https://github.com/sophi-li/OKRs-self-learning). The goal of making my learning plan public was to pay it forward and share my journey with anyone who might be thinking about going down a similar path. To my surprise, I’ve gotten about 300 stars on the repo and dozens of emails from people who have told me they found the guide useful and adapted it for themselves. 
+Because of the positive feedback I got from a lot of friends and mentors, I decided to make [my OKRs public](https://docs.google.com/spreadsheets/d/1HAFmN-UvrFHBYnMRrjpgCKGGjZT1sZnnWI5YfOrw0uo/edit#gid=0). I also shared my [learning resources in a GitHub repo](https://github.com/sophi-li/OKRs-self-learning). 
+
+The goal of making my learning plan public was to pay it forward and share my journey with anyone who might be thinking about going down a similar path. To my surprise, I’ve gotten about 300 stars on the GitHub repo. I also received dozens of emails from people who have told me they found the guide useful and adapted it for themselves. 
 
 As part of my OKRs, I invested a lot of time in:
 - Learning HTML, CSS, JavaScript, Node, and React
@@ -95,7 +97,7 @@ Here are a few things I want to learn more and write about:
 I accomplished my 2020 goal:
 - I learned how to code and landed my first software engineering role. 
 
-I’m looking forward to learning and writing more about the things I learn. Thank you for reading my blogs and coming along this journey with me.
+I’m looking forward to writing more about the things I learn. Thank you for reading my blogs and coming along this journey with me.
 
-Wishing you and yours a safe and happy holidays!
+Wishing you and yours a safe and happy holiday!
 
