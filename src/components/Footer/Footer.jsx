@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = () => {
   const [copySuccessMessage, setCopySuccessMessage] = useState('')
   const [instructions, setInstructions] = useState('')
-  const email = 'sophiali.wy@gmail.com'
+  const email = 'sophiali124@gmail.com'
 
   useEffect(() => {
     const timer = setTimeout(() => {

@@ -4,7 +4,7 @@ import Layout from '../layout'
 
 const About = () => {
   const [copyStatus, setCopyStatus] = useState('Copy')
-  const email = 'sophiali.wy@gmail.com'
+  const email = 'sophiali124@gmail.com'
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -48,7 +48,7 @@ const About = () => {
             thoughts, or questions you want to share with me, send me an email!
           </p>
           <div className={styles.emailContainer}>
-            <div className={styles.emailText}>sophiali.wy@gmail.com</div>
+            <div className={styles.emailText}>sophiali124@gmail.com</div>
             <div className={styles.emailCopyBtnContainer}>
               <button className={styles.emailCopyBtn} onClick={copyEmail}>
                 {copyStatus}
@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className={styles.emailOpenAppContainer}>
               <a
-                href="mailto:sophiali.wy@gmail.com"
+                href="mailto:sophiali124@gmail.com"
                 className={styles.emailOpenApp}
               >
                 Open email
