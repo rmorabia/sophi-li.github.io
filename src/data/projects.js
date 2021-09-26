@@ -13,10 +13,4 @@ export default [
     live:
       'https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c',
   },
-  {
-    title: "👩‍🍳 Sophia's Recipes",
-    description: 'Minimalistic recipe website of my tried and true recipes.',
-    code: 'https://github.com/sophi-li/recipes',
-    live: 'http://sophiasrecipes.com/',
-  },
 ]

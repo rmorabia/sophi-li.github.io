@@ -18,12 +18,18 @@ const Home = ({
       <div className={styles.container}>
         <div className={styles.bioContainer}>
           <div className={styles.aboutContainer}>
-            <h1 className={styles.title}>
-              Hi, I'm Sophia! I'm a software engineer.
-            </h1>
+            <h1 className={styles.title}>Hi, I'm Sophia!</h1>
             <p className={styles.bioDescription}>
-              Welcome to my corner of the web where I share things I learn. You
-              can read my <Link to="/blog">blog</Link>{' '}
+              I'm currently a software engineer at{' '}
+              <a
+                href="https://www.freewill.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FreeWill
+              </a>
+              . Welcome to my corner of the web where I share things I learn.
+              You can read my <Link to="/blog">blog</Link>{' '}
               {/* ,  learn more{' '}
               <Link to="/about">about</Link> me,   */}
               or check out how I set{' '}
