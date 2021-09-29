@@ -46,6 +46,10 @@ Dan explains JavaScript and React concepts. He also runs [whatthefuck.is](https:
 
 - [overreacted.io](https://overreacted.io/)
 
+## Oleksii Trekhleb
+Oleksii writes about his web-development and machine learning projects.
+- [trekhleb.dev](https://trekhleb.dev/) 
+
 ## Denise Yu
 
 Denise writes about career advice, learnings throughout her career, and also [runs doodling workshops](https://deniseyu.io/talks/). Her post, [Do you have any questions for me?](https://deniseyu.io/2020/02/04/interview-questions-to-ask.html), is a favorite of mine and came in handy for interviewing.
