@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './Projects.css'
+import './Project.css'
 
-const Projects = ({ project }) => {
+const Project = ({ project }) => {
   const { title, description, code, live } = project
 
   return (
@@ -35,7 +35,7 @@ const Projects = ({ project }) => {
   )
 }
 
-Projects.propTypes = {
+Project.propTypes = {
   project: PropTypes.shape({
     title: PropTypes.string,
     description: PropTypes.string,
@@ -44,4 +44,4 @@ Projects.propTypes = {
   }),
 }
 
-export default Projects
+export default Project

@@ -4,7 +4,7 @@ import styles from './index.module.css'
 import projects from '../data/projects'
 import PropTypes from 'prop-types'
 
-import Project from '../components/Projects'
+import Project from '../components/Project'
 import Layout from '../layout'
 import Posts from '../components/Posts'
 
@@ -18,9 +18,9 @@ const Home = ({
       <div className={styles.container}>
         <div className={styles.bioContainer}>
           <div className={styles.aboutContainer}>
-            <h1 className={styles.title}>Hi, I'm Sophia!</h1>
+            <h1 className={styles.title}>Hi, I’m Sophia!</h1>
             <p className={styles.bioDescription}>
-              I'm currently a software engineer at{' '}
+              I’m currently a software engineer at{' '}
               <a
                 href="https://www.freewill.com/"
                 target="_blank"
