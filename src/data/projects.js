@@ -13,4 +13,10 @@ export default [
     live:
       'https://dev.to/sophia_wyl/so-you-forgot-to-feed-your-sourdough-starter-baby-1g8c',
   },
+  {
+    title: '😋 Sophi Snacks',
+    description: 'My favorite restaurants around the United States.',
+    code: 'https://github.com/sophi-li/sophi-snacks',
+    live: 'https://sophi-snacks.netlify.app/',
+  },
 ]
