@@ -22,24 +22,20 @@ const Home = ({
             <p className={styles.bioDescription}>
               I’m currently a software engineer at{' '}
               <a
-                href="https://www.freewill.com/"
+                href="https://www.atlassian.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                FreeWill
+                Atlassian
               </a>
               . Welcome to my corner of the web where I share things I learn.
-              You can read my <Link to="/blog">blog</Link>{' '}
-              {/* ,  learn more{' '}
-              <Link to="/about">about</Link> me,   */}
-              or check out how I set{' '}
+              You can read my <Link to="/blog">blog</Link> or follow me on{' '}
               <a
-                href="https://github.com/sophi-li/OKRs-self-learning"
+                href="https://twitter.com/sophia_wyl"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {' '}
-                OKRs to learn how to code
+                Twitter
               </a>
               .
             </p>

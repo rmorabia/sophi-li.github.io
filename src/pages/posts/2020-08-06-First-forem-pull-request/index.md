@@ -38,7 +38,7 @@ After updating the class component to a functional component with the `useState`
 
 This was my first time live pairing and contributing to an open source code project. Here’s a couple of things I learned:
 
-- As a newer developer, getting involved in open source is a great way to help build software you love while also learning how to read and contribute to a large codebase.
+- Getting involved in open source is a great way to help build software you love while also learning how to read and contribute to a large codebase.
 - Live pairing is rewarding because it allows you to collaborate and practice thinking out loud. This was especially helpful for me, since I'm currently doing a lot of technical interviews.
 - The `useReducer` hook is a great way to manage components with complex state logic. It makes code easier to understand because it centralizes the logic that would otherwise be spread throughout the component.
 

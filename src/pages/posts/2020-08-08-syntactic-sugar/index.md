@@ -6,7 +6,7 @@ tags: ['javascript']
 category: 'code'
 ---
 
-When I learned how to code, I often heard and read in tutorials, "this is just syntactic sugar", followed by no further explanation. This left me confused and wondering, what is syntactic sugar and what does it do?
+When I learned JavaScript, I often heard and read in tutorials, "this is just syntactic sugar", followed by no further explanation. This left me confused and wondering, what is syntactic sugar and what does it do?
 
 Syntactic sugar is a term for a more concise syntax that provides the same functionality for something that already exists. It aims to help make code shorter, therefore, easier to write. No new functionality is introduced.
 

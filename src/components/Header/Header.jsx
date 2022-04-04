@@ -34,9 +34,6 @@ const Header = ({ title }) => (
       </Link>
 
       <ul className={styles.linkList}>
-        {/* <LinkListItem to="/about">
-          <span className={styles.linkContent}>About</span>
-        </LinkListItem> */}
         <LinkListItem to="/blog">
           <span className={styles.linkContent}>Blog</span>
         </LinkListItem>

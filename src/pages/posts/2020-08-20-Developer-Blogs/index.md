@@ -76,7 +76,7 @@ Will has written approximately five hundred posts, a lot of them on management a
 
 ## Gergely Orosz
 
-Gergely writes about career growth and engineering management. As someone starting their programming career, these posts resonate with me:
+Gergely writes about career growth and engineering management. As a software engineer, these posts resonate with me:
 
 - [Advice to Myself When Starting Out as a Software Developer](https://blog.pragmaticengineer.com/advice-to-myself-when-starting-as-a-software-developer/)
 - [The Product-Minded Software Engineer](https://blog.pragmaticengineer.com/the-product-minded-engineer/)
